@@ -225,10 +225,11 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Build pilot page ankommen-vorstellen/begruessung-vorstellung with station-clock-greetings.svg, vocabulary block, and 4 varied exercises; verify with vp build, screenshots, and learner check before scaling.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Complete Chapter 1 (duzen-siezen, alltag-hoeflichkeit, formulare-ausfuellen, sich-vorstellen-monolog) with Arrival Folder SVGs (du-sie-map, registration-form, profile-card-steps), 4 varied exercises per page, and chapter selfAssessment.
+      Creator: yes, move on
+- [x] Complete Chapter 1 (duzen-siezen, alltag-hoeflichkeit, formulare-ausfuellen, sich-vorstellen-monolog) with Arrival Folder SVGs (du-sie-map, registration-form, profile-card-steps), 4 varied exercises per page, and chapter selfAssessment.
 - [ ] Build Chapter 2 (zahlen-preise, zeit-datum-wochentage, schule-unterricht, schilder-hinweise-lesen, durchsagen-verstehen-a1) with 5 Arrival Folder SVGs, 4 varied exercises per page, and chapter selfAssessment.
 - [ ] Build Chapter 3 (recap page das-brauchst-du-hier for daf/verb-zweitstellung, kurze-nachrichten-lesen, kurze-nachrichten-schreiben, sprachmittlung-a1) with concert-poster.svg, 4 varied exercises per page, and chapter selfAssessment.
 - [ ] Fill .agents/skills/app-content/SKILL.md, run lernapps screenshots, and run independent learner + DaF subject-matter review agents on the complete app.

@@ -1,0 +1,124 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Ein Formular ausfüllen"
+  en: "Filling in a Simple Form"
+description:
+  de: "Typische Felder auf einem deutschen Anmeldeformular verstehen und richtig ausfüllen."
+  en: "Understand common fields on a German registration form and fill them in accurately."
+competencies: [formulare-ausfuellen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Anmeldung in der Sprachschule"
+      en: "Registering at the Language School"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du ein einfaches deutsches Anmeldeformular lesen und korrekt ausfüllen. In der Sprachschule Lindenberg bekommt Peter ein Formular – aber Adressen und Daten stehen in Deutschland in einer anderen Reihenfolge als im Englischen."
+          en: "After this page you can read and complete a simple German registration form accurately. At the Lindenberg language school Peter gets a form — and German addresses and dates follow a different order from English."
+      - type: single-choice
+        id: formular-adresse
+        text:
+          de: "Wie schreibt man Peters Adresse in Lindenberg nach deutscher Regel richtig?"
+          en: "Which format follows the German rule for Peter's address in Lindenberg?"
+        options:
+          - text: { de: "Lindenstraße 12, 35037 Lindenberg", en: "Lindenstraße 12, 35037 Lindenberg" }
+            correct: true
+            info:
+              {
+                de: "In Deutschland stehen erst Straße + Hausnummer, dann die 5-stellige PLZ + Ort.",
+                en: "In Germany, street + house number come first, then the 5-digit postal code (PLZ) + town.",
+              }
+          - text: { de: "12 Lindenstraße, Lindenberg 35037", en: "12 Lindenstraße, Lindenberg 35037" }
+            correct: false
+            info:
+              {
+                de: "Das ist die englische Reihenfolge (Hausnummer vorn, Postleitzahl hinten).",
+                en: "That is the English order (house number first, ZIP code last).",
+              }
+          - text: { de: "35037, 12 Lindenstraße", en: "35037, 12 Lindenstraße" }
+            correct: false
+            info:
+              {
+                de: "Die PLZ steht immer direkt vor dem Ortsnamen, nicht vor der Straße.",
+                en: "The PLZ always stands right before the town name, never before the street.",
+              }
+        explanation:
+          de: "Auf deutschen Formularen steht die Hausnummer hinter dem Straßennamen und die 5-stellige PLZ vor dem Wohnort."
+          en: "On German forms, the house number follows the street name and the 5-digit PLZ comes right before the town."
+  - type: section
+    id: beispiel
+    title:
+      de: "Peters Anmeldeformular"
+      en: "Peter's Registration Form"
+    blocks:
+      - type: text
+        text:
+          de: "Schau dir die drei farbigen Bereiche in Peters Formular an: Gelb markiert das **Geburtsdatum** mit Punkten (*TT.MM.JJJJ*), Blau die **Straße mit Hausnummer** und Grün **PLZ + Wohnort**."
+          en: "Look at the three highlighted zones in Peter's form: amber shows the **date of birth** with dots (*DD.MM.YYYY*), blue shows **street + house number**, and green shows **5-digit PLZ + town**."
+      - type: figure
+        image: images/registration-form.svg
+        alt:
+          de: "Deutsches Anmeldeformular mit den Feldern Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2011, Straße und Hausnummer Lindenstraße 12, PLZ und Wohnort 35037 Lindenberg."
+          en: "German registration form with fields Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2011, Straße and Hausnummer Lindenstraße 12, PLZ and Wohnort 35037 Lindenberg."
+        caption:
+          de: "Peters Ankommens-Ordner: die wichtigsten Felder eines deutschen Formulars."
+          en: "Peter's Arrival Folder: key fields on a German registration form."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+  - type: section
+    id: uebung
+    title:
+      de: "Felder sicher ausfüllen"
+      en: "Fill In Every Field"
+    blocks:
+      - type: matching
+        id: formular-felder
+        text:
+          de: "Welcher Eintrag für Mitschülerin Nadia gehört in welches Feld?"
+          en: "Which entry for classmate Nadia belongs in which form field?"
+        pairs:
+          - left: { de: "Vorname", en: "Vorname" }
+            right: { de: "Nadia", en: "Nadia" }
+          - left: { de: "PLZ", en: "PLZ" }
+            right: { de: "35037", en: "35037" }
+          - left: { de: "Wohnort", en: "Wohnort" }
+            right: { de: "Lindenberg", en: "Lindenberg" }
+          - left: { de: "Geburtsdatum", en: "Geburtsdatum" }
+            right: { de: "08.11.2010", en: "08.11.2010" }
+        explanation:
+          de: "Vorname = first name, Nachname = last name, PLZ = 5-digit postal code, Wohnort = town."
+          en: "Vorname = first name, Nachname = last name, PLZ = 5-digit postal code, Wohnort = town."
+      - type: true-false
+        id: formular-datum
+        text:
+          de: "Das deutsche Geburtsdatum „04.07.2011“ bedeutet den 4. Juli 2011 (nicht den 7. April)."
+          en: "The German date of birth '04.07.2011' means 4 July 2011 (not 7 April)."
+        answer: true
+        explanation:
+          de: "Richtig: In Deutschland steht immer zuerst der Tag (04), dann der Monat (07 = Juli), dann das Jahr."
+          en: "Correct: in Germany the day (04) always comes first, then the month (07 = July), then the year."
+      - type: language-task
+        id: formular-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze die fehlenden deutschen Feldnamen für das Formular."
+          en: "Fill in the missing German form-field labels."
+        items:
+          - source: "First name: Nadia"
+            target: "[Vorname]: Nadia"
+          - source: "Last name: Kaya"
+            target: "[Nachname|Familienname]: Kaya"
+          - source: "Town / City: Lindenberg"
+            target: "[Wohnort|Ort]: Lindenberg"
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Alle Feldnamen sind deutsche Nomen und beginnen mit einem Großbuchstaben."
+          en: "All German form labels are nouns, so each one starts with a capital letter."
+        explanation:
+          de: "Das Formular liegt fertig in Peters Ankommens-Ordner. Auf der letzten Seite von Kapitel 1 stellt sich Peter laut im Deutschkurs vor."
+          en: "The form is filed in Peter's Arrival Folder. On the final page of Chapter 1, Peter introduces himself aloud in German class."

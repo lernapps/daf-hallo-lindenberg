@@ -7,3 +7,17 @@ summary:
   en: "Peter arrives at Lindenberg station, meets the Weber family, learns du vs. Sie, fills in a form, and introduces himself in German class."
 pages:
   - begruessung-vorstellung
+  - duzen-siezen
+  - alltag-hoeflichkeit
+  - formulare-ausfuellen
+  - sich-vorstellen-monolog
+selfAssessment:
+  pages:
+    - exercises:
+        - /ankommen-vorstellen/begruessung-vorstellung/#vorstellung-schreiben
+        - /ankommen-vorstellen/duzen-siezen/#du-sie-wahl
+        - /ankommen-vorstellen/alltag-hoeflichkeit/#hoeflichkeit-wahl
+    - exercises:
+        - /ankommen-vorstellen/formulare-ausfuellen/#formular-adresse
+        - /ankommen-vorstellen/formulare-ausfuellen/#formular-luecken
+        - /ankommen-vorstellen/sich-vorstellen-monolog/#vorstellung-transfer
