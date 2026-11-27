@@ -1,0 +1,142 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Höflich im Alltag"
+  en: "Everyday Politeness in Germany"
+description:
+  de: "Typische Höflichkeitsformeln zum Danken, Bitten, Entschuldigen und beim Essen in Deutschland nutzen."
+  en: "Use typical politeness phrases for thanking, asking, apologizing, and meals in Germany."
+competencies: [alltag-hoeflichkeit]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Abendessen bei Familie Weber"
+      en: "Dinner at the Webers'"
+    blocks:
+      - type: text
+        text:
+          de: "Abends isst Peter bei Familie Weber zu Abend. Plötzlich niest Mina (9) – und Lukas ruft sofort ein deutsches Wort!"
+          en: "At dinner with the Webers, Mina (9) suddenly sneezes — and Lukas calls out a German word right away!"
+      - type: single-choice
+        id: niesen-wort
+        text:
+          de: "Mina niest am Tisch. Was sagt man in Deutschland?"
+          en: "Mina sneezes at the table. What do people say in Germany?"
+        options:
+          - text: { de: "Gesundheit!", en: "Gesundheit!" }
+            correct: true
+            info:
+              {
+                de: "Gesundheit! (wörtlich „health!“) ist die übliche Antwort auf ein Niesen.",
+                en: "Gesundheit! (literally 'health!') is the standard response to a sneeze.",
+              }
+          - text: { de: "Guten Appetit!", en: "Guten Appetit!" }
+            correct: false
+            info:
+              {
+                de: "Guten Appetit! wünscht man sich vor dem Essen, nicht beim Niesen.",
+                en: "Guten Appetit! is said before a meal, not after a sneeze.",
+              }
+          - text: { de: "Entschuldigung!", en: "Entschuldigung!" }
+            correct: false
+            info:
+              {
+                de: "Entschuldigung! sagt man, wenn man selbst jemanden stört oder um Platz bittet.",
+                en: "Entschuldigung! is used when excusing yourself or apologizing.",
+              }
+        explanation:
+          de: "Gesundheit! beim Niesen und Guten Appetit! vor dem Essen gehören fest zum Alltag in Deutschland."
+          en: "Saying Gesundheit! after a sneeze and Guten Appetit! before eating is part of everyday life in Germany."
+  - type: section
+    id: wortschatz
+    title:
+      de: "Kleine Wörter, große Wirkung"
+      en: "Small Words, Big Difference"
+    blocks:
+      - type: vocabulary
+        caption:
+          de: "Höflich durch den Tag in Lindenberg"
+          en: "Polite phrases for everyday life in Lindenberg"
+        languages: { source: en, target: de }
+        entries:
+          - target: "Bitte / Bitte schön"
+            source: "Please / You're welcome / Here you go"
+            note:
+              de: "Sag niemals wörtlich „Du bist willkommen“ – auf Danke antwortet man mit Bitte schön!"
+              en: "Never translate 'You're welcome' literally — always reply to Danke with Bitte schön!"
+          - target: "Danke / Vielen Dank"
+            source: "Thank you / Many thanks"
+          - target: "Entschuldigung!"
+            source: "Excuse me! / Sorry!"
+          - target: "Es tut mir leid."
+            source: "I am sorry."
+          - target: "Guten Appetit!"
+            source: "Enjoy your meal!"
+          - target: "Gesundheit!"
+            source: "Bless you!"
+  - type: section
+    id: uebung
+    title:
+      de: "Passend reagieren"
+      en: "Respond Politely"
+    blocks:
+      - type: matching
+        id: hoeflichkeit-paare
+        text:
+          de: "Ordne jede Situation der passenden deutschen Formel zu."
+          en: "Match each situation to the right German phrase."
+        pairs:
+          - left: { de: "Du bedankst dich für ein Geschenk.", en: "You thank someone for a gift." }
+            right: { de: "Vielen Dank!", en: "Vielen Dank!" }
+          - left: { de: "Du kommst fünf Minuten zu spät.", en: "You arrive five minutes late." }
+            right: { de: "Es tut mir leid.", en: "Es tut mir leid." }
+          - left: { de: "Ihr fangt gemeinsam an zu essen.", en: "You start eating dinner together." }
+            right: { de: "Guten Appetit!", en: "Guten Appetit!" }
+          - left: { de: "Jemand sagt „Danke!“ zu dir.", en: "Someone says 'Danke!' to you." }
+            right: { de: "Bitte schön!", en: "Bitte schön!" }
+        explanation:
+          de: "Für echtes Bedauern nutzt man „Es tut mir leid“, für kurzes Vorbeigehen „Entschuldigung“."
+          en: "Use 'Es tut mir leid' for a genuine apology and 'Entschuldigung' to get attention or pass by."
+      - type: language-task
+        id: hoeflichkeit-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle das passende Wort für jede Szene in Lindenberg."
+          en: "Choose the right German phrase for each scene in Lindenberg."
+        items:
+          - cue: "You want to get past someone on the bus."
+            target: "[Entschuldigung], darf ich vorbei?"
+            distractors: [["Gesundheit", "Vielen Dank"]]
+          - cue: "Frau Weber hands you a glass of water and you reply."
+            target: "[Vielen Dank], Frau Weber!"
+            distractors: [["Bitte schön", "Guten Appetit"]]
+          - cue: "Lukas thanks you for helping with his bike."
+            target: "[Bitte schön], gern geschehen!"
+            distractors: [["Entschuldigung", "Es tut mir leid"]]
+        explanation:
+          de: "Bitte schön antwortet auf Danke, Entschuldigung öffnet den Weg im Bus."
+          en: "Bitte schön replies to Danke, and Entschuldigung politely gets someone's attention."
+      - type: language-task
+        id: hoeflichkeit-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze die fehlenden Höflichkeitswörter."
+          en: "Fill in the missing politeness words."
+        items:
+          - source: "Enjoy your meal!"
+            target: "Guten [Appetit]!"
+          - source: "I am sorry."
+            target: "Es tut mir [leid]."
+          - source: "You're welcome!"
+            target: "[Bitte] schön!"
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Denke an Großschreibung bei Nomen (Appetit) und am Satzanfang."
+          en: "Remember to capitalize nouns (Appetit) and the first word of a phrase."
+        explanation:
+          de: "Super! Am nächsten Tag geht Peter mit Lukas zum Fußballverein FC Lindenberg Jugend und füllt sein erstes deutsches Formular aus."
+          en: "Nice work! The next day Peter goes with Lukas to the FC Lindenberg Jugend football club to fill in his first German registration form."

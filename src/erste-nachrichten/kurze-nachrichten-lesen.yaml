@@ -1,0 +1,116 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Kurze Nachrichten lesen"
+  en: "Reading Short Messages"
+description:
+  de: "Kurze Chatnachrichten, Postkarten und Einladungen im Alltag verstehen."
+  en: "Understand short text messages, postcards, and everyday invitations in German."
+competencies: [kurze-nachrichten-lesen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Eine Nachricht von Lukas"
+      en: "A Message from Lukas"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du aus kurzen deutschen Chatnachrichten und Einladungen sofort die vier Kerninfos filtern: **Wer? Was? Wann? Wo?** Nach der Schule bekommt Peter diese Nachricht von Lukas."
+          en: "After this page you can pull the four key facts (**Who? What? When? Where?**) out of short German text messages and invitations. After school Peter receives this message from Lukas."
+      - type: example
+        title:
+          de: "Nachricht auf Peters Handy"
+          en: "Message on Peter's phone"
+        blocks:
+          - type: text
+            text:
+              de: "„Hi Peter! Wir gehen heute Nachmittag um 16:00 Uhr in den Stadtpark zum Fußballspielen. Nadia kommt auch mit! Bring bitte Wasser mit. Treffpunkt ist am Eingang Süd. Bis später, Lukas“"
+              en: "'Hi Peter! Wir gehen heute Nachmittag um 16:00 Uhr in den Stadtpark zum Fußballspielen. Nadia kommt auch mit! Bring bitte Wasser mit. Treffpunkt ist am Eingang Süd. Bis später, Lukas'"
+      - type: single-choice
+        id: nachricht-treffpunkt
+        text:
+          de: "Wo treffen sich Peter, Lukas und Nadia heute Nachmittag?"
+          en: "Where are Peter, Lukas, and Nadia meeting this afternoon?"
+        options:
+          - text: { de: "Am Eingang Süd des Stadtparks", en: "At the south entrance of the town park (Eingang Süd)" }
+            correct: true
+            info:
+              {
+                de: "„Treffpunkt ist am Eingang Süd“ nennt genau den Ort.",
+                en: "'Treffpunkt ist am Eingang Süd' names the exact meeting point.",
+              }
+          - text: { de: "Am Bahnhof Lindenberg", en: "At Lindenberg station" }
+            correct: false
+            info:
+              {
+                de: "Der Bahnhof kommt in Lukas' Nachricht nicht vor.",
+                en: "The station is not mentioned in Lukas's message.",
+              }
+          - text: { de: "In der Schule", en: "At school" }
+            correct: false
+            info:
+              {
+                de: "Lukas schreibt vom Stadtpark, nicht von der Schule.",
+                en: "Lukas writes about the town park, not school.",
+              }
+        explanation:
+          de: "Das Signalwort „Treffpunkt“ (meeting point) zeigt in Einladungen direkt den Ort."
+          en: "The signal word 'Treffpunkt' (meeting point) points straight to the location in invitations."
+  - type: section
+    id: uebung
+    title:
+      de: "Details aus Nachrichten sicher prüfen"
+      en: "Check Every Detail in Short Messages"
+    blocks:
+      - type: true-false
+        id: nachricht-mitbringen
+        text:
+          de: "Lukas bittet Peter in der Nachricht, einen Fußball mitzubringen."
+          en: "In the message, Lukas asks Peter to bring a football."
+        answer: false
+        explanation:
+          de: "Falsch: Lukas schreibt „Bring bitte Wasser mit“ – keinen Fußball."
+          en: "False: Lukas writes 'Bring bitte Wasser mit' (please bring water), not a football."
+      - type: multiple-choice
+        id: nachricht-fakten
+        text:
+          de: "Welche beiden Infos stehen wirklich in Lukas' Nachricht?"
+          en: "Which two facts are actually in Lukas's message?"
+        options:
+          - text: { de: "Nadia kommt auch mit.", en: "Nadia is coming too." }
+            correct: true
+            info:
+              {
+                de: "Lukas schreibt ausdrücklich: „Nadia kommt auch mit!“",
+                en: "Lukas explicitly writes: 'Nadia kommt auch mit!'",
+              }
+          - text: { de: "Sie treffen sich um 16:00 Uhr.", en: "They are meeting at 4:00 p.m. (16:00)." }
+            correct: true
+            info:
+              {
+                de: "In der Nachricht steht „heute Nachmittag um 16:00 Uhr“.",
+                en: "The message says 'heute Nachmittag um 16:00 Uhr'.",
+              }
+          - text: { de: "Mina bringt Kuchen mit.", en: "Mina is bringing cake." }
+            correct: false
+            info: { de: "Mina und Kuchen werden nicht erwähnt.", en: "Neither Mina nor cake is mentioned." }
+        explanation:
+          de: "Mit den vier W-Fragen (Wer, Was, Wann, Wo) entgeht dir kein wichtiges Detail."
+          en: "Scanning with the four W-questions (Who, What, When, Where) catches every key detail."
+      - type: matching
+        id: nachricht-woerter
+        text:
+          de: "Ordne jedes typische Chat-Wort seiner englischen Bedeutung zu."
+          en: "Match each common German chat phrase to its English meaning."
+        pairs:
+          - left: { de: "Treffpunkt", en: "Treffpunkt" }
+            right: { de: "meeting point", en: "meeting point" }
+          - left: { de: "Bis später!", en: "Bis später!" }
+            right: { de: "See you later!", en: "See you later!" }
+          - left: { de: "Bring bitte … mit.", en: "Bring bitte … mit." }
+            right: { de: "Please bring … along.", en: "Please bring … along." }
+          - left: { de: "heute Nachmittag", en: "heute Nachmittag" }
+            right: { de: "this afternoon", en: "this afternoon" }
+        explanation:
+          de: "Super! Auf der nächsten Seite schreibst du selbst eine kurze Einladung auf Deutsch."
+          en: "Great! On the next page you will write your own short invitation in German."

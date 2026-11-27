@@ -1,0 +1,141 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Kurze Nachrichten schreiben"
+  en: "Writing Short Messages"
+description:
+  de: "Kurze Einladungen, Antworten und einfache Nachrichten an Freunde auf Deutsch schreiben."
+  en: "Write short invitations, replies, and simple personal messages in German."
+competencies: [kurze-nachrichten-schreiben]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Aufbau einer kurzen Nachricht"
+      en: "Structure of a Short Message"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du eine kurze Einladung oder Antwort an Freunde auf Deutsch schreiben. Jede kurze Nachricht hat **drei Teile**: **Anrede** (*Hallo Nadia,*), **Hauptteil** (Wann? Wo? Frage?) und **Gruß** (*Liebe Grüße, Peter* / *Bis Samstag, Peter*). Beginne mit Peters Antwort an Lukas!"
+          en: "After this page you can write a short invitation or reply to friends in German. Every short message has **three parts**: **Greeting** (*Hallo Nadia,*), **Body** (when, where, question), and **Sign-off** (*Liebe Grüße, Peter* / *Bis Samstag, Peter*). Start by ordering Peter's reply to Lukas!"
+      - type: ordering
+        id: nachricht-reihenfolge
+        text:
+          de: "Bringe die vier Teile von Peters Antwort an Lukas in die richtige Reihenfolge."
+          en: "Put the four parts of Peter's reply to Lukas in the right order."
+        items:
+          - { de: "Hallo Lukas,", en: "Hallo Lukas," }
+          - { de: "danke für deine Nachricht!", en: "danke für deine Nachricht!" }
+          - { de: "Ich komme um 16:00 Uhr zum Stadtpark.", en: "Ich komme um 16:00 Uhr zum Stadtpark." }
+          - { de: "Bis später, Peter", en: "Bis später, Peter" }
+        explanation:
+          de: "Starte mit der Anrede, antworte klar auf die Einladung und schließe mit Gruß und Namen."
+          en: "Start with the greeting, reply clearly to the invitation, and finish with a sign-off and your name."
+  - type: section
+    id: beispiel
+    title:
+      de: "Eine Einladung schreiben"
+      en: "Writing an Invitation"
+    blocks:
+      - type: example
+        title:
+          de: "Peters Einladung an Nadia"
+          en: "Peter's invitation to Nadia"
+        blocks:
+          - type: text
+            text:
+              de: "„Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Liebe Grüße, Peter“"
+              en: "'Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Liebe Grüße, Peter'"
+  - type: section
+    id: uebung
+    title:
+      de: "Nachrichten ergänzen und selbst schreiben"
+      en: "Complete and Write Short Messages"
+    blocks:
+      - type: single-choice
+        id: nachricht-verbzweit
+        text:
+          de: "Wo steht das Verb richtig? Wähle den natürlichen deutschen Satz!"
+          en: "Where does the verb belong? Pick the natural German sentence!"
+        options:
+          - text: { de: "Am Samstag gehe ich ins Kino.", en: "Am Samstag gehe ich ins Kino." }
+            correct: true
+            info:
+              {
+                de: "„Am Samstag“ ist Position 1, also steht das Verb „gehe“ direkt auf Position 2.",
+                en: "'Am Samstag' is position 1, so the verb 'gehe' stays right in position 2.",
+              }
+          - text: { de: "Am Samstag ich gehe ins Kino.", en: "Am Samstag ich gehe ins Kino." }
+            correct: false
+            info:
+              {
+                de: "Hier rutscht „gehe“ auf Position 3 – das ist englische Wortstellung.",
+                en: "Here 'gehe' slips to position 3 — that is English word order, not German.",
+              }
+          - text: { de: "Gehe am Samstag ich ins Kino.", en: "Gehe am Samstag ich ins Kino." }
+            correct: false
+            info:
+              {
+                de: "In einer Aussage (mit Punkt) steht das Verb auf Position 2, nicht auf Position 1.",
+                en: "In a statement (ending with a period), the verb belongs in position 2, not position 1.",
+              }
+        explanation:
+          de: "Wenn eine Zeitangabe vorn steht, tauschen Subjekt und Verb die Plätze, damit das Verb auf Platz 2 bleibt."
+          en: "When a time phrase comes first, subject and verb swap places so the verb stays in position 2."
+      - type: language-task
+        id: nachricht-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Peters Einladung an Nadia."
+          en: "Complete Peter's invitation to Nadia."
+        items:
+          - source: "Do you have time on Saturday?"
+            target: "Hast du am Samstag [Zeit]?"
+          - source: "At 3:00 p.m. I am going to the ice-cream parlor."
+            target: "Um 15:00 Uhr [gehe] ich ins Eiscafé."
+          - source: "Love / Cheers, Peter"
+            target: "Liebe [Grüße], Peter"
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Denke an Großschreibung bei Nomen, das ß in Grüße (Sonderzeichen) und Verb-Zweitstellung."
+          en: "Capitalize nouns, use Special characters for ü/ß in Grüße, and keep the verb in position 2."
+        explanation:
+          de: "Zeit und Grüße sind Nomen (groß), und nach „Um 15:00 Uhr“ folgt direkt das Verb „gehe“."
+          en: "Zeit and Grüße are capitalized nouns, and the verb 'gehe' comes immediately after 'Um 15:00 Uhr'."
+      - type: language-task
+        id: nachricht-schreiben-transfer
+        languages: { source: en, target: de }
+        mode: write
+        task:
+          de: "Schreibe diese beiden kurzen Chat-Sätze an Lukas auf Deutsch."
+          en: "Write these two short chat sentences to Lukas in German."
+        items:
+          - source: "Are you coming along?"
+            target: "Kommst du mit?"
+            mistakes:
+              - answer: "Du kommst mit?"
+                message:
+                  de: "Bei einer Ja-/Nein-Frage steht das Verb ganz vorn: Kommst du mit?"
+                  en: "In a yes/no question, put the verb first: Kommst du mit?"
+          - source: "See you later!"
+            target: "Bis später!"
+            mistakes:
+              - answer: "Bis spater!"
+                message:
+                  de: "Achte auf den Umlaut ä in „später“ (nutze „Sonderzeichen“)."
+                  en: "Use the umlaut ä in 'später' (click Special characters below)."
+              - answer: "Bis spater"
+                message:
+                  de: "Achte auf den Umlaut ä in „später“ (nutze „Sonderzeichen“)."
+                  en: "Use the umlaut ä in 'später' (click Special characters below)."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Nutze die Wendungen aus den Nachrichten in diesem Kapitel und „Sonderzeichen“ für ä."
+          en: "Use the chat phrases from this chapter and the Special characters button for ä."
+        explanation:
+          de: "Klasse! Auf der letzten Seite besucht Peters Freund Alex aus England Lindenberg – und Peter gibt Infos von einem deutschen Plakat weiter."
+          en: "Great job! On the final page, Peter's friend Alex visits from England — and Peter relays key facts from a German poster."

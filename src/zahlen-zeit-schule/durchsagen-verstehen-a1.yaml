@@ -1,0 +1,111 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Kurze Durchsagen verstehen"
+  en: "Understanding Short Announcements"
+description:
+  de: "Aus kurzen Bahnhofsdurchsagen wichtige Daten wie Gleis, Uhrzeit und Verspätung herausfiltern."
+  en: "Pick out key details like platform number, time, and delay from short German announcements."
+competencies: [durchsagen-verstehen-a1]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Vier Signalwörter am Bahnhof"
+      en: "Four Signal Words at the Station"
+    blocks:
+      - type: text
+        text:
+          de: "Wochenend-Ausflug mit Familie Weber zum Zoo! Am Bahnhof sprechen Lautsprecher schnell – achte gezielt auf **vier Signalwörter**: **Gleis** (platform), **Abfahrt** (departure), **Uhrzeit** und **Verspätung** (delay)."
+          en: "Weekend zoo trip with the Webers! Station loudspeakers move fast — focus on **four signal words**: **Gleis** (platform), **Abfahrt** (departure), **time**, and **Verspätung** (delay)."
+      - type: figure
+        image: images/platform-board.svg
+        alt:
+          de: "Abfahrtstafel am Bahnhof Lindenberg mit Beispielzug RE 30 nach Kassel Hbf, Abfahrt 13:15, plus 5 Minuten Verspätung, Gleis 2, und den vier Signalwörtern."
+          en: "Departure board at Lindenberg station showing example train RE 30 to Kassel Hbf, departure 13:15, +5 min delay, platform 2, and the four signal words."
+        caption:
+          de: "Peters Lindenberg-Heft: die vier Signalwörter auf der Abfahrtstafel."
+          en: "Peter's Notebook: the four signal words on a German departure board."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: example
+        title:
+          de: "Durchsage am Bahnhof Lindenberg"
+          en: "Loudspeaker announcement at Lindenberg station"
+        blocks:
+          - type: text
+            text:
+              de: "„Achtung an Gleis 4: Der Regionalexpress nach Frankfurt, planmäßige Abfahrt 14:20 Uhr, hat heute leider 10 Minuten Verspätung und fährt heute von Gleis 6 ab. Ich wiederhole: Gleis 6!“"
+              en: "'Achtung an Gleis 4: Der Regionalexpress nach Frankfurt, planmäßige Abfahrt 14:20 Uhr, hat heute leider 10 Minuten Verspätung und fährt heute von Gleis 6 ab. Ich wiederhole: Gleis 6!'"
+      - type: single-choice
+        id: durchsage-gleis
+        text:
+          de: "Von welchem Gleis fährt der Zug nach Frankfurt heute tatsächlich ab?"
+          en: "Which platform does the train to Frankfurt actually leave from today?"
+        options:
+          - text: { de: "Gleis 6", en: "Platform 6 (Gleis 6)" }
+            correct: true
+            info:
+              {
+                de: "Der Zug wurde von Gleis 4 auf Gleis 6 verlegt.",
+                en: "The train was moved from platform 4 to platform 6.",
+              }
+          - text: { de: "Gleis 4", en: "Platform 4 (Gleis 4)" }
+            correct: false
+            info:
+              {
+                de: "Gleis 4 war das ursprüngliche Gleis – die Durchsage ändert es auf Gleis 6.",
+                en: "Platform 4 was the original platform — the announcement changes it to 6.",
+              }
+          - text: { de: "Gleis 10", en: "Platform 10 (Gleis 10)" }
+            correct: false
+            info:
+              {
+                de: "10 sind die Minuten Verspätung, nicht die Gleisnummer.",
+                en: "10 is the minutes of delay, not the platform number.",
+              }
+        explanation:
+          de: "Höre bei Bahnhofsdurchsagen immer auf die letzte Gleisnummer nach „fährt heute von … ab“."
+          en: "In German station announcements, always check the final platform number after 'fährt heute von … ab'."
+  - type: section
+    id: uebung
+    title:
+      de: "Zahlen und Fakten prüfen"
+      en: "Check Numbers and Details"
+    blocks:
+      - type: true-false
+        id: durchsage-zeit
+        text:
+          de: "Der Zug nach Frankfurt fährt heute mit Verspätung um 14:30 Uhr ab."
+          en: "With the delay, the train to Frankfurt departs at 14:30 (2:30 p.m.) today."
+        answer: true
+        explanation:
+          de: "Planmäßige Abfahrt 14:20 Uhr plus 10 Minuten Verspätung ergibt 14:30 Uhr."
+          en: "Scheduled departure at 14:20 plus a 10-minute delay equals 14:30."
+      - type: number
+        id: durchsage-verspaetung
+        text:
+          de: "Eine Bahnhofsdurchsage meldet: „Der Zug nach Marburg hat fünfzehn Minuten Verspätung.“ Wie viele Minuten Verspätung hat der Zug?"
+          en: "A station announcement says: 'Der Zug nach Marburg hat fünfzehn Minuten Verspätung.' How many minutes late is the train?"
+        answer: 15
+        tolerance: 0
+        unit: { de: "Minuten", en: "minutes" }
+        explanation:
+          de: "fünfzehn = 15 Minuten Verspätung."
+          en: "fünfzehn = 15 minutes of delay."
+      - type: matching
+        id: durchsage-paare
+        text:
+          de: "Ordne jedes deutsche Bahnhofswort seiner Bedeutung zu."
+          en: "Match each German station word to its English meaning."
+        pairs:
+          - left: { de: "das Gleis", en: "das Gleis" }
+            right: { de: "the platform", en: "the platform" }
+          - left: { de: "die Abfahrt", en: "die Abfahrt" }
+            right: { de: "the departure", en: "the departure" }
+          - left: { de: "die Verspätung", en: "die Verspätung" }
+            right: { de: "the delay", en: "the delay" }
+          - left: { de: "Ich wiederhole", en: "Ich wiederhole" }
+            right: { de: "I repeat", en: "I repeat" }
+        explanation:
+          de: "Kapitel 2 geschafft! In Kapitel 3 liest und schreibt Peter kurze Chatnachrichten mit Lukas und Nadia."
+          en: "Chapter 2 complete! In Chapter 3, Peter reads and writes short messages with Lukas and Nadia."

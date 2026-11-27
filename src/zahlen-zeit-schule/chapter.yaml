@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Zahlen, Uhrzeit, Schule und Durchsagen"
+  en: "Numbers, Time, Dates, Announcements and School"
+summary:
+  de: "Peter kauft Fahrkarten und Brötchen, liest seinen Stundenplan und Kalender, nutzt Wendungen im Unterricht und versteht Schilder und Bahnhofsdurchsagen."
+  en: "Peter buys tickets and bread rolls, reads his timetable and calendar, uses classroom phrases, and understands signs and short station announcements."
+pages:
+  - zahlen-preise
+  - zeit-datum-wochentage
+  - schule-unterricht
+  - schilder-hinweise-lesen
+  - durchsagen-verstehen-a1
+selfAssessment:
+  pages:
+    - exercises:
+        - /zahlen-zeit-schule/zahlen-preise/#preis-rechnen
+        - /zahlen-zeit-schule/zahlen-preise/#zahlen-schreiben
+        - /zahlen-zeit-schule/zeit-datum-wochentage/#zeit-datum-wahl
+    - exercises:
+        - /zahlen-zeit-schule/schule-unterricht/#schule-artikel-wahl
+        - /zahlen-zeit-schule/schilder-hinweise-lesen/#schilder-alltag
+        - /zahlen-zeit-schule/durchsagen-verstehen-a1/#durchsage-verspaetung

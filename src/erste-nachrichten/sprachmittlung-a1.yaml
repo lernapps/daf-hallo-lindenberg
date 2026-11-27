@@ -1,0 +1,121 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Plakate für Freunde erklären"
+  en: "Help Alex Read a German Poster"
+description:
+  de: "Die wichtigsten Fakten (Zeit, Ort, Preis) aus einem deutschen Plakat einfach auf Englisch weitergeben."
+  en: "Pass on key facts (time, place, price) from a German school-concert poster in English."
+competencies: [sprachmittlung-a1]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Nur die wichtigen Fakten weitergeben"
+      en: "Pass On Only the Key Facts"
+    blocks:
+      - type: text
+        text:
+          de: "Peters Cousin **Alex** (12) aus England ist mit seinen Eltern übers Wochenende zu Besuch! Am Schwarzen Brett der Schule hängt dieses Plakat. Du musst nicht jedes Wort übersetzen – gib einfach die **wichtigen Fakten** weiter, die Alex wissen will."
+          en: "Peter's cousin **Alex** (12) from England is visiting with his parents for the weekend! On the school notice board hangs this poster. You do not need to translate every word — just pass on the **key facts** Alex wants to know."
+      - type: figure
+        image: images/concert-poster.svg
+        alt:
+          de: "Konzertplakat: Schulkonzert in der Aula der Schule Marktplatz 4, Samstag 18. Oktober, Einlass 16:30 Uhr, Beginn 17:00 Uhr, Eintritt Erwachsene 5,00 €, Kinder bis 14 Jahre 3,00 €."
+          en: "School concert poster: Schulkonzert at Aula der Schule Marktplatz 4, Saturday 18 October, Einlass (doors open) 16:30, Beginn (start) 17:00, Erwachsene (adults) 5,00 €, Kinder (kids up to 14) 3,00 €."
+        caption:
+          de: "Plakat am Schwarzen Brett in Peters Schule."
+          en: "Poster on Peter's school notice board."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: single-choice
+        id: mittlung-preis
+        text:
+          de: "Alex (12) fragt: „How much is a ticket for kids our age?“ Was antwortet Peter?"
+          en: "Alex (12) asks: 'How much is a ticket for kids our age?' What should Peter tell him?"
+        options:
+          - text:
+              {
+                de: "3 euros for kids up to 14 (5 euros for adults).",
+                en: "3 euros for kids up to 14 (5 euros for adults).",
+              }
+            correct: true
+            info:
+              {
+                de: "„Kinder (bis 14): 3,00 €“ heißt 3 Euro für Kinder bis 14 Jahre und 5 Euro für Erwachsene.",
+                en: "'Kinder (bis 14): 3,00 €' means 3 euros for kids up to 14 and 5 euros for adults.",
+              }
+          - text: { de: "It is free for kids.", en: "It is free for kids." }
+            correct: false
+            info:
+              {
+                de: "Auf dem Plakat steht 3,00 €, nicht „Eintritt frei“.",
+                en: "The poster lists 3,00 €, not free admission.",
+              }
+          - text: { de: "It costs 18 euros.", en: "It costs 18 euros." }
+            correct: false
+            info:
+              {
+                de: "18 ist das Datum (18. Oktober), nicht der Eintrittspreis.",
+                en: "18 is the date (18 October), not the ticket price.",
+              }
+        explanation:
+          de: "Trenne auf deutschen Plakaten sauber Datum (18. Okt.), Uhrzeit (17:00 Uhr) und Preis (3,00 € / 5,00 €)."
+          en: "On German posters, separate the date (18. Okt.), the time (17:00 Uhr), and the price (3,00 € / 5,00 €)."
+  - type: section
+    id: uebung
+    title:
+      de: "Fakten klar weitergeben"
+      en: "Relay Every Fact Clearly"
+    blocks:
+      - type: multiple-choice
+        id: mittlung-zeiten
+        text:
+          de: "Auf dem Konzertplakat steht: „Einlass: 16:30 Uhr · Beginn: 17:00 Uhr“. Welche beiden Infos gibt Peter richtig an Alex weiter?"
+          en: "A German school-concert poster reads: 'Einlass: 16:30 Uhr · Beginn: 17:00 Uhr'. Which two time facts should Peter relay to Alex?"
+        options:
+          - text: { de: "Doors open at 4:30 p.m.", en: "Doors open at 4:30 p.m." }
+            correct: true
+            info:
+              {
+                de: "Einlass (16:30 Uhr) bedeutet, ab wann man hineinkann.",
+                en: "Einlass (16:30) means when the doors open.",
+              }
+          - text: { de: "The concert starts at 5:00 p.m.", en: "The concert starts at 5:00 p.m." }
+            correct: true
+            info:
+              {
+                de: "Beginn (17:00 Uhr) nennt die Startzeit des Konzerts.",
+                en: "Beginn (17:00) gives the start time of the concert.",
+              }
+          - text: { de: "The concert ends at 5:00 p.m.", en: "The concert ends at 5:00 p.m." }
+            correct: false
+            info: { de: "17:00 Uhr ist der Beginn, nicht das Ende.", en: "17:00 is the start time, not the end." }
+        explanation:
+          de: "Einlass (doors open) und Beginn (start) stehen in Deutschland fast immer nebeneinander auf Konzertplakaten."
+          en: "German event posters almost always list Einlass (doors open) and Beginn (start) side by side."
+      - type: true-false
+        id: mittlung-ort
+        text:
+          de: "Das Schulkonzert findet in der Aula der Schule am Marktplatz 4 statt."
+          en: "The school concert takes place in the school hall (Aula) at Marktplatz 4."
+        answer: true
+        explanation:
+          de: "Genau: Direkt unter dem Titel nennt das Plakat den Ort „Aula der Schule · Marktplatz 4“."
+          en: "Exactly: right under the title, the poster lists 'Aula der Schule · Marktplatz 4'."
+      - type: matching
+        id: mittlung-woerter
+        text:
+          de: "Ordne jedes deutsche Plakatwort seiner englischen Bedeutung zu."
+          en: "Match each German poster word to its English meaning."
+        pairs:
+          - left: { de: "Einlass", en: "Einlass" }
+            right: { de: "doors open", en: "doors open" }
+          - left: { de: "Beginn", en: "Beginn" }
+            right: { de: "start", en: "start" }
+          - left: { de: "Eintritt", en: "Eintritt" }
+            right: { de: "admission / entry fee", en: "admission / entry fee" }
+          - left: { de: "Erwachsene", en: "Erwachsene" }
+            right: { de: "adults", en: "adults" }
+        explanation:
+          de: "Geschafft! Du hast alle drei Kapitel und Peters gesamtes Lindenberg-Heft abgeschlossen. Weiter geht es mit dem Alltag bei Familie Weber!"
+          en: "You did it! You completed all three chapters and Peter's entire Lindenberg Notebook. Next up in Lindenberg: Everyday Life at the Webers'!"

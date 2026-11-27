@@ -1,0 +1,139 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Schilder und Öffnungszeiten lesen"
+  en: "Reading Signs and Opening Hours"
+description:
+  de: "Wichtige Angaben auf Schildern, Öffnungszeiten und Aushängen in Deutschland schnell erfassen."
+  en: "Extract key facts from everyday German signs, opening hours, and public notices."
+competencies: [schilder-hinweise-lesen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Vor der Stadtbibliothek Lindenberg"
+      en: "Outside Lindenberg Town Library"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du Öffnungszeiten und Alltagsschilder in Deutschland auf einen Blick erfassen. Du musst nicht jedes Wort kennen – scanne zuerst **Wochentags-Kürzel** (*Mo–Fr, Sa, So*), **Uhrzeiten** und **geöffnet / geschlossen**."
+          en: "After this page you can read German opening hours and everyday signs at a glance. You do not need every word — scan first for **day abbreviations** (*Mo–Fr, Sa, So*), **24-hour times**, and **geöffnet / geschlossen**."
+      - type: figure
+        image: images/library-hours-sign.svg
+        alt:
+          de: "Schild Öffnungszeiten Stadtbibliothek Lindenberg: Mo–Fr 10:00–18:00 Uhr geöffnet, Sa 09:00–13:00 Uhr geöffnet, So und Feiertage geschlossen."
+          en: "Opening hours sign for Stadtbibliothek Lindenberg: Mo–Fr 10:00–18:00 open, Sa 09:00–13:00 open, So and public holidays closed."
+        caption:
+          de: "Schild an der Tür der Stadtbibliothek Lindenberg."
+          en: "Sign on the door of Lindenberg Town Library."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: single-choice
+        id: bibliothek-samstag
+        text:
+          de: "Peter möchte am Samstag um 14:00 Uhr ein Buch ausleihen. Kann Peter in die Bibliothek gehen?"
+          en: "Peter wants to borrow a book on Saturday at 2:00 p.m. (14:00). Can Peter go inside?"
+        options:
+          - text:
+              {
+                de: "Nein, samstags schließt die Bibliothek schon um 13:00 Uhr.",
+                en: "No, on Saturdays the library closes at 1:00 p.m. (13:00).",
+              }
+            correct: true
+            info:
+              {
+                de: "Auf dem Schild steht Sa 09:00–13:00 Uhr – um 14:00 Uhr ist zu.",
+                en: "The sign says Sa 09:00–13:00, so at 14:00 it is already closed.",
+              }
+          - text:
+              { de: "Ja, sie ist jeden Tag bis 18:00 Uhr geöffnet.", en: "Yes, it is open until 6:00 p.m. every day." }
+            correct: false
+            info:
+              {
+                de: "Bis 18:00 Uhr gilt nur von Montag bis Freitag (Mo–Fr).",
+                en: "Until 18:00 applies only Monday to Friday (Mo–Fr).",
+              }
+          - text: { de: "Nein, samstags ist komplett geschlossen.", en: "No, it is closed all day on Saturdays." }
+            correct: false
+            info:
+              {
+                de: "Geschlossen ist erst am Sonntag und an Feiertagen (So & Feiertage).",
+                en: "It is only closed all day on Sundays and public holidays.",
+              }
+        explanation:
+          de: "In Deutschland haben viele Geschäfte und Bibliotheken samstags kürzere Öffnungszeiten und sonntags geschlossen."
+          en: "In Germany, many shops and libraries have shorter Saturday hours and close on Sundays."
+  - type: section
+    id: uebung
+    title:
+      de: "Alltagsschilder sicher erkennen"
+      en: "Recognize Everyday German Signs"
+    blocks:
+      - type: vocabulary
+        caption:
+          de: "Häufige Schilder in deutschen Städten"
+          en: "Common signs in German towns"
+        languages: { source: en, target: de }
+        entries:
+          - target: "der Eingang / der Ausgang"
+            source: "the entrance / the exit"
+          - target: "Eintritt frei"
+            source: "free admission"
+          - target: "Kein Zutritt"
+            source: "No entry"
+          - target: "der Feiertag / die Feiertage"
+            source: "the public holiday / public holidays"
+      - type: multiple-choice
+        id: schilder-alltag
+        text:
+          de: "Welche drei deutschen Schilder zeigen einen Weg oder freien Zugang (kein Verbot)?"
+          en: "Which three German signs show a way in/out or free access (not a prohibition)?"
+        options:
+          - text: { de: "Eingang", en: "Eingang" }
+            correct: true
+            info: { de: "Eingang zeigt die Tür hinein.", en: "Eingang marks the entrance." }
+          - text: { de: "Ausgang", en: "Ausgang" }
+            correct: true
+            info: { de: "Ausgang zeigt den Weg nach draußen.", en: "Ausgang marks the exit." }
+          - text: { de: "Kein Zutritt", en: "Kein Zutritt" }
+            correct: false
+            info:
+              {
+                de: "„Kein Zutritt“ bedeutet: Hier darf man nicht hinein (No entry).",
+                en: "'Kein Zutritt' means No entry — you are not allowed in.",
+              }
+          - text: { de: "Eintritt frei", en: "Eintritt frei" }
+            correct: true
+            info:
+              {
+                de: "Eintritt frei bedeutet: Man bezahlt nichts (Free admission).",
+                en: "Eintritt frei means admission is free.",
+              }
+        explanation:
+          de: "Eingang, Ausgang und Eintritt frei begegnen dir überall in deutschen Städten."
+          en: "Eingang, Ausgang, and Eintritt frei appear everywhere across German towns."
+      - type: true-false
+        id: bibliothek-sonntag
+        text:
+          de: "Am Sonntagvormittag um 11:00 Uhr ist die Stadtbibliothek Lindenberg geöffnet."
+          en: "On Sunday morning at 11:00, Lindenberg Town Library is open."
+        answer: false
+        explanation:
+          de: "Falsch: Auf dem Schild steht „So & Feiertage: geschlossen“."
+          en: "False: the sign clearly says 'So & Feiertage: geschlossen' (closed)."
+      - type: matching
+        id: schilder-paare
+        text:
+          de: "Ordne jedes deutsche Schild seiner englischen Bedeutung zu."
+          en: "Match each German sign word to its English meaning."
+        pairs:
+          - left: { de: "geöffnet", en: "geöffnet" }
+            right: { de: "open", en: "open" }
+          - left: { de: "geschlossen", en: "geschlossen" }
+            right: { de: "closed", en: "closed" }
+          - left: { de: "Ausgang", en: "Ausgang" }
+            right: { de: "exit", en: "exit" }
+          - left: { de: "Feiertage", en: "Feiertage" }
+            right: { de: "public holidays", en: "public holidays" }
+        explanation:
+          de: "Stark! Als Nächstes trainiert Peter am Bahnhof Lindenberg kurze Durchsagen."
+          en: "Well done! Next, Peter practices picking key facts out of short announcements at Lindenberg station."

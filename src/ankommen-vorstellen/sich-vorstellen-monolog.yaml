@@ -1,0 +1,164 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Steckbrief: Sich in der Klasse vorstellen"
+  en: "Introducing Yourself in Class"
+description:
+  de: "In fünf kurzen, zusammenhängenden Sätzen über Name, Herkunft, Alter, Wohnort und Hobbys sprechen."
+  en: "Introduce yourself in five connected sentences about your name, origin, age, home, and hobbies."
+competencies: [sich-vorstellen-monolog]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Vorstellungsrunde in Klasse 6"
+      en: "Introduction Round in Herr Braun's Class"
+    blocks:
+      - type: text
+        text:
+          de: "Erster Schultag in **Klasse 6**! Klassenlehrer Herr Braun startet eine kurze Steckbrief-Runde mit Lukas, Nadia und Peter. Bringe zuerst Nadias Sätze in eine gute Reihenfolge!"
+          en: "First day in **Klasse 6**! Class teacher Herr Braun kicks off a quick profile round with Lukas, Nadia, and Peter. Start by putting Nadia's sentences in a natural order!"
+      - type: ordering
+        id: vorstellung-reihenfolge
+        text:
+          de: "Bringe Nadias Vorstellung in eine natürliche Reihenfolge."
+          en: "Put Nadia's introduction into a natural order."
+        items:
+          - { de: "Hallo zusammen!", en: "Hallo zusammen!" }
+          - { de: "Ich heiße Nadia und komme aus Deutschland.", en: "Ich heiße Nadia und komme aus Deutschland." }
+          - { de: "Ich bin 12 Jahre alt und wohne in Lindenberg.", en: "Ich bin 12 Jahre alt und wohne in Lindenberg." }
+          - { de: "Mein Hobby ist Schwimmen.", en: "Mein Hobby ist Schwimmen." }
+        explanation:
+          de: "Starte mit einer Begrüßung, nenne dann Name, Herkunft, Alter und Wohnort, und schließe mit deinem Hobby ab."
+          en: "Start with a greeting, follow with name, origin, age, and town, and finish with your hobby."
+  - type: section
+    id: beispiel
+    title:
+      de: "Peters 5-Schritte-Steckbrief"
+      en: "Peter's 5-Step Spoken Profile"
+    blocks:
+      - type: figure
+        image: images/profile-card-steps.svg
+        alt:
+          de: "Fünf farbige Schritte für eine Vorstellung: 1 Begrüßung, 2 Name und Herkunft, 3 Alter, 4 Wohnort, 5 Hobbys."
+          en: "Five color-coded steps for a spoken self-introduction: 1 Greeting, 2 Name and Origin, 3 Age, 4 Home, 5 Hobbies."
+        caption:
+          de: "Peters Lindenberg-Heft: der klare Leitfaden für deine Vorstellung."
+          en: "Peter's Notebook: a clear 5-step guide for introducing yourself."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: example
+        title:
+          de: "So stellt sich Peter in der Klasse vor"
+          en: "How Peter introduces himself in Klasse 6"
+        blocks:
+          - type: text
+            text:
+              de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg nahe dem Marktplatz. Meine Hobbys sind Fußball und Musik.“"
+              en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg nahe dem Marktplatz. Meine Hobbys sind Fußball und Musik.'"
+      - type: vocabulary
+        caption:
+          de: "Neue Wörter für deine Vorstellung"
+          en: "New words for introducing yourself"
+        languages: { source: en, target: de }
+        entries:
+          - target: "wohnen (ich wohne)"
+            source: "to live (I live)"
+          - target: "sprechen (ich spreche)"
+            source: "to speak (I speak)"
+          - target: "Englisch / Deutsch"
+            source: "English / German"
+          - target: "das Hobby / die Hobbys"
+            source: "the hobby / the hobbies"
+          - target: "der Fußball / die Musik"
+            source: "football / music"
+  - type: section
+    id: uebung
+    title:
+      de: "Sätze sicher bauen"
+      en: "Build Connected Sentences"
+    blocks:
+      - type: single-choice
+        id: alter-satz
+        text:
+          de: "Welcher Satz gibt das Alter auf Deutsch vollständig und richtig an?"
+          en: "Which sentence gives an age completely and correctly in German?"
+        options:
+          - text: { de: "Ich bin 11 Jahre alt.", en: "Ich bin 11 Jahre alt." }
+            correct: true
+            info:
+              {
+                de: "Mit „Jahre“ steht im Deutschen immer „alt“ am Ende.",
+                en: "When using 'Jahre', German always puts 'alt' at the end.",
+              }
+          - text: { de: "Ich habe 11 Jahre.", en: "Ich habe 11 Jahre." }
+            correct: false
+            info:
+              {
+                de: "Im Deutschen benutzt man beim Alter „bin“ (sein), nicht „habe“.",
+                en: "German uses 'bin' (am) for age, never 'habe' (have).",
+              }
+          - text: { de: "Ich bin 11 Jahre.", en: "Ich bin 11 Jahre." }
+            correct: false
+            info:
+              { de: "Hier fehlt das Wort „alt“ am Satzende.", en: "This is missing 'alt' at the end of the sentence." }
+        explanation:
+          de: "Merke: „Ich bin 11.“ oder „Ich bin 11 Jahre alt.“ – immer mit „bin“!"
+          en: "Remember: 'Ich bin 11.' or 'Ich bin 11 Jahre alt.' — always with 'bin'!"
+      - type: language-task
+        id: vorstellung-saetze
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Lukas' Vorstellung in der Klasse."
+          en: "Complete Lukas's introduction in Klasse 6."
+        items:
+          - source: "I live in Lindenberg."
+            target: "Ich [wohne] in Lindenberg."
+          - source: "My hobbies are music and football."
+            target: "Meine [Hobbys] sind Musik und Fußball."
+          - source: "I speak English and German."
+            target: "Ich [spreche] Englisch und [Deutsch]."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Achte auf die Verbendung -e bei „ich“ und auf Großschreibung bei Nomen."
+          en: "Watch the -e verb ending after 'ich' and capitalize German nouns."
+        explanation:
+          de: "Nach „ich“ enden regelmäßige Verben im Präsens auf -e: ich wohne, ich spreche, ich komme."
+          en: "After 'ich', regular present-tense verbs end in -e: ich wohne, ich spreche, ich komme."
+      - type: language-task
+        id: vorstellung-transfer
+        languages: { source: en, target: de }
+        mode: write
+        task:
+          de: "Schreibe zwei kurze Vorstellungssätze für Mina (9, wohnt in Lindenberg)."
+          en: "Write two short introduction sentences for Mina (9, lives in Lindenberg)."
+        items:
+          - source: "I am 9 years old."
+            target: "Ich bin (9|neun) Jahre alt."
+            mistakes:
+              - answer: "Ich habe 9 Jahre alt."
+                message:
+                  de: "Beim Alter sagt man im Deutschen „Ich bin … Jahre alt“, nicht „Ich habe“."
+                  en: "For age, German uses 'Ich bin … Jahre alt', not 'Ich habe'."
+              - answer: "Ich bin 9 Jahre."
+                message:
+                  de: "Ergänze „alt“ am Satzende: Ich bin 9 Jahre alt."
+                  en: "Add 'alt' at the end: Ich bin 9 Jahre alt."
+          - source: "I live in Lindenberg."
+            target: "Ich (wohne|lebe) in Lindenberg."
+            mistakes:
+              - answer: "Ich leben in Lindenberg."
+                message:
+                  de: "Für den Wohnort nutzt man „ich wohne“ (oder „ich lebe“ – mit -e am Ende)."
+                  en: "Use 'ich wohne' (or 'ich lebe', ending in -e) to say where you live."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Nutze „Ich bin … Jahre alt“ für das Alter und „Ich wohne in …“ für den Wohnort."
+          en: "Use 'Ich bin … Jahre alt' for age and 'Ich wohne in …' for where you live."
+        explanation:
+          de: "Kapitel 1 geschafft! Du kannst jetzt grüßen, du und Sie unterscheiden, Formulare ausfüllen und dich frei vorstellen. In Kapitel 2 geht es in Lindenberg um Zahlen, Preise, Uhrzeiten und Schule."
+          en: "Chapter 1 complete! You can now greet people, use du vs. Sie, fill in forms, and introduce yourself. In Chapter 2, Peter tackles numbers, prices, times, and school in Lindenberg."

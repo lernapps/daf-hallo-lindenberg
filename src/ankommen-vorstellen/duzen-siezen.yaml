@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "du oder Sie?"
+  en: "Informal du vs. Formal Sie"
+description:
+  de: "Wann man in Deutschland du sagt und wann Sie die richtige Anrede ist."
+  en: "Choose appropriately between informal du and formal Sie in Germany."
+competencies: [duzen-siezen]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Zwei Wörter für „you“"
+      en: "Two Words for 'You'"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du sicher zwischen **du** (vertraut) und **Sie** (höflich, immer großgeschrieben) wählen. Am nächsten Morgen trifft Peter seinen Klassenlehrer **Herrn Braun** (*Mr. Braun*) vor dem Klassenzimmer."
+          en: "After this page you can choose confidently between informal **du** and formal **Sie** (always capitalized). The next morning Peter meets his class teacher **Herr Braun** (*Mr. Braun*) outside the classroom."
+      - type: single-choice
+        id: du-sie-lehrer
+        text:
+          de: "Wie fragt Peter seinen Lehrer Herrn Braun höflich nach seinem Befinden?"
+          en: "How does Peter politely ask his teacher Herr Braun how he is?"
+        options:
+          - text: { de: "Wie geht es Ihnen, Herr Braun?", en: "Wie geht es Ihnen, Herr Braun?" }
+            correct: true
+            info:
+              {
+                de: "Lehrkräfte spricht man in Deutschland mit Sie/Ihnen und Herr/Frau + Nachname an.",
+                en: "In Germany, students address teachers with formal Sie/Ihnen and Herr/Frau + last name.",
+              }
+          - text: { de: "Wie geht es dir, Braun?", en: "Wie geht es dir, Braun?" }
+            correct: false
+            info:
+              {
+                de: "du und der bloße Nachname wirken gegenüber einer Lehrkraft unhöflich.",
+                en: "Using du and just a last name sounds impolite to a teacher.",
+              }
+          - text: { de: "Hallo, wie heißt du?", en: "Hallo, wie heißt du?" }
+            correct: false
+            info:
+              {
+                de: "Das fragt nach dem Namen in der du-Form, nicht nach dem Befinden mit Sie.",
+                en: "That asks for a name with informal du instead of asking how he is with formal Sie.",
+              }
+        explanation:
+          de: "Erwachsene außerhalb der Familie spricht man in Deutschland mit Sie und Frau/Herr + Nachname an."
+          en: "In Germany, address adults outside your family with formal Sie and Frau/Herr + last name."
+  - type: section
+    id: regel
+    title:
+      de: "Wann du, wann Sie?"
+      en: "When to Use du vs. Sie"
+    blocks:
+      - type: text
+        text:
+          de: "Die zweite Karte in Peters **Lindenberg-Heft** teilt Menschen in zwei klare Zonen: Grün steht für den vertrauten **du**-Kreis (Jugendliche, Freunde, Familie), Blau für den höflichen **Sie**-Kreis (Lehrkräfte, fremde Erwachsene)."
+          en: "The second card in **Peter's Notebook** splits people into two clear zones: green for the informal **du** circle (peers, friends, family) and blue for the formal **Sie** circle (teachers, unfamiliar adults)."
+      - type: figure
+        image: images/du-sie-map.svg
+        alt:
+          de: "Zwei Zonen: links grün du (Freunde, Kinder, Jugendliche, Familie mit Vorname), rechts blau Sie (Lehrkräfte, fremde Erwachsene, Personal mit Frau oder Herr und Nachname)."
+          en: "Two zones: green left box du (friends, kids, teens, family with first name) and blue right box Sie (teachers, unfamiliar adults, staff with Frau or Herr plus last name)."
+        caption:
+          de: "Peters Lindenberg-Heft: Im Zweifel immer zuerst Sie sagen."
+          en: "Peter's Notebook: when in doubt, start with formal Sie."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: note
+        title:
+          de: "Warum steht Sie immer groß?"
+          en: "Why is formal Sie always capitalized?"
+        blocks:
+          - type: text
+            text:
+              de: "Kleines *sie* bedeutet „she“ oder „they“ – nur großes **Sie** bedeutet das höfliche „you“. Familienfreunde bieten Kindern oft von sich aus das *du* an („Sag gern du zu mir“)."
+              en: "Lowercase *sie* means 'she' or 'they' — only capital **Sie** means polite 'you'. Family friends often offer *du* to kids themselves ('Sag gern du zu mir')."
+  - type: section
+    id: uebung
+    title:
+      de: "Die richtige Anrede wählen"
+      en: "Choose the Right Address"
+    blocks:
+      - type: matching
+        id: du-sie-zuordnen
+        text:
+          de: "Ordne jede Person in Lindenberg der passenden Anrede oder Frage zu."
+          en: "Match each person in Lindenberg to the greeting or question that fits them best."
+        pairs:
+          - left: { de: "Nadia (12, neue Mitschülerin)", en: "Nadia (12, new classmate)" }
+            right: { de: "Hallo! Woher kommst du?", en: "Hallo! Woher kommst du? (Where are you from?)" }
+          - left: { de: "Herr Braun (Klassenlehrer)", en: "Herr Braun (class teacher)" }
+            right: { de: "Guten Tag, Herr Braun!", en: "Guten Tag, Herr Braun!" }
+          - left: { de: "Mina (9, Lukas' Schwester)", en: "Mina (9, Lukas's sister)" }
+            right: { de: "Wie alt bist du?", en: "Wie alt bist du? (How old are you?)" }
+          - left: { de: "Die Verkäuferin beim Bäcker", en: "The assistant at the bakery" }
+            right: { de: "Können Sie mir helfen?", en: "Können Sie mir helfen? (Can you help me?)" }
+        explanation:
+          de: "Gleichaltrige und Kinder bekommen du, Lehrkräfte und fremde Erwachsene bekommen Sie."
+          en: "Peers and children get du; teachers and unfamiliar adults get formal Sie."
+      - type: true-false
+        id: du-sie-gross
+        text:
+          de: "Das höfliche „Sie“ wird im Deutschen auch mitten im Satz immer großgeschrieben."
+          en: "Formal 'Sie' is always capitalized in German, even in the middle of a sentence."
+        answer: true
+        explanation:
+          de: "Genau: Nur das große S zeigt den Unterschied zwischen dem höflichen „Sie“ (you) und „sie“ (she/they)."
+          en: "Exactly: the capital S distinguishes polite 'Sie' (you) from 'sie' (she/they)."
+      - type: language-task
+        id: du-sie-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle für jede Szene in Lindenberg die passende Anrede."
+          en: "Choose the right form of 'you' for each scene in Lindenberg."
+        items:
+          - cue: "Talking to classmate Nadia (12)"
+            target: "Hallo Nadia, woher kommst [du]?"
+            distractors: [["Sie", "sie"]]
+          - cue: "Asking a bus driver for help"
+            target: "Guten Tag, können [Sie] mir helfen?"
+            distractors: [["du", "sie"]]
+          - cue: "Talking to Lukas's sister Mina (9)"
+            target: "Mina, wie alt bist [du]?"
+            distractors: [["Sie", "sie"]]
+        explanation:
+          de: "Prima! Jetzt triffst du bei jedem Gespräch in Lindenberg den richtigen Ton. Auf der nächsten Seite übst du wichtige Höflichkeitsformeln am Tisch und im Bus."
+          en: "Well done! You can now pick the right tone with anyone in Lindenberg. Next up: everyday politeness phrases at the dinner table and on the bus."

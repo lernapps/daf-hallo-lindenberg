@@ -1,0 +1,161 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Uhrzeit, Wochentage und Datum"
+  en: "Time, Days, Months and Dates"
+description:
+  de: "Formelle und informelle Uhrzeiten in Deutschland verstehen sowie Wochentage, Monate und Daten nennen."
+  en: "Tell formal and informal time in Germany and name days of the week, months, and dates."
+competencies: [zeit-datum-wochentage]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Achtung bei „halb drei“!"
+      en: "Watch Out for 'halb drei'!"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du formelle und informelle Uhrzeiten sowie Wochentage, Monate und Daten auf Deutsch verstehen. Lukas sagt zu Peter: „Wir treffen uns um **halb drei** im Stadtpark.“ Im Deutschen blickt *halb* immer auf die **nächste volle Stunde** voraus!"
+          en: "After this page you can tell formal and informal time and use days, months, and dates in German. Lukas tells Peter: 'Wir treffen uns um **halb drei** im Stadtpark.' In German, *halb* always looks forward to the **upcoming hour**!"
+      - type: single-choice
+        id: halb-drei-test
+        text:
+          de: "Wann treffen sich Peter und Lukas, wenn Lukas „halb drei“ sagt?"
+          en: "When do Peter and Lukas meet if Lukas says 'halb drei'?"
+        options:
+          - text: { de: "14:30 Uhr", en: "2:30 p.m. (14:30)" }
+            correct: true
+            info:
+              {
+                de: "halb drei = halb auf dem Weg zu drei, also 14:30 Uhr.",
+                en: "halb drei = halfway to three, so 2:30 p.m. (14:30).",
+              }
+          - text: { de: "15:30 Uhr", en: "3:30 p.m. (15:30)" }
+            correct: false
+            info:
+              {
+                de: "15:30 Uhr heißt auf Deutsch „halb vier“ (halb auf dem Weg zu vier).",
+                en: "3:30 p.m. is 'halb vier' (halfway to four) in German.",
+              }
+          - text: { de: "15:00 Uhr", en: "3:00 p.m. (15:00)" }
+            correct: false
+            info:
+              {
+                de: "15:00 Uhr ist einfach „drei Uhr“ ohne „halb“.",
+                en: "3:00 p.m. is simply 'drei Uhr' without 'halb'.",
+              }
+        explanation:
+          de: "Im Deutschen zeigt „halb“ immer 30 Minuten vor der genannten Stunde an."
+          en: "In German, 'halb' always means 30 minutes before the named hour."
+  - type: section
+    id: uebersicht
+    title:
+      de: "Uhrzeiten, Wochentage und Monate"
+      en: "Clock Times, Weekdays and Months"
+    blocks:
+      - type: figure
+        image: images/clock-halb-drei.svg
+        alt:
+          de: "Analoguhr mit halbierter Stunde zur nächsten vollen Stunde und Merkkarte: um plus Uhrzeit, am plus Tag oder Datum, im plus Monat."
+          en: "Analog clock showing halb looking forward to the next hour, plus memory box: um + clock time, am + day/date, im + month."
+        caption:
+          de: "Peters Lindenberg-Heft: halb blickt vorwärts, und um/am/im steuern Termine."
+          en: "Peter's Notebook: halb looks forward, and um/am/im structure schedules."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: table
+        caption:
+          de: "Offizielle 24-Stunden-Zeit und Alltagszeit"
+          en: "Official 24-hour time vs. everyday time"
+        header:
+          - { de: "Uhr", en: "Clock" }
+          - { de: "Formell (Fahrplan)", en: "Official (24h)" }
+          - { de: "Informell (Alltag)", en: "Everyday" }
+        rows:
+          - - { de: "08:15", en: "08:15" }
+            - { de: "acht Uhr fünfzehn", en: "acht Uhr fünfzehn" }
+            - { de: "Viertel nach acht", en: "Viertel nach acht" }
+          - - { de: "15:30", en: "15:30" }
+            - { de: "fünfzehn Uhr dreißig", en: "fünfzehn Uhr dreißig" }
+            - { de: "halb vier", en: "halb vier" }
+          - - { de: "16:45", en: "16:45" }
+            - { de: "sechzehn Uhr fünfundvierzig", en: "sechzehn Uhr fünfundvierzig" }
+            - { de: "Viertel vor fünf", en: "Viertel vor fünf" }
+      - type: note
+        title:
+          de: "Wochentage, Monate und Datum"
+          en: "Days, Months and Dates in Germany"
+        blocks:
+          - type: text
+            text:
+              de: "**Wochentage:** Montag (Mon), Dienstag (Tue), Mittwoch (Wed), Donnerstag (Thu), Freitag (Fri), Samstag (Sat), Sonntag (Sun). **Monate:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. **Datum:** mit Punkt + **am** (*am 14. Mai* = „am vierzehnten Mai“, *am 3. Oktober* = „am dritten Oktober“)."
+              en: "**Days:** Montag (Monday), Dienstag (Tuesday), Mittwoch (Wednesday), Donnerstag (Thursday), Freitag (Friday), Samstag (Saturday), Sonntag (Sunday). **Months:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. **Dates:** use a dot + **am** (*am 14. Mai* = on 14 May, *am 3. Oktober* = on 3 October)."
+  - type: section
+    id: uebung
+    title:
+      de: "Termine im Kalender prüfen"
+      en: "Practice Times and Dates"
+    blocks:
+      - type: matching
+        id: uhrzeit-paare
+        text:
+          de: "Ordne jede informelle Uhrzeit der richtigen digitalen Uhrzeit zu."
+          en: "Match each everyday German time to the right digital clock time."
+        pairs:
+          - left: { de: "Viertel nach neun", en: "Viertel nach neun" }
+            right: { de: "09:15", en: "09:15" }
+          - left: { de: "halb acht", en: "halb acht" }
+            right: { de: "07:30", en: "07:30" }
+          - left: { de: "Viertel vor elf", en: "Viertel vor elf" }
+            right: { de: "10:45", en: "10:45" }
+          - left: { de: "halb sechs", en: "halb sechs" }
+            right: { de: "17:30", en: "17:30" }
+        explanation:
+          de: "Viertel nach = :15, halb = :30 vor der nächsten Stunde, Viertel vor = :45."
+          en: "Viertel nach = :15, halb = :30 before the named hour, Viertel vor = :45."
+      - type: language-task
+        id: zeit-datum-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle die passende Präposition (um, am, im) für Peters Kalender."
+          en: "Choose the right preposition (um, am, im) for Peter's calendar."
+        items:
+          - cue: "Football practice is on Monday."
+            target: "Das Fußballtraining ist [am] Montag."
+            distractors: [["im", "um"]]
+          - cue: "Class starts at 8:00."
+            target: "Der Unterricht beginnt [um] 8:00 Uhr."
+            distractors: [["am", "im"]]
+          - cue: "Peter's birthday is on 14 May."
+            target: "Peter hat [am] 14. Mai Geburtstag."
+            distractors: [["im", "um"]]
+          - cue: "The autumn break is in October."
+            target: "Die Ferien sind [im] Oktober."
+            distractors: [["am", "um"]]
+        explanation:
+          de: "Merke: um + Uhrzeit, am + Tag/Datum, im + Monat."
+          en: "Remember: um + clock time, am + day/date, im + month."
+      - type: language-task
+        id: wochentage-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze die fehlenden Wochentage und Monate in Nadias Plan."
+          en: "Fill in the missing weekdays and months in Nadia's plan."
+        items:
+          - source: "On Wednesday I have swimming."
+            target: "Am [Mittwoch] habe ich Schwimmen."
+          - source: "On Saturday we go to the park."
+            target: "Am [Samstag] gehen wir in den Park."
+          - source: "In January it is cold in Germany."
+            target: "Im [Januar] ist es in Deutschland kalt."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Wochentage und Monate sind Nomen und beginnen im Deutschen immer groß."
+          en: "Weekdays and months are nouns in German, so always capitalize them."
+        explanation:
+          de: "Stark! Damit steht Peters Stundenplan. Auf der nächsten Seite packt Peter seine Schulsachen bei Herrn Braun aus."
+          en: "Well done! Peter's calendar is ready. Next, Peter unpacks his school things in Herr Braun's class."

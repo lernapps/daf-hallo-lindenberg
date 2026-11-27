@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Hallo und Tschüss: Erste Begrüßungen"
+  en: "Hello and Goodbye: First Greetings"
+description:
+  de: "Menschen in Deutschland begrüßen, verabschieden und Name, Alter sowie Herkunft nennen."
+  en: "Greet people, say goodbye, and give your name, age, and home country in Germany."
+competencies: [begruessung-vorstellung]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Ankunft am Bahnhof Lindenberg"
+      en: "Arriving at Lindenberg Station"
+    blocks:
+      - type: text
+        text:
+          de: "Peter (12) zieht mit seinen Eltern für ein Jahr nach Lindenberg! Um **15:00 Uhr** steigen sie am Bahnhof aus dem Zug – auf dem Bahnsteig warten schon die Familienfreunde **Frau Weber** (*Ms. Weber*), Lukas (12) und Mina (9)."
+          en: "Peter (12) is moving to Lindenberg with his parents for a year! At **3:00 p.m. (15:00)** they step off the train — waiting on the platform are family friends **Frau Weber** (*Ms. Weber*), Lukas (12), and Mina (9)."
+      - type: single-choice
+        id: begruessung-nachmittag
+        text:
+          de: "Es ist 15:00 Uhr am Nachmittag. Nutze die Ähnlichkeit zum Englischen (Morgen ≈ morning, Nacht ≈ night): Welche höfliche Begrüßung passt zu Frau Weber?"
+          en: "It is 3:00 p.m. in the afternoon. Use the English clues (Morgen ≈ morning, Nacht ≈ night): which polite greeting fits Frau Weber?"
+        options:
+          - text:
+              de: "Guten Tag, Frau Weber!"
+              en: "Guten Tag, Frau Weber!"
+            correct: true
+            info:
+              de: "Guten Tag („Good day“) nutzt man in Deutschland von mittags bis zum frühen Abend."
+              en: "Guten Tag ('Good day') is the standard polite greeting from midday to early evening."
+          - text:
+              de: "Guten Morgen, Frau Weber!"
+              en: "Guten Morgen, Frau Weber!"
+            correct: false
+            info:
+              de: "Guten Morgen gilt nur am Morgen und Vormittag (bis etwa 11 Uhr), nicht um 15 Uhr."
+              en: "Guten Morgen is only used in the morning (until about 11:00), not at 3:00 p.m."
+          - text:
+              de: "Gute Nacht, Frau Weber!"
+              en: "Gute Nacht, Frau Weber!"
+            correct: false
+            info:
+              de: "Gute Nacht sagt man beim Schlafengehen, nicht wenn man jemanden am Bahnhof trifft."
+              en: "Gute Nacht is only said before going to sleep, not when meeting someone at the station."
+        explanation:
+          de: "Höfliche Begrüßungen folgen in Deutschland der Tageszeit: Guten Morgen (morgens), Guten Tag (tagsüber) und Guten Abend (abends)."
+          en: "Polite greetings in Germany follow the time of day: Guten Morgen (morning), Guten Tag (daytime), and Guten Abend (evening)."
+  - type: section
+    id: wortschatz
+    title:
+      de: "Begrüßen und sich vorstellen"
+      en: "Greetings and Introducing Yourself"
+    blocks:
+      - type: text
+        text:
+          de: "Die erste Karte in Peters **Lindenberg-Heft** ordnet jede Begrüßung ihrer Tageszeit zu (abends nach 22 Uhr bleibt man bei *Guten Abend*, *Gute Nacht* gilt erst zum Schlafen). Unter Freunden passt jederzeit **Hallo!**."
+          en: "The first card in **Peter's Notebook** matches each polite greeting to its time of day (after 10 p.m. people still say *Guten Abend*; *Gute Nacht* is only for bedtime). With peers, **Hallo!** works any time."
+      - type: figure
+        image: images/station-clock-greetings.svg
+        alt:
+          de: "Vier Zeitkarten für Begrüßungen: 06–11 Morgen Guten Morgen, 11–18 Tag Guten Tag, 18–22 Abend Guten Abend, Schlafen Gute Nacht; informell Hallo und Tschüss, formell Auf Wiedersehen."
+          en: "Four time cards for German greetings: 06–11 Morning Guten Morgen, 11–18 Daytime Guten Tag, 18–22 Evening Guten Abend, Bedtime Gute Nacht; informal Hallo and Tschüss; formal bye Auf Wiedersehen."
+        caption:
+          de: "Peters Lindenberg-Heft: Welche Begrüßung zu welcher Uhrzeit passt."
+          en: "Peter's Notebook: matching each greeting to the time of day."
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own drawing"
+        licence: CC0-1.0
+      - type: note
+        title:
+          de: "Gut zu wissen: ß, Großschreibung und Gute Nacht"
+          en: "Good to know: ß, capital letters, and Gute Nacht"
+        blocks:
+          - type: text
+            text:
+              de: "Der Buchstabe **ß** in *heiße* klingt wie ein scharfes „ss“ – du findest ihn unter **Sonderzeichen**. Alle deutschen Nomen schreibt man groß (*Jahre* = years, *alt* = old). Und *Gute Nacht* hat kein „-n“, weil *die Nacht* weiblich ist (warum, lernst du später)."
+              en: "The letter **ß** in *heiße* sounds like a sharp 'ss' — click **Special characters** below an input to type it. All German nouns are capitalized (*Jahre* = years, *alt* = old). And *Gute Nacht* has no '-n' because *Nacht* is feminine (you will see why later)."
+      - type: vocabulary
+        caption:
+          de: "Peters erste Wendungen am Bahnhof"
+          en: "Peter's first phrases at the station"
+        languages: { source: en, target: de }
+        entries:
+          - target: "Hallo! / Guten Tag!"
+            source: "Hi! / Good day! (polite)"
+            example: { target: "Hallo Mina! Guten Tag, Frau Weber!", source: "Hi Mina! Hello, Frau Weber!" }
+          - target: "Tschüss! / Auf Wiedersehen!"
+            source: "Bye! (informal) / Goodbye! (formal)"
+          - target: "Ich heiße …"
+            source: "My name is …"
+            example: { target: "Ich heiße Lukas.", source: "My name is Lukas." }
+          - target: "Ich komme aus …"
+            source: "I come from …"
+            example: { target: "Ich komme aus Deutschland.", source: "I come from Germany." }
+          - target: "Ich bin … Jahre alt."
+            source: "I am … years old."
+            example: { target: "Ich bin 9 Jahre alt.", source: "I am 9 years old." }
+          - target: "Deutschland"
+            source: "Germany"
+  - type: section
+    id: uebung
+    title:
+      de: "Erste Gespräche üben"
+      en: "Practice Your First Conversations"
+    blocks:
+      - type: matching
+        id: begruessung-paare
+        text:
+          de: "Ordne jede deutsche Wendung der passenden Bedeutung zu."
+          en: "Match each German phrase to its English meaning."
+        pairs:
+          - left: { de: "Guten Abend!", en: "Guten Abend!" }
+            right: { de: "Good evening!", en: "Good evening!" }
+          - left: { de: "Auf Wiedersehen!", en: "Auf Wiedersehen!" }
+            right: { de: "Goodbye! (formal)", en: "Goodbye! (formal)" }
+          - left: { de: "Ich komme aus Deutschland.", en: "Ich komme aus Deutschland." }
+            right: { de: "I come from Germany.", en: "I come from Germany." }
+          - left: { de: "Tschüss!", en: "Tschüss!" }
+            right: { de: "Bye! (informal)", en: "Bye! (informal)" }
+        explanation:
+          de: "Auf Wiedersehen nutzt man gegenüber Erwachsenen, Tschüss gegenüber Freunden und Gleichaltrigen."
+          en: "Use Auf Wiedersehen with adults in formal situations and Tschüss with friends and peers."
+      - type: language-task
+        id: vorstellung-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Peters Vorstellung auf dem Bahnsteig."
+          en: "Complete Peter's introduction on the platform."
+        items:
+          - source: "Hi! My name is Peter."
+            target: "[Hallo|Guten Tag]! Ich [heiße] Peter."
+          - source: "I come from England."
+            target: "Ich [komme] aus England."
+          - source: "I am 12 years old."
+            target: "Ich [bin] 12 Jahre [alt]."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Nutze die Verben aus der Wortliste oben und den Button „Sonderzeichen“ für ß."
+          en: "Use the verbs from the phrase list above and the 'Special characters' button for ß."
+        explanation:
+          de: "Im Deutschen gehört bei der Altersangabe mit „Jahre“ immer „alt“ ans Ende: Ich bin 12 Jahre alt."
+          en: "In German, when giving your age with 'Jahre', always include 'alt' at the end: Ich bin 12 Jahre alt."
+      - type: language-task
+        id: vorstellung-schreiben
+        languages: { source: en, target: de }
+        mode: write
+        task:
+          de: "Jetzt stellt sich Peters zukünftige Mitschülerin Nadia (12) vor. Schreibe beide Sätze auf Deutsch."
+          en: "Now Peter's future classmate Nadia (12) introduces herself. Write both sentences in German."
+        items:
+          - source: "My name is Nadia."
+            target: "Ich (heiße|bin) Nadia."
+            mistakes:
+              - answer: "Ich heisse Nadia."
+                message:
+                  de: "In Deutschland schreibt man „heiße“ mit ß (nutze den Button „Sonderzeichen“)."
+                  en: "In Germany, 'heiße' is spelled with ß (click the 'Special characters' button below)."
+              - answer: "Ich heisse Nadia"
+                message:
+                  de: "In Deutschland schreibt man „heiße“ mit ß (nutze den Button „Sonderzeichen“)."
+                  en: "In Germany, 'heiße' is spelled with ß (click the 'Special characters' button below)."
+              - answer: "Mein Name ist Nadia."
+                message:
+                  de: "Verständlich, aber im Alltag sagt man meistens „Ich heiße Nadia.“"
+                  en: "Understandable, though in everyday German people usually say 'Ich heiße Nadia.'"
+          - source: "I come from Germany."
+            target: "Ich komme aus Deutschland."
+            mistakes:
+              - answer: "Ich bin aus Deutschland."
+                message:
+                  de: "Mit „komme aus“ klingt es auf Deutsch am natürlichsten."
+                  en: "Using 'komme aus' is the most natural German phrasing here."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Beginne beide Sätze mit „Ich …“ und denke an „Deutschland“ für Germany."
+          en: "Start both sentences with 'Ich …' and use 'Deutschland' for Germany."
+        explanation:
+          de: "Stark! Du hast die erste Karte in Peters Lindenberg-Heft abgeschlossen. Als Nächstes in diesem Kapitel folgt: Wann sagt man „du“ und wann „Sie“?"
+          en: "Great work! You completed the first card in Peter's Notebook. Coming up next in this chapter: when to use informal 'du' vs. formal 'Sie'."

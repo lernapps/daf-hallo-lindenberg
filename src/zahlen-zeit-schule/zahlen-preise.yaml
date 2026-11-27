@@ -1,0 +1,164 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Zahlen, Preise und Telefonnummern"
+  en: "Numbers, Prices and Phone Numbers"
+description:
+  de: "Zahlen auf Deutsch verstehen, Preise in Euro und Cent lesen und Telefonnummern nennen."
+  en: "Understand German numbers, read prices in euros and cents, and share phone numbers."
+competencies: [zahlen-preise]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Brötchen und Busticket in Lindenberg"
+      en: "Bread Rolls and Bus Tickets in Lindenberg"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du Zahlen von 0 bis 100, Preise in Euro und Cent sowie Telefonnummern auf Deutsch verstehen. Morgens kauft Peter beim Bäcker zwei *Brötchen* und löst danach im Schulbus eine Fahrkarte. Im Deutschen spricht man zweistellige Zahlen ab 21 **erst Einer, dann Zehner**."
+          en: "After this page you can understand German numbers 0–100, prices in euros and cents, and phone numbers. In the morning Peter buys two *Brötchen* (bread rolls) at the bakery and then gets a ticket on the school bus. From 21 upward, German speaks **ones first, then tens**."
+      - type: single-choice
+        id: zahl-drehen
+        text:
+          de: "Ein Busticket kostet 2,45 €. Wie spricht man die Zahl 45 auf Deutsch?"
+          en: "A bus ticket costs 2,45 € (two euros forty-five). How do you say 45 in German?"
+        options:
+          - text: { de: "fünfundvierzig", en: "fünfundvierzig" }
+            correct: true
+            info:
+              {
+                de: "Erst die Einerstelle (fünf), dann „und“, dann die Zehnerstelle (vierzig).",
+                en: "Ones first (fünf), then 'und', then tens (vierzig).",
+              }
+          - text: { de: "vierundfünfzig", en: "vierundfünfzig" }
+            correct: false
+            info:
+              {
+                de: "vierundfünfzig ist 54 – ein typischer Zahlendreher!",
+                en: "vierundfünfzig is 54 — a classic digit swap!",
+              }
+          - text: { de: "vierzigfünf", en: "vierzigfünf" }
+            correct: false
+            info:
+              {
+                de: "Im Deutschen stehen die Einer vor den Zehnern mit „und“ dazwischen.",
+                en: "German puts ones before tens linked by 'und'.",
+              }
+        explanation:
+          de: "Ab 21 nennt das Deutsche immer zuerst die Einerstelle und dann die Zehnerstelle."
+          en: "From 21 up, German always names the ones digit before the tens digit."
+  - type: section
+    id: wortschatz
+    title:
+      de: "Zahlen und Euro-Preise"
+      en: "Numbers and Euro Prices"
+    blocks:
+      - type: figure
+        image: images/number-swap-diagram.svg
+        alt:
+          de: "Schema für zweistellige Zahlen: 24 wird als vier-und-zwanzig gesprochen (Einer plus und plus Zehner), und Preisschild 1,24 € mit deutschem Komma."
+          en: "Diagram of German two-digit numbers: 24 spoken as vier-und-zwanzig (ones + und + tens), plus price tag 1,24 € using a German decimal comma."
+        caption:
+          de: "Peters Lindenberg-Heft: Einer vor Zehner und Komma bei Euro-Preisen."
+          en: "Peter's Notebook: ones before tens and the comma in German Euro prices."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: vocabulary
+        caption:
+          de: "Wichtige Zahlen und Wendungen beim Einkaufen"
+          en: "Key numbers and shopping phrases"
+        languages: { source: en, target: de }
+        entries:
+          - target: "null, eins, zwei, drei, vier, fünf"
+            source: "0, 1, 2, 3, 4, 5"
+          - target: "sechs, sieben, acht, neun, zehn"
+            source: "6, 7, 8, 9, 10"
+          - target: "elf, zwölf, dreizehn, sechzehn, siebzehn, zwanzig"
+            source: "11, 12, 13, 16, 17, 20"
+            note:
+              de: "16 (sechzehn) und 17 (siebzehn) sind kurz; aus eins wird in 21/31 „ein-“ (einunddreißig)."
+              en: "16 (sechzehn) and 17 (siebzehn) shorten the stem; eins drops -s in 21/31 (einunddreißig)."
+          - target: "dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig, hundert"
+            source: "30, 40, 50, 60, 70, 80, 90, 100"
+            note:
+              de: "Nur dreißig wird mit ß geschrieben; alle anderen Zehner enden auf -zig."
+              en: "Only dreißig (30) uses ß; all other tens end in -zig."
+          - target: "die Telefonnummer"
+            source: "the phone number"
+            example:
+              {
+                target: "Meine Telefonnummer ist null-eins-sieben-zwei, dreißig, zwölf.",
+                source: "Phone numbers are read digit by digit or in two-digit pairs: 0172 30 12.",
+              }
+          - target: "Was kostet das?"
+            source: "How much does that cost?"
+            example: { target: "Das kostet drei Euro zwanzig.", source: "That costs three euros twenty." }
+  - type: section
+    id: uebung
+    title:
+      de: "Zahlen und Preise sicher anwenden"
+      en: "Practice Numbers and Prices"
+    blocks:
+      - type: number
+        id: preis-rechnen
+        text:
+          de: "Peter kauft eine Fahrkarte für „drei Euro zwanzig“ und ein Brötchen für „achtzig Cent“. Wie viel Euro zahlt Peter zusammen?"
+          en: "Peter buys a ticket for 'drei Euro zwanzig' and a roll for 'achtzig Cent'. How many euros does Peter pay in total?"
+        answer: 4
+        tolerance: 0
+        unit: { de: "€", en: "€" }
+        explanation:
+          de: "3,20 € + 0,80 € = 4,00 €. In Deutschland trennt ein Komma Euro und Cent."
+          en: "3,20 € + 0,80 € = 4,00 €. Germany uses a comma to separate euros and cents."
+      - type: matching
+        id: zahlen-zuordnen
+        text:
+          de: "Ordne jede deutsche Zahl oder Telefonnummer den richtigen Ziffern zu."
+          en: "Match each German number or spoken phone number to the right digits."
+        pairs:
+          - left: { de: "siebzehn", en: "siebzehn" }
+            right: { de: "17", en: "17" }
+          - left: { de: "einunddreißig", en: "einunddreißig" }
+            right: { de: "31", en: "31" }
+          - left: { de: "siebenundsechzig", en: "siebenundsechzig" }
+            right: { de: "67", en: "67" }
+          - left: { de: "null-eins-sieben-zwei", en: "null-eins-sieben-zwei (mobile prefix)" }
+            right: { de: "0172", en: "0172" }
+        explanation:
+          de: "Lies von hinten nach vorn: siebenundsechzig = 7 + 60 = 67."
+          en: "Read ones first, then tens: siebenundsechzig = 7 + 60 = 67."
+      - type: language-task
+        id: zahlen-schreiben
+        languages: { source: en, target: de }
+        mode: write
+        task:
+          de: "Schreibe die beiden Zahlen als deutsches Wort (ohne Leerzeichen)."
+          en: "Write both numbers as a single German word."
+        items:
+          - source: "25"
+            target: "fünfundzwanzig"
+            mistakes:
+              - answer: "zwanzigundfünf"
+                message:
+                  de: "Im Deutschen stehen die Einer zuerst: fünf + und + zwanzig."
+                  en: "German puts the ones digit first: fünf + und + zwanzig."
+          - source: "30"
+            target: "dreißig"
+            mistakes:
+              - answer: "dreizig"
+                message:
+                  de: "30 ist die Ausnahme und wird mit ß geschrieben (nutze „Sonderzeichen“)."
+                  en: "30 is the one exception spelled with ß (use the Special characters button)."
+              - answer: "dreissig"
+                message:
+                  de: "In Deutschland schreibt man 30 mit ß: dreißig."
+                  en: "In Germany, 30 is spelled with ß: dreißig."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Nutze bei 25 die Reihenfolge Einer + und + Zehner, und bei 30 das ß."
+          en: "For 25 use ones + und + tens, and remember the ß in 30."
+        explanation:
+          de: "Super! Jetzt kennst du Zahlen und Preise – auf der nächsten Seite trägt Peter Uhrzeiten und Wochentage in seinen Kalender ein."
+          en: "Great! Now that you know numbers and prices, next Peter adds times and days to his Peter's Notebook calendar."

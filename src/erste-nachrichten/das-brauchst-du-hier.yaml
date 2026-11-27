@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Das brauchst du hier"
+  en: "What You Need Here"
+description:
+  de: "Kurze Erinnerung vor den Nachrichten: Das Verb liebt Platz 2!"
+  en: "Quick refresher before writing messages: the verb loves spot #2!"
+recap: daf/verb-zweitstellung
+blocks:
+  - type: text
+    text:
+      de: "Vor deinen eigenen Chatnachrichten eine Mini-Regel – Verb-second word order (Verb-Zweitstellung): Das Verb liebt Platz 2, auch wenn Zeit oder Ort am Satzanfang stehen."
+      en: "Before you write your own messages, one quick rule — Verb-second word order: the verb loves spot #2! I can place the conjugated verb in second position in German statements, including when time or place comes first."
+  - type: note
+    title:
+      de: "Kurz-Check im Kopf"
+      en: "Quick mental check"
+    blocks:
+      - type: text
+        text:
+          de: "Vergleiche beide Sätze: **Ich gehe** um 15 Uhr ins Eiscafé. → **Um 15 Uhr gehe ich** ins Eiscafé. Das Verb (**gehe**) bleibt immer auf Platz 2!"
+          en: "Compare both sentences: **Ich gehe** um 15 Uhr ins Eiscafé. → **Um 15 Uhr gehe ich** ins Eiscafé. The verb (**gehe**) always stays in spot #2!"
