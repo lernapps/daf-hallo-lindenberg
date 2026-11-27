@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 202" role="img" aria-label="Analog clock showing 3:30 (halb vier) to explain German halb looking forward to the next hour, plus um for clock time, am for days and dates, im for months">
+  <rect width="340" height="202" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Peter's Notebook · Clock &amp; Calendar</text>
+
+  <circle cx="76" cy="100" r="46" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
+  <path d="M 76 100 L 76 54 A 46 46 0 0 1 76 146 Z" fill="#dbeafe"/>
+  <line x1="76" y1="100" x2="103" y2="108" stroke="#0f172a" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="76" y1="100" x2="76" y2="136" stroke="#1d4ed8" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="76" cy="100" r="3" fill="#0f172a"/>
+  <text x="76" y="66" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#0f172a">12</text>
+  <text x="112" y="104" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#0f172a">3</text>
+  <text x="76" y="142" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#0f172a">6</text>
+  <text x="40" y="104" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#0f172a">9</text>
+
+  <rect x="136" y="42" width="188" height="48" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="144" y="61" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">halb = halfway TO next hour</text>
+  <text x="144" y="79" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">Clock: halb vier = 15:30 (not 16:30)</text>
+
+  <rect x="136" y="98" width="188" height="60" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="144" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#78350f">um + clock time (um 8 Uhr)</text>
+  <text x="144" y="133" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#78350f">am + day / date (am 14. Mai)</text>
+  <text x="144" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#78350f">im + month (im Oktober)</text>
+</svg>

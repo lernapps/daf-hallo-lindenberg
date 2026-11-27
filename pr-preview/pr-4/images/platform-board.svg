@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 208" role="img" aria-label="Station departure board with train icon for class trip showing four signal words: Gleis (platform), Abfahrt (departure), Zeit (clock time), Verspätung (delay)">
+  <rect width="340" height="208" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <rect x="16" y="11" width="24" height="16" rx="4" fill="#38bdf8"/>
+  <rect x="20" y="14" width="7" height="6" rx="1" fill="#0f172a"/>
+  <rect x="29" y="14" width="7" height="6" rx="1" fill="#0f172a"/>
+  <circle cx="21" cy="29" r="2.2" fill="#f8fafc"/>
+  <circle cx="35" cy="29" r="2.2" fill="#f8fafc"/>
+  <text x="48" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700" fill="#f8fafc">Bahnhof Lindenberg · Abfahrt</text>
+
+  <rect x="14" y="38" width="312" height="44" rx="6" fill="#1e3a8a" stroke="#60a5fa"/>
+  <text x="24" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">RE 30 → Kassel (Zoo-Ausflug)</text>
+  <text x="24" y="73" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#dbeafe">Abfahrt 13:15 · +5 Min. Verspätung · Gleis 2</text>
+
+  <rect x="14" y="94" width="150" height="32" rx="6" fill="#fef3c7"/>
+  <text x="22" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#78350f">1. Gleis = platform</text>
+
+  <rect x="176" y="94" width="150" height="32" rx="6" fill="#dcfce7"/>
+  <text x="184" y="114" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#14532d">2. Abfahrt = departure</text>
+
+  <rect x="14" y="134" width="150" height="32" rx="6" fill="#dbeafe"/>
+  <text x="22" y="154" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">3. Zeit = clock time</text>
+
+  <rect x="176" y="134" width="150" height="32" rx="6" fill="#ffe4e6"/>
+  <text x="184" y="154" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#9f1239">4. Verspätung = delay</text>
+</svg>
