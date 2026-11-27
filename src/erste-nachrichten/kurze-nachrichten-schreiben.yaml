@@ -43,8 +43,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "„Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Café am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter“"
-              en: "'Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Café am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter'"
+              de: "„Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter“"
+              en: "'Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter'"
   - type: section
     id: uebung
     title:
@@ -91,8 +91,8 @@ blocks:
         items:
           - source: "Do you have time on Saturday?"
             target: "Hast du am Samstag [Zeit]?"
-          - source: "At 3:00 p.m. I am going to the café."
-            target: "Um 15:00 Uhr [gehe] ich ins Café."
+          - source: "At 3:00 p.m. I am going to the ice-cream parlor."
+            target: "Um 15:00 Uhr [gehe] ich ins Eiscafé."
           - source: "Best regards, Peter"
             target: "Viele [Grüße], Peter"
         form:

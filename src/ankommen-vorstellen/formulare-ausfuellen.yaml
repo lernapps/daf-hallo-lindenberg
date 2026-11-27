@@ -60,8 +60,8 @@ blocks:
       - type: figure
         image: images/registration-form.svg
         alt:
-          de: "Deutsches Anmeldeformular mit den Feldern Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2011, Straße und Hausnummer Lindenstraße 12, PLZ und Wohnort 35037 Lindenberg."
-          en: "German registration form with fields Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2011, Straße and Hausnummer Lindenstraße 12, PLZ and Wohnort 35037 Lindenberg."
+          de: "Deutsches Anmeldeformular mit den Feldern Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2014, Straße und Hausnummer Lindenstraße 12, PLZ und Wohnort 35037 Lindenberg."
+          en: "German registration form with fields Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2014, Straße and Hausnummer Lindenstraße 12, PLZ and Wohnort 35037 Lindenberg."
         caption:
           de: "Peters Ankommens-Ordner: die wichtigsten Felder eines deutschen Formulars."
           en: "Peter's Arrival Folder: key fields on a German registration form."
@@ -86,15 +86,15 @@ blocks:
           - left: { de: "Wohnort", en: "Wohnort" }
             right: { de: "Lindenberg", en: "Lindenberg" }
           - left: { de: "Geburtsdatum", en: "Geburtsdatum" }
-            right: { de: "08.11.2010", en: "08.11.2010" }
+            right: { de: "08.11.2013", en: "08.11.2013" }
         explanation:
           de: "Vorname = Rufname, Nachname = Familienname, PLZ = fünfstellige Postleitzahl, Wohnort = Stadt oder Ort."
           en: "Vorname = first name, Nachname = last name, PLZ = 5-digit postal code, Wohnort = town."
       - type: true-false
         id: formular-datum
         text:
-          de: "Das deutsche Geburtsdatum „04.07.2011“ bedeutet den 4. Juli 2011 (nicht den 7. April)."
-          en: "The German date of birth '04.07.2011' means 4 July 2011 (not 7 April)."
+          de: "Das deutsche Geburtsdatum „04.07.2014“ bedeutet den 4. Juli 2014 (nicht den 7. April)."
+          en: "The German date of birth '04.07.2014' means 4 July 2014 (not 7 April)."
         answer: true
         explanation:
           de: "Richtig: In Deutschland steht immer zuerst der Tag (04), dann der Monat (07 = Juli), dann das Jahr."

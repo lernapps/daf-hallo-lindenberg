@@ -36,7 +36,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 ## Content structure
 
-- **Story world (fixed across all pages):** **Peter** (15, English-speaking exchange student spending a year in **Lindenberg**, a fictional mid-sized town in central Germany), host family **Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 15, **Mina** 12), German teacher **Herr Braun**, classmate **Nadia** (15), visiting friend **Alex** (Ch 3.3). Recurring artifact: Peter's growing **Arrival Folder** (*Ankommens-Ordner*).
+- **Story world (fixed across all pages):** **Peter** (12, English-speaking student living in **Lindenberg**, a fictional mid-sized town in central Germany), host family **Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 12, **Mina** 9), German teacher **Herr Braun**, classmate **Nadia** (12), visiting friend **Alex** (Ch 3.3). Recurring artifact: Peter's growing **Arrival Folder** (*Ankommens-Ordner*).
 - **Page flow (1 competency per page, max 350 reading words, max 4 consecutive text blocks):**
   1. `einstieg` (Opening): 1–2 sentence Lindenberg scene + an immediate, easy opening task before the main explanation.
   2. `wortschatz` / `regel` / `beispiel` (Introduce): Arrival Folder SVG figure and/or `vocabulary` block (every German noun with its article) + concise rule/note naming the main English-speaker trap.

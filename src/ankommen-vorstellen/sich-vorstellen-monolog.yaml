@@ -25,7 +25,7 @@ blocks:
         items:
           - { de: "Hallo zusammen!", en: "Hallo zusammen!" }
           - { de: "Ich heiße Nadia und komme aus Deutschland.", en: "Ich heiße Nadia und komme aus Deutschland." }
-          - { de: "Ich bin 15 Jahre alt und wohne in Lindenberg.", en: "Ich bin 15 Jahre alt und wohne in Lindenberg." }
+          - { de: "Ich bin 12 Jahre alt und wohne in Lindenberg.", en: "Ich bin 12 Jahre alt und wohne in Lindenberg." }
           - { de: "Mein Hobby ist Schwimmen.", en: "Mein Hobby ist Schwimmen." }
         explanation:
           de: "Starte mit einer Begrüßung, nenne dann Name, Herkunft, Alter und Wohnort, und schließe mit deinem Hobby ab."
@@ -53,8 +53,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 15 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.“"
-              en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 15 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.'"
+              de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.“"
+              en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.'"
       - type: vocabulary
         caption:
           de: "Neue Wörter für deine Vorstellung"
@@ -83,27 +83,27 @@ blocks:
           de: "Welcher Satz gibt das Alter auf Deutsch vollständig und richtig an?"
           en: "Which sentence gives an age completely and correctly in German?"
         options:
-          - text: { de: "Ich bin 14 Jahre alt.", en: "Ich bin 14 Jahre alt." }
+          - text: { de: "Ich bin 11 Jahre alt.", en: "Ich bin 11 Jahre alt." }
             correct: true
             info:
               {
                 de: "Mit „Jahre“ steht im Deutschen immer „alt“ am Ende.",
                 en: "When using 'Jahre', German always puts 'alt' at the end.",
               }
-          - text: { de: "Ich habe 14 Jahre.", en: "Ich habe 14 Jahre." }
+          - text: { de: "Ich habe 11 Jahre.", en: "Ich habe 11 Jahre." }
             correct: false
             info:
               {
                 de: "Im Deutschen benutzt man beim Alter „bin“ (sein), nicht „habe“.",
                 en: "German uses 'bin' (am) for age, never 'habe' (have).",
               }
-          - text: { de: "Ich bin 14 Jahre.", en: "Ich bin 14 Jahre." }
+          - text: { de: "Ich bin 11 Jahre.", en: "Ich bin 11 Jahre." }
             correct: false
             info:
               { de: "Hier fehlt das Wort „alt“ am Satzende.", en: "This is missing 'alt' at the end of the sentence." }
         explanation:
-          de: "Merke: „Ich bin 14.“ oder „Ich bin 14 Jahre alt.“ – immer mit „bin“!"
-          en: "Remember: 'Ich bin 14.' or 'Ich bin 14 Jahre alt.' — always with 'bin'!"
+          de: "Merke: „Ich bin 11.“ oder „Ich bin 11 Jahre alt.“ – immer mit „bin“!"
+          en: "Remember: 'Ich bin 11.' or 'Ich bin 11 Jahre alt.' — always with 'bin'!"
       - type: language-task
         id: vorstellung-saetze
         languages: { source: en, target: de }
@@ -132,20 +132,20 @@ blocks:
         languages: { source: en, target: de }
         mode: write
         task:
-          de: "Schreibe zwei kurze Vorstellungssätze für Mina (12, wohnt in Lindenberg)."
-          en: "Write two short introduction sentences for Mina (12, lives in Lindenberg)."
+          de: "Schreibe zwei kurze Vorstellungssätze für Mina (9, wohnt in Lindenberg)."
+          en: "Write two short introduction sentences for Mina (9, lives in Lindenberg)."
         items:
-          - source: "I am 12 years old."
-            target: "Ich bin (12|zwölf) Jahre alt."
+          - source: "I am 9 years old."
+            target: "Ich bin (9|neun) Jahre alt."
             mistakes:
-              - answer: "Ich habe 12 Jahre alt."
+              - answer: "Ich habe 9 Jahre alt."
                 message:
                   de: "Beim Alter sagt man im Deutschen „Ich bin … Jahre alt“, nicht „Ich habe“."
                   en: "For age, German uses 'Ich bin … Jahre alt', not 'Ich habe'."
-              - answer: "Ich bin 12 Jahre."
+              - answer: "Ich bin 9 Jahre."
                 message:
-                  de: "Ergänze „alt“ am Satzende: Ich bin 12 Jahre alt."
-                  en: "Add 'alt' at the end: Ich bin 12 Jahre alt."
+                  de: "Ergänze „alt“ am Satzende: Ich bin 9 Jahre alt."
+                  en: "Add 'alt' at the end: Ich bin 9 Jahre alt."
           - source: "I live in Lindenberg."
             target: "Ich (wohne|lebe) in Lindenberg."
             mistakes:

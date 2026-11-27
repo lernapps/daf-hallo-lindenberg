@@ -46,7 +46,7 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
   - Basic vocabulary (`map/daf/vocabulary/`): not yet available on `lernapps.net` (CEFRLex DAFlex has no downloadable TSV yet); A1 words are kept strictly to everyday CEFR A1 beginner vocabulary and introduced in `vocabulary` blocks with articles before any exercise asks for them.
 - **Story world (Lindenberg Series, Part 1):**
   - **Place:** Lindenberg, a fictional mid-sized town in central Germany (train station, marketplace, bakery, school/language course, town library, Kulturhaus).
-  - **Cast:** **Peter** (15, English-speaking exchange student spending a year in Germany), host family **Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 15, **Mina** 12), teacher **Herr Braun**, classmate **Nadia** (15).
+  - **Cast:** **Peter** (15, English-speaking exchange student spending a year in Germany), host family **Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 12, **Mina** 9), teacher **Herr Braun**, classmate **Nadia** (12).
   - **Recurring visual artifact:** Peter's growing **Arrival Folder** (SVG illustrations & visual scenes: station greeting card, du/Sie badge chart, registration form, German number/Euro card, clock & calendar visual, classroom desk diagram, library opening-hours sign, platform departure board, chat bubbles, concert poster).
 - **Chapters, pages, competencies, external prerequisites, derivation & misconceptions:**
   - **Chapter 1: `ankommen-vorstellen` — Arriving, Greetings and Forms (A1 · 5–6)** (0 external prerequisites):

@@ -88,11 +88,11 @@ blocks:
           de: "Ordne jede Person in Lindenberg der passenden Anrede oder Frage zu."
           en: "Match each person in Lindenberg to the greeting or question that fits them best."
         pairs:
-          - left: { de: "Nadia (15, neue Mitschülerin)", en: "Nadia (15, new classmate)" }
+          - left: { de: "Nadia (12, neue Mitschülerin)", en: "Nadia (12, new classmate)" }
             right: { de: "Hallo! Woher kommst du?", en: "Hallo! Woher kommst du? (Where are you from?)" }
           - left: { de: "Herr Braun (Deutschlehrer)", en: "Herr Braun (German teacher)" }
             right: { de: "Guten Tag, Herr Braun!", en: "Guten Tag, Herr Braun!" }
-          - left: { de: "Mina (12, Gastschwester)", en: "Mina (12, host sister)" }
+          - left: { de: "Mina (9, Gastschwester)", en: "Mina (9, host sister)" }
             right: { de: "Wie alt bist du?", en: "Wie alt bist du? (How old are you?)" }
           - left: { de: "Die Frau am Fahrkartenschalter", en: "The clerk at the ticket counter" }
             right: { de: "Können Sie mir helfen?", en: "Können Sie mir helfen? (Can you help me?)" }
@@ -116,13 +116,13 @@ blocks:
           de: "Wähle für jede Szene in Lindenberg die passende Anrede."
           en: "Choose the right form of 'you' for each scene in Lindenberg."
         items:
-          - cue: "Talking to classmate Nadia (15)"
+          - cue: "Talking to classmate Nadia (12)"
             target: "Hallo Nadia, woher kommst [du]?"
             distractors: [["Sie", "sie"]]
           - cue: "Asking a bus driver for help"
             target: "Guten Tag, können [Sie] mir helfen?"
             distractors: [["du", "sie"]]
-          - cue: "Talking to host sister Mina (12)"
+          - cue: "Talking to host sister Mina (9)"
             target: "Mina, wie alt bist [du]?"
             distractors: [["Sie", "sie"]]
         explanation:

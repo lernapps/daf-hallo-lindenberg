@@ -16,12 +16,12 @@ blocks:
       - type: text
         text:
           de: "Nach dieser Seite kannst du die wichtigsten Fakten (Datum, Uhrzeit, Ort, Preis) von einem deutschen Plakat klar auf Englisch weitergeben. Peters Freund **Alex** aus England ist zu Besuch. Am Schwarzen Brett hängt dieses Konzertplakat – gib nur die Infos weiter, die Alex wirklich braucht."
-          en: "After this page you can pass on key facts (date, time, place, price) from a German poster clearly in English. Peter's friend **Alex** is visiting from England. On the notice board hangs this concert poster — relay only the facts Alex actually needs."
+          en: "After this page you can pass on key facts (date, time, place, price) from a German poster clearly in English. Peter's friend **Alex** is visiting from England. On the notice board hangs this school-concert poster — relay only the facts Alex actually needs."
       - type: figure
         image: images/concert-poster.svg
         alt:
-          de: "Konzertplakat: Jugendkonzert Kulturhaus Lindenberg Marktplatz 4, Samstag 18. Oktober, Einlass 18:30 Uhr, Beginn 19:00 Uhr, Eintritt 5,00 €, mit Schülerausweis 3,00 €."
-          en: "Concert poster: Jugendkonzert Kulturhaus Lindenberg Marktplatz 4, Saturday 18 October, Einlass (doors open) 18:30, Beginn (start) 19:00, Eintritt (admission) 5,00 €, with student ID 3,00 €."
+          de: "Konzertplakat: Schulkonzert Kulturhaus Lindenberg Marktplatz 4, Samstag 18. Oktober, Einlass 16:30 Uhr, Beginn 17:00 Uhr, Eintritt 5,00 €, mit Schülerausweis 3,00 €."
+          en: "Concert poster: Schulkonzert Kulturhaus Lindenberg Marktplatz 4, Saturday 18 October, Einlass (doors open) 16:30, Beginn (start) 17:00, Eintritt (admission) 5,00 €, with student ID 3,00 €."
         caption:
           de: "Plakat am Schwarzen Brett in Lindenberg."
           en: "Poster on the Lindenberg notice board."
@@ -59,8 +59,8 @@ blocks:
                 en: "18 is the date (18 October), not the ticket price.",
               }
         explanation:
-          de: "Trenne auf deutschen Plakaten sauber Datum (18. Okt.), Uhrzeit (19:00 Uhr) und Preis (3,00 € / 5,00 €)."
-          en: "On German posters, separate the date (18. Okt.), the time (19:00 Uhr), and the price (3,00 € / 5,00 €)."
+          de: "Trenne auf deutschen Plakaten sauber Datum (18. Okt.), Uhrzeit (17:00 Uhr) und Preis (3,00 € / 5,00 €)."
+          en: "On German posters, separate the date (18. Okt.), the time (17:00 Uhr), and the price (3,00 € / 5,00 €)."
   - type: section
     id: uebung
     title:
@@ -70,26 +70,26 @@ blocks:
       - type: multiple-choice
         id: mittlung-zeiten
         text:
-          de: "Auf dem Konzertplakat steht: „Einlass: 18:30 Uhr · Beginn: 19:00 Uhr“. Welche beiden Infos gibt Peter richtig an Alex weiter?"
-          en: "A German concert poster reads: 'Einlass: 18:30 Uhr · Beginn: 19:00 Uhr'. Which two time facts should Peter relay to Alex?"
+          de: "Auf dem Konzertplakat steht: „Einlass: 16:30 Uhr · Beginn: 17:00 Uhr“. Welche beiden Infos gibt Peter richtig an Alex weiter?"
+          en: "A German school-concert poster reads: 'Einlass: 16:30 Uhr · Beginn: 17:00 Uhr'. Which two time facts should Peter relay to Alex?"
         options:
-          - text: { de: "Doors open at 6:30 p.m.", en: "Doors open at 6:30 p.m." }
+          - text: { de: "Doors open at 4:30 p.m.", en: "Doors open at 4:30 p.m." }
             correct: true
             info:
               {
-                de: "Einlass (18:30 Uhr) bedeutet, ab wann man hineinkann.",
-                en: "Einlass (18:30) means when the doors open.",
+                de: "Einlass (16:30 Uhr) bedeutet, ab wann man hineinkann.",
+                en: "Einlass (16:30) means when the doors open.",
               }
-          - text: { de: "The concert starts at 7:00 p.m.", en: "The concert starts at 7:00 p.m." }
+          - text: { de: "The concert starts at 5:00 p.m.", en: "The concert starts at 5:00 p.m." }
             correct: true
             info:
               {
-                de: "Beginn (19:00 Uhr) nennt die Startzeit des Konzerts.",
-                en: "Beginn (19:00) gives the start time of the concert.",
+                de: "Beginn (17:00 Uhr) nennt die Startzeit des Konzerts.",
+                en: "Beginn (17:00) gives the start time of the concert.",
               }
-          - text: { de: "The concert ends at 7:00 p.m.", en: "The concert ends at 7:00 p.m." }
+          - text: { de: "The concert ends at 5:00 p.m.", en: "The concert ends at 5:00 p.m." }
             correct: false
-            info: { de: "19:00 Uhr ist der Beginn, nicht das Ende.", en: "19:00 is the start time, not the end." }
+            info: { de: "17:00 Uhr ist der Beginn, nicht das Ende.", en: "17:00 is the start time, not the end." }
         explanation:
           de: "Einlass (doors open) und Beginn (start) stehen in Deutschland fast immer nebeneinander auf Konzertplakaten."
           en: "German event posters almost always list Einlass (doors open) and Beginn (start) side by side."
