@@ -232,7 +232,7 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
 - [x] Complete Chapter 1 (duzen-siezen, alltag-hoeflichkeit, formulare-ausfuellen, sich-vorstellen-monolog) with Arrival Folder SVGs (du-sie-map, registration-form, profile-card-steps), 4 varied exercises per page, and chapter selfAssessment.
 - [x] Build Chapter 2 (zahlen-preise, zeit-datum-wochentage, schule-unterricht, schilder-hinweise-lesen, durchsagen-verstehen-a1) with 5 Arrival Folder SVGs, 4 varied exercises per page, and chapter selfAssessment.
 - [x] Build Chapter 3 (recap page das-brauchst-du-hier for daf/verb-zweitstellung, kurze-nachrichten-lesen, kurze-nachrichten-schreiben, sprachmittlung-a1) with concert-poster.svg, 4 varied exercises per page, and chapter selfAssessment.
-- [ ] Fill .agents/skills/app-content/SKILL.md, run lernapps screenshots, and run independent learner + DaF subject-matter review agents on the complete app.
+- [x] Fill .agents/skills/app-content/SKILL.md, run lernapps screenshots, and run independent learner + DaF subject-matter review agents on the complete app.
 <!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.

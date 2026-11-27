@@ -20,8 +20,8 @@ blocks:
       - type: single-choice
         id: begruessung-nachmittag
         text:
-          de: "Es ist 15:00 Uhr am Nachmittag. Nutze die Ähnlichkeit zum Englischen (*Morgen* ≈ morning, *Nacht* ≈ night): Welche höfliche Begrüßung passt zu Frau Weber?"
-          en: "It is 3:00 p.m. in the afternoon. Use the English clues (*Morgen* ≈ morning, *Nacht* ≈ night): which polite greeting fits Frau Weber?"
+          de: "Es ist 15:00 Uhr am Nachmittag. Nutze die Ähnlichkeit zum Englischen (Morgen ≈ morning, Nacht ≈ night): Welche höfliche Begrüßung passt zu Frau Weber?"
+          en: "It is 3:00 p.m. in the afternoon. Use the English clues (Morgen ≈ morning, Nacht ≈ night): which polite greeting fits Frau Weber?"
         options:
           - text:
               de: "Guten Tag, Frau Weber!"
@@ -86,7 +86,7 @@ blocks:
         entries:
           - target: "Hallo! / Guten Tag!"
             source: "Hi! / Good day! (polite)"
-            example: { target: "Hallo Mina! Guten Tag, Herr Braun!", source: "Hi Mina! Hello, Herr Braun!" }
+            example: { target: "Hallo Mina! Guten Tag, Frau Weber!", source: "Hi Mina! Hello, Frau Weber!" }
           - target: "Tschüss! / Auf Wiedersehen!"
             source: "Bye! (informal) / Goodbye! (formal)"
           - target: "Ich heiße …"
@@ -151,8 +151,8 @@ blocks:
         languages: { source: en, target: de }
         mode: write
         task:
-          de: "Jetzt stellt sich deine Mitschülerin Nadia vor. Schreibe beide Sätze auf Deutsch."
-          en: "Now classmate Nadia introduces herself. Write both sentences in German."
+          de: "Jetzt stellt sich Peters zukünftige Mitschülerin Nadia (15) vor. Schreibe beide Sätze auf Deutsch."
+          en: "Now Peter's future classmate Nadia (15) introduces herself. Write both sentences in German."
         items:
           - source: "My name is Nadia."
             target: "Ich (heiße|bin) Nadia."

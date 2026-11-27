@@ -10,18 +10,18 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: "Erste Stunde bei Herrn Braun"
-      en: "First Lesson in Herr Braun's Class"
+      de: "Im Unterricht bei Herrn Braun"
+      en: "In Herr Braun's Class"
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du Schulsachen mit ihrem Artikel nennen und im Unterricht höflich auf Deutsch nachfragen. Herr Braun erklärt schnell eine Aufgabe, und Peter versteht ein Wort nicht."
-          en: "After this page you can name classroom objects with their German articles and politely ask for help in class. Herr Braun explains a task quickly, and Peter misses a word."
+          de: "Nach dieser Seite kannst du Schulsachen mit ihrem Artikel sowie wichtige Schulfächer nennen und im Unterricht höflich auf Deutsch nachfragen. Herr Braun erklärt schnell eine Aufgabe, und Peter versteht ein Wort nicht."
+          en: "After this page you can name classroom objects with their German articles, name core school subjects, and politely ask for help in class. Herr Braun explains a task quickly, and Peter misses a word."
       - type: single-choice
         id: unterricht-frage
         text:
-          de: "Peter möchte, dass Herr Braun den Satz noch einmal sagt. Welche Frage passt?"
-          en: "Peter wants Herr Braun to repeat the sentence. Which question fits best?"
+          de: "Peter möchte, dass Herr Braun den Satz noch einmal sagt (wiederholen = repeat). Welche Frage passt?"
+          en: "Peter wants Herr Braun to say the sentence again (wiederholen = repeat). Which question fits best?"
         options:
           - text: { de: "Können Sie das bitte wiederholen?", en: "Können Sie das bitte wiederholen?" }
             correct: true
@@ -47,8 +47,8 @@ blocks:
   - type: section
     id: wortschatz
     title:
-      de: "Schulsachen mit Artikel und Wendungen"
-      en: "Classroom Objects with Articles and Phrases"
+      de: "Schulsachen, Fächer und Wendungen"
+      en: "Classroom Objects, Subjects and Phrases"
     blocks:
       - type: text
         text:
@@ -66,20 +66,16 @@ blocks:
         licence: CC0-1.0
       - type: vocabulary
         caption:
-          de: "Nützliche Sätze für den Unterricht"
-          en: "Useful classroom phrases"
+          de: "Schulsachen, Schulfächer und Sätze für den Unterricht"
+          en: "Classroom objects, school subjects, and classroom phrases"
         languages: { source: en, target: de }
         entries:
-          - target: "der Stift"
-            source: "the pen / pencil"
-          - target: "das Heft"
-            source: "the notebook"
-          - target: "das Buch"
-            source: "the book"
-          - target: "die Tafel"
-            source: "the board"
-          - target: "der Stundenplan"
-            source: "the timetable"
+          - target: "der Stift / das Heft / das Buch"
+            source: "the pen / the notebook / the book"
+          - target: "die Tafel / der Stundenplan"
+            source: "the board / the timetable"
+          - target: "Mathe / Deutsch / Englisch / Sport / Geschichte"
+            source: "Maths / German / English / PE / History"
           - target: "Wie sagt man … auf Deutsch?"
             source: "How do you say … in German?"
           - target: "Ich verstehe das nicht."
@@ -93,17 +89,17 @@ blocks:
       - type: matching
         id: schulsachen-zuordnen
         text:
-          de: "Ordne jedes deutsche Wort mit Artikel der englischen Bedeutung zu."
-          en: "Match each German classroom word (with its article) to its English meaning."
+          de: "Ordne jedes deutsche Schulwort oder Fach der englischen Bedeutung zu."
+          en: "Match each German classroom word or school subject to its English meaning."
         pairs:
           - left: { de: "das Heft", en: "das Heft" }
             right: { de: "the notebook", en: "the notebook" }
-          - left: { de: "der Stift", en: "der Stift" }
-            right: { de: "the pen", en: "the pen" }
           - left: { de: "die Tafel", en: "die Tafel" }
             right: { de: "the board", en: "the board" }
           - left: { de: "der Stundenplan", en: "der Stundenplan" }
             right: { de: "the timetable", en: "the timetable" }
+          - left: { de: "Geschichte", en: "Geschichte" }
+            right: { de: "History (school subject)", en: "History (school subject)" }
         explanation:
           de: "Mit Artikel im Kopf kannst du die Wörter später viel leichter in Sätzen verwenden."
           en: "Learning nouns with their articles makes building sentences much easier later."

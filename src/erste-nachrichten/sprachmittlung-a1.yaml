@@ -70,23 +70,23 @@ blocks:
       - type: multiple-choice
         id: mittlung-zeiten
         text:
-          de: "Welche beiden Infos über die Uhrzeit stimmen für Alex?"
-          en: "Which two time details are accurate to tell Alex?"
+          de: "Auf dem Konzertplakat steht: „Einlass: 18:30 Uhr · Beginn: 19:00 Uhr“. Welche beiden Infos gibt Peter richtig an Alex weiter?"
+          en: "A German concert poster reads: 'Einlass: 18:30 Uhr · Beginn: 19:00 Uhr'. Which two time facts should Peter relay to Alex?"
         options:
-          - text:
-              {
-                de: "Doors open at 6:30 p.m. (Einlass: 18:30 Uhr).",
-                en: "Doors open at 6:30 p.m. (Einlass: 18:30 Uhr).",
-              }
+          - text: { de: "Doors open at 6:30 p.m.", en: "Doors open at 6:30 p.m." }
             correct: true
-            info: { de: "Einlass bedeutet, ab wann man hineinkann.", en: "Einlass means when the doors open." }
-          - text:
+            info:
               {
-                de: "The concert starts at 7:00 p.m. (Beginn: 19:00 Uhr).",
-                en: "The concert starts at 7:00 p.m. (Beginn: 19:00 Uhr).",
+                de: "Einlass (18:30 Uhr) bedeutet, ab wann man hineinkann.",
+                en: "Einlass (18:30) means when the doors open.",
               }
+          - text: { de: "The concert starts at 7:00 p.m.", en: "The concert starts at 7:00 p.m." }
             correct: true
-            info: { de: "Beginn nennt die Startzeit des Konzerts.", en: "Beginn gives the start time of the concert." }
+            info:
+              {
+                de: "Beginn (19:00 Uhr) nennt die Startzeit des Konzerts.",
+                en: "Beginn (19:00) gives the start time of the concert.",
+              }
           - text: { de: "The concert ends at 7:00 p.m.", en: "The concert ends at 7:00 p.m." }
             correct: false
             info: { de: "19:00 Uhr ist der Beginn, nicht das Ende.", en: "19:00 is the start time, not the end." }

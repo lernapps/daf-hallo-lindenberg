@@ -55,6 +55,22 @@ blocks:
             text:
               de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 15 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.“"
               en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 15 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.'"
+      - type: vocabulary
+        caption:
+          de: "Neue Wörter für deine Vorstellung"
+          en: "New words for introducing yourself"
+        languages: { source: en, target: de }
+        entries:
+          - target: "wohnen (ich wohne)"
+            source: "to live (I live)"
+          - target: "sprechen (ich spreche)"
+            source: "to speak (I speak)"
+          - target: "Englisch / Deutsch"
+            source: "English / German"
+          - target: "das Hobby / die Hobbys"
+            source: "the hobby / the hobbies"
+          - target: "der Fußball / die Musik"
+            source: "football / music"
   - type: section
     id: uebung
     title:
@@ -131,18 +147,18 @@ blocks:
                   de: "Ergänze „alt“ am Satzende: Ich bin 12 Jahre alt."
                   en: "Add 'alt' at the end: Ich bin 12 Jahre alt."
           - source: "I live in Lindenberg."
-            target: "Ich wohne in Lindenberg."
+            target: "Ich (wohne|lebe) in Lindenberg."
             mistakes:
               - answer: "Ich leben in Lindenberg."
                 message:
-                  de: "Für den Wohnort nutzt man „ich wohne“ (mit -e am Ende)."
-                  en: "Use 'ich wohne' (ending in -e) to say where you live."
+                  de: "Für den Wohnort nutzt man „ich wohne“ (oder „ich lebe“ – mit -e am Ende)."
+                  en: "Use 'ich wohne' (or 'ich lebe', ending in -e) to say where you live."
         form:
           case: hint
           punctuation: ok
         hint:
-          de: "Nutze die Bausteine aus Schritt 3 und Schritt 4 oben."
-          en: "Use the sentence frames from Step 3 and Step 4 above."
+          de: "Nutze „Ich bin … Jahre alt“ für das Alter und „Ich wohne in …“ für den Wohnort."
+          en: "Use 'Ich bin … Jahre alt' for age and 'Ich wohne in …' for where you live."
         explanation:
           de: "Kapitel 1 geschafft! Du kannst jetzt grüßen, du und Sie unterscheiden, Formulare ausfüllen und dich frei vorstellen. In Kapitel 2 geht es in Lindenberg um Zahlen, Preise, Uhrzeiten und Schule."
           en: "Chapter 1 complete! You can now greet people, use du vs. Sie, fill in forms, and introduce yourself. In Chapter 2, Peter tackles numbers, prices, times, and school in Lindenberg."

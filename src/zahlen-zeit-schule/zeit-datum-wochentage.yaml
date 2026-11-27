@@ -83,13 +83,13 @@ blocks:
             - { de: "Viertel vor fünf", en: "Viertel vor fünf" }
       - type: note
         title:
-          de: "Wochentage und Monate in Deutschland"
-          en: "Days and Months in Germany"
+          de: "Wochentage, Monate und Datum"
+          en: "Days, Months and Dates in Germany"
         blocks:
           - type: text
             text:
-              de: "**Wochentage:** Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. **Monate:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember."
-              en: "**Days:** Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. **Months:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember."
+              de: "**Wochentage:** Montag (Mon), Dienstag (Tue), Mittwoch (Wed), Donnerstag (Thu), Freitag (Fri), Samstag (Sat), Sonntag (Sun). **Monate:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. **Datum:** mit Punkt + **am** (*am 14. Mai* = „am vierzehnten Mai“, *am 3. Oktober* = „am dritten Oktober“)."
+              en: "**Days:** Montag (Monday), Dienstag (Tuesday), Mittwoch (Wednesday), Donnerstag (Thursday), Freitag (Friday), Samstag (Saturday), Sonntag (Sunday). **Months:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. **Dates:** use a dot + **am** (*am 14. Mai* = on 14 May, *am 3. Oktober* = on 3 October)."
   - type: section
     id: uebung
     title:
@@ -118,7 +118,7 @@ blocks:
         languages: { source: en, target: de }
         mode: choice
         task:
-          de: "Wähle das passende Zeitwort (um, am, im) für Peters Kalender."
+          de: "Wähle die passende Präposition (um, am, im) für Peters Kalender."
           en: "Choose the right preposition (um, am, im) for Peter's calendar."
         items:
           - cue: "German class is on Monday."
@@ -127,8 +127,11 @@ blocks:
           - cue: "Class starts at 8:00."
             target: "Der Unterricht beginnt [um] 8:00 Uhr."
             distractors: [["am", "im"]]
-          - cue: "Peter's birthday is in May."
-            target: "Peter hat [im] Mai Geburtstag."
+          - cue: "Peter's birthday is on 14 May."
+            target: "Peter hat [am] 14. Mai Geburtstag."
+            distractors: [["im", "um"]]
+          - cue: "The autumn break is in October."
+            target: "Die Ferien sind [im] Oktober."
             distractors: [["am", "um"]]
         explanation:
           de: "Merke: um + Uhrzeit, am + Tag/Datum, im + Monat."

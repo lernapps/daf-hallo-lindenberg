@@ -84,8 +84,8 @@ blocks:
       - type: number
         id: durchsage-verspaetung
         text:
-          de: "Eine zweite Durchsage meldet: „Der Zug nach Marburg hat fünfzehn Minuten Verspätung.“ Wie viele Minuten Verspätung hat der Zug?"
-          en: "A second announcement says: 'Der Zug nach Marburg hat fünfzehn Minuten Verspätung.' How many minutes late is the train?"
+          de: "Eine Bahnhofsdurchsage meldet: „Der Zug nach Marburg hat fünfzehn Minuten Verspätung.“ Wie viele Minuten Verspätung hat der Zug?"
+          en: "A station announcement says: 'Der Zug nach Marburg hat fünfzehn Minuten Verspätung.' How many minutes late is the train?"
         answer: 15
         tolerance: 0
         unit: { de: "Minuten", en: "minutes" }

@@ -73,13 +73,23 @@ blocks:
             source: "0, 1, 2, 3, 4, 5"
           - target: "sechs, sieben, acht, neun, zehn"
             source: "6, 7, 8, 9, 10"
-          - target: "elf, zwölf, dreizehn, zwanzig"
-            source: "11, 12, 13, 20"
+          - target: "elf, zwölf, dreizehn, sechzehn, siebzehn, zwanzig"
+            source: "11, 12, 13, 16, 17, 20"
+            note:
+              de: "16 (sechzehn) und 17 (siebzehn) sind kurz; aus eins wird in 21/31 „ein-“ (einunddreißig)."
+              en: "16 (sechzehn) and 17 (siebzehn) shorten the stem; eins drops -s in 21/31 (einunddreißig)."
           - target: "dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig, hundert"
             source: "30, 40, 50, 60, 70, 80, 90, 100"
             note:
               de: "Nur dreißig wird mit ß geschrieben; alle anderen Zehner enden auf -zig."
               en: "Only dreißig (30) uses ß; all other tens end in -zig."
+          - target: "die Telefonnummer"
+            source: "the phone number"
+            example:
+              {
+                target: "Meine Telefonnummer ist null-eins-sieben-zwei, dreißig, zwölf.",
+                source: "Phone numbers are read digit by digit or in two-digit pairs: 0172 30 12.",
+              }
           - target: "Was kostet das?"
             source: "How much does that cost?"
             example: { target: "Das kostet drei Euro zwanzig.", source: "That costs three euros twenty." }
@@ -103,8 +113,8 @@ blocks:
       - type: matching
         id: zahlen-zuordnen
         text:
-          de: "Ordne jedes deutsche Zahlwort der richtigen Zahl zu."
-          en: "Match each German number word to the right figure."
+          de: "Ordne jede deutsche Zahl oder Telefonnummer den richtigen Ziffern zu."
+          en: "Match each German number or spoken phone number to the right digits."
         pairs:
           - left: { de: "siebzehn", en: "siebzehn" }
             right: { de: "17", en: "17" }
@@ -112,8 +122,8 @@ blocks:
             right: { de: "31", en: "31" }
           - left: { de: "siebenundsechzig", en: "siebenundsechzig" }
             right: { de: "67", en: "67" }
-          - left: { de: "zweiundachtzig", en: "zweiundachtzig" }
-            right: { de: "82", en: "82" }
+          - left: { de: "null-sechs-vier-zwei-eins", en: "null-sechs-vier-zwei-eins (area code)" }
+            right: { de: "06421", en: "06421" }
         explanation:
           de: "Lies von hinten nach vorn: siebenundsechzig = 7 + 60 = 67."
           en: "Read ones first, then tens: siebenundsechzig = 7 + 60 = 67."

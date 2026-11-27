@@ -85,17 +85,17 @@ blocks:
       - type: matching
         id: du-sie-zuordnen
         text:
-          de: "Ordne jede Person in Lindenberg der passenden Frage zu."
-          en: "Match each person in Lindenberg to the right question."
+          de: "Ordne jede Person in Lindenberg der passenden Anrede oder Frage zu."
+          en: "Match each person in Lindenberg to the greeting or question that fits them best."
         pairs:
-          - left: { de: "Lukas (15, Gastbruder)", en: "Lukas (15, host brother)" }
-            right: { de: "Wo wohnst du?", en: "Wo wohnst du?" }
+          - left: { de: "Nadia (15, neue Mitschülerin)", en: "Nadia (15, new classmate)" }
+            right: { de: "Hallo! Woher kommst du?", en: "Hallo! Woher kommst du? (Where are you from?)" }
           - left: { de: "Herr Braun (Deutschlehrer)", en: "Herr Braun (German teacher)" }
-            right: { de: "Wie heißen Sie?", en: "Wie heißen Sie?" }
+            right: { de: "Guten Tag, Herr Braun!", en: "Guten Tag, Herr Braun!" }
           - left: { de: "Mina (12, Gastschwester)", en: "Mina (12, host sister)" }
-            right: { de: "Wie alt bist du?", en: "Wie alt bist du?" }
+            right: { de: "Wie alt bist du?", en: "Wie alt bist du? (How old are you?)" }
           - left: { de: "Die Frau am Fahrkartenschalter", en: "The clerk at the ticket counter" }
-            right: { de: "Können Sie mir helfen?", en: "Können Sie mir helfen?" }
+            right: { de: "Können Sie mir helfen?", en: "Können Sie mir helfen? (Can you help me?)" }
         explanation:
           de: "Gleichaltrige und Kinder bekommen du, Lehrkräfte und fremde Erwachsene bekommen Sie."
           en: "Peers and children get du; teachers and unfamiliar adults get formal Sie."
@@ -119,8 +119,8 @@ blocks:
           - cue: "Talking to classmate Nadia (15)"
             target: "Hallo Nadia, woher kommst [du]?"
             distractors: [["Sie", "sie"]]
-          - cue: "Asking a bus driver for directions"
-            target: "Entschuldigung, können [Sie] mir helfen?"
+          - cue: "Asking a bus driver for help"
+            target: "Guten Tag, können [Sie] mir helfen?"
             distractors: [["du", "sie"]]
           - cue: "Talking to host sister Mina (12)"
             target: "Mina, wie alt bist [du]?"

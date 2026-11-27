@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: "Erstes Abendessen bei Familie Weber"
-      en: "First Dinner at the Webers'"
+      de: "Abendessen bei Familie Weber"
+      en: "Dinner at the Webers'"
     blocks:
       - type: text
         text:
           de: "Nach dieser Seite kannst du dich in Deutschland höflich bedanken, entschuldigen und typische Alltagsformeln nutzen. Abends sitzt Peter mit Familie Weber am Tisch. Plötzlich niest Mina – und Lukas ruft sofort ein deutsches Wort."
-          en: "After this page you can thank, apologize, and use everyday polite formulas in Germany. That evening Peter sits at the dinner table with the Webers. Suddenly Mina sneezes — and Lukas calls out a German word right away."
+          en: "After this page you can thank, apologize, and use everyday polite formulas in Germany. In the evening Peter sits at the dinner table with the Webers. Suddenly Mina sneezes — and Lukas calls out a German word right away."
       - type: single-choice
         id: niesen-wort
         text:

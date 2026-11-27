@@ -68,24 +68,46 @@ blocks:
       de: "Alltagsschilder sicher erkennen"
       en: "Recognize Everyday German Signs"
     blocks:
+      - type: vocabulary
+        caption:
+          de: "Häufige Schilder in deutschen Städten"
+          en: "Common signs in German towns"
+        languages: { source: en, target: de }
+        entries:
+          - target: "der Eingang / der Ausgang"
+            source: "the entrance / the exit"
+          - target: "Eintritt frei"
+            source: "free admission"
+          - target: "Nicht rauchen"
+            source: "No smoking"
+          - target: "der Feiertag / die Feiertage"
+            source: "the public holiday / public holidays"
       - type: multiple-choice
         id: schilder-alltag
         text:
-          de: "Welche drei Schilder zeigen einen Weg oder freien Zugang (kein Verbot)?"
-          en: "Which three signs show a way in/out or free access (not a prohibition)?"
+          de: "Welche drei deutschen Schilder zeigen einen Weg oder freien Zugang (kein Verbot)?"
+          en: "Which three German signs show a way in/out or free access (not a prohibition)?"
         options:
-          - text: { de: "Eingang (Entrance)", en: "Eingang (Entrance)" }
+          - text: { de: "Eingang", en: "Eingang" }
             correct: true
-            info: { de: "Eingang zeigt die Tür hinein.", en: "Eingang marks the door going in." }
-          - text: { de: "Ausgang (Exit)", en: "Ausgang (Exit)" }
+            info: { de: "Eingang zeigt die Tür hinein.", en: "Eingang marks the entrance." }
+          - text: { de: "Ausgang", en: "Ausgang" }
             correct: true
-            info: { de: "Ausgang zeigt den Weg nach draußen.", en: "Ausgang marks the way out." }
-          - text: { de: "Nicht rauchen (No smoking)", en: "Nicht rauchen (No smoking)" }
+            info: { de: "Ausgang zeigt den Weg nach draußen.", en: "Ausgang marks the exit." }
+          - text: { de: "Nicht rauchen", en: "Nicht rauchen" }
             correct: false
-            info: { de: "„Nicht …“ kennzeichnet ein Verbot.", en: "'Nicht …' marks a prohibition." }
-          - text: { de: "Eintritt frei (Free admission)", en: "Eintritt frei (Free admission)" }
+            info:
+              {
+                de: "„Nicht …“ kennzeichnet ein Verbot (No smoking).",
+                en: "'Nicht …' marks a prohibition (No smoking).",
+              }
+          - text: { de: "Eintritt frei", en: "Eintritt frei" }
             correct: true
-            info: { de: "Eintritt frei bedeutet: Man bezahlt nichts.", en: "Eintritt frei means admission is free." }
+            info:
+              {
+                de: "Eintritt frei bedeutet: Man bezahlt nichts (Free admission).",
+                en: "Eintritt frei means admission is free.",
+              }
         explanation:
           de: "Eingang, Ausgang und Eintritt frei begegnen dir überall in deutschen Städten."
           en: "Eingang, Ausgang, and Eintritt frei appear everywhere across German towns."

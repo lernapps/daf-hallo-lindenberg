@@ -41,7 +41,7 @@ description: Use for any content work in this app - researching, writing, extend
   1. `einstieg` (Opening): 1–2 sentence Lindenberg scene + an immediate, easy opening task before the main explanation.
   2. `wortschatz` / `regel` / `beispiel` (Introduce): Arrival Folder SVG figure and/or `vocabulary` block (every German noun with its article) + concise rule/note naming the main English-speaker trap.
   3. `uebung` (Practice): 3 more varied exercises (4 total per competency page), progressing from recognizing to applying, ending with what Peter can do now and what comes next.
-- **Chapter self-assessment:** Each `chapter.yaml` defines `selfAssessment` drawing 2–3 exercises per competency page.
+- **Chapter self-assessment:** Each `chapter.yaml` defines `selfAssessment` drawing 1–2 self-contained exercises per competency page (5–6 per chapter, 17 total across the app).
 
 ## Terminology
 

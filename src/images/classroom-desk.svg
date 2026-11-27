@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 194" role="img" aria-label="Peter's school desk color-coded by German noun gender: blue der Stift and der Stundenplan, green das Heft and das Buch, red die Tafel">
-  <rect width="340" height="194" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 214" role="img" aria-label="Peter's school desk color-coded by German noun gender: blue der Stift and der Stundenplan, green das Heft and das Buch, red die Tafel">
+  <rect width="340" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
   <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Arrival Folder · On Peter's School Desk</text>
 
-  <rect x="16" y="40" width="148" height="44" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
-  <text x="26" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stift</text>
-  <text x="26" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#1e3a8a">the pen (masculine: der)</text>
+  <rect x="14" y="40" width="150" height="46" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="24" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stift</text>
+  <text x="24" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">the pen (masculine: der)</text>
 
-  <rect x="176" y="40" width="148" height="44" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="176" y="40" width="150" height="46" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
   <text x="186" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stundenplan</text>
-  <text x="186" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#1e3a8a">the timetable (der)</text>
+  <text x="186" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">the timetable (der)</text>
 
-  <rect x="16" y="92" width="148" height="44" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
-  <text x="26" y="111" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Heft</text>
-  <text x="26" y="127" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#14532d">the notebook (neuter: das)</text>
+  <rect x="14" y="94" width="150" height="46" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="24" y="113" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Heft</text>
+  <text x="24" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">the notebook (das)</text>
 
-  <rect x="176" y="92" width="148" height="44" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
-  <text x="186" y="111" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Buch</text>
-  <text x="186" y="127" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#14532d">the book (das)</text>
+  <rect x="176" y="94" width="150" height="46" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="186" y="113" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Buch</text>
+  <text x="186" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">the book (das)</text>
 
-  <rect x="16" y="144" width="210" height="36" rx="8" fill="#ffe4e6" stroke="#be123c" stroke-width="1.5"/>
-  <text x="26" y="166" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#9f1239">die Tafel · the board (feminine: die)</text>
+  <rect x="14" y="148" width="218" height="36" rx="8" fill="#ffe4e6" stroke="#be123c" stroke-width="1.5"/>
+  <text x="24" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#9f1239">die Tafel · the board (feminine)</text>
 </svg>

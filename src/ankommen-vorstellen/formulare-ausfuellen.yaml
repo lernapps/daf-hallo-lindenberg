@@ -88,7 +88,7 @@ blocks:
           - left: { de: "Geburtsdatum", en: "Geburtsdatum" }
             right: { de: "08.11.2010", en: "08.11.2010" }
         explanation:
-          de: "Vorname = first name, Nachname = last name, PLZ = 5-digit postal code, Wohnort = town."
+          de: "Vorname = Rufname, Nachname = Familienname, PLZ = fünfstellige Postleitzahl, Wohnort = Stadt oder Ort."
           en: "Vorname = first name, Nachname = last name, PLZ = 5-digit postal code, Wohnort = town."
       - type: true-false
         id: formular-datum
