@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -69,7 +69,12 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
 - **Scope:**
   - **In:** All 13 A1 competencies of `#880` across 3 chapters + 1 recap page (`daf/verb-zweitstellung`), Peter's Arrival Folder SVG visuals, 4+ varied exercises per competency page (choice, matching, ordering, number, `language-task` gap/choice/write, and `open-task` where learners produce their own introduction/message), chapter self-assessments, `languages: [de, en]`.
   - **Out:** Full grammar rules (live in `#874`–`#879`, fixed phrases only here); home/family/food/weather/health (`#881`); town/travel/D-A-CH (`#882`); synthetic German audio (not yet supported by `@lernapps/app-templates`).
-  - **Data range:** Numbers 0–100 and Euro prices; 24-hour and everyday clock times; all 7 weekdays and 12 months; core A1 classroom objects and everyday signs.
+  - **Data range:** Numbers 0–100, Euro prices, and phone numbers; 24-hour and everyday clock times; all 7 weekdays, 12 months, and German dates; core A1 classroom objects, school subjects, and everyday signs.
+- **Whole-app learner & DaF subject-matter review fixes applied:**
+  - Fixed 7 Arrival Folder SVGs for zero text overflow, 360 px `© CC0-1.0` badge clearance, 3:30 (`halb vier`) clock-hand alignment, `Min.` abbreviation, `Straße` aria-label, and non-leaking `1,24 €` price example.
+  - Added missing `map/daf.yaml` `iCan` coverage: phone numbers (`zahlen-preise`), German dates + weekday glosses (`zeit-datum-wochentage`), and school subjects (`schule-unterricht`).
+  - Fixed German accuracy (`Zeitwort` → `Präposition`, natural German recap text, German explanation on `formulare-ausfuellen`, introduced `wohnen`/`sprechen`/`Englisch`/`Deutsch` before gap-fill, removed literal asterisks in choice prompts).
+  - Made all 17 `selfAssessment` exercises 100% self-contained (`#mittlung-zeiten`, `#schilder-alltag`, `#vorstellung-transfer`, `#durchsage-verspaetung`) and disambiguated `#du-sie-zuordnen`.
 
 ## Explore
 
@@ -234,11 +239,11 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
 - [x] Build Chapter 3 (recap page das-brauchst-du-hier for daf/verb-zweitstellung, kurze-nachrichten-lesen, kurze-nachrichten-schreiben, sprachmittlung-a1) with concert-poster.svg, 4 varied exercises per page, and chapter selfAssessment.
 - [x] Fill .agents/skills/app-content/SKILL.md, run lernapps screenshots, and run independent learner + DaF subject-matter review agents on the complete app.
 <!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit
@@ -251,9 +256,9 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
 
 ### Tasks
 
-- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+- [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
-- [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
+- [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
 - [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
