@@ -1,0 +1,150 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "In der Schule und im Unterricht"
+  en: "School and Classroom Phrases"
+description:
+  de: "Gegenstände im Klassenzimmer, Schulfächer und hilfreiche Fragen für den Unterricht in Deutschland."
+  en: "Name classroom objects and school subjects and use essential German classroom phrases."
+competencies: [schule-unterricht]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Erste Stunde bei Herrn Braun"
+      en: "First Lesson in Herr Braun's Class"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du Schulsachen mit ihrem Artikel nennen und im Unterricht höflich auf Deutsch nachfragen. Herr Braun erklärt schnell eine Aufgabe, und Peter versteht ein Wort nicht."
+          en: "After this page you can name classroom objects with their German articles and politely ask for help in class. Herr Braun explains a task quickly, and Peter misses a word."
+      - type: single-choice
+        id: unterricht-frage
+        text:
+          de: "Peter möchte, dass Herr Braun den Satz noch einmal sagt. Welche Frage passt?"
+          en: "Peter wants Herr Braun to repeat the sentence. Which question fits best?"
+        options:
+          - text: { de: "Können Sie das bitte wiederholen?", en: "Können Sie das bitte wiederholen?" }
+            correct: true
+            info:
+              {
+                de: "Höflich mit Sie und genau richtig, wenn man etwas noch einmal hören möchte.",
+                en: "Polite with formal Sie and exact when you want something repeated.",
+              }
+          - text: { de: "Ich habe keine Zeit.", en: "Ich habe keine Zeit." }
+            correct: false
+            info:
+              {
+                de: "Das heißt „I have no time“ und bittet nicht um Wiederholung.",
+                en: "That means 'I have no time' and does not ask for a repeat.",
+              }
+          - text: { de: "Auf Wiedersehen, Herr Braun!", en: "Auf Wiedersehen, Herr Braun!" }
+            correct: false
+            info:
+              { de: "Das ist eine Verabschiedung am Ende der Stunde.", en: "That says goodbye at the end of class." }
+        explanation:
+          de: "Mit „Können Sie das bitte wiederholen?“ und „Wie sagt man … auf Deutsch?“ kommst du in jeder Stunde zurecht."
+          en: "With 'Können Sie das bitte wiederholen?' and 'Wie sagt man … auf Deutsch?' you can handle any lesson."
+  - type: section
+    id: wortschatz
+    title:
+      de: "Schulsachen mit Artikel und Wendungen"
+      en: "Classroom Objects with Articles and Phrases"
+    blocks:
+      - type: text
+        text:
+          de: "Im Deutschen hat jedes Nomen einen festen Artikel: **der** (blau), **das** (grün) oder **die** (rot). Lerne das Wort immer direkt zusammen mit seinem Artikel!"
+          en: "Every German noun has a fixed article: **der** (blue), **das** (green), or **die** (red). Always learn each noun together with its article!"
+      - type: figure
+        image: images/classroom-desk.svg
+        alt:
+          de: "Peters Schultisch nach Artikel gefärbt: blau der Stift und der Stundenplan, grün das Heft und das Buch, rot die Tafel."
+          en: "Peter's school desk color-coded by article: blue der Stift and der Stundenplan, green das Heft and das Buch, red die Tafel."
+        caption:
+          de: "Peters Ankommens-Ordner: Schulsachen mit der, die, das."
+          en: "Peter's Arrival Folder: classroom objects with der, die, das."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: vocabulary
+        caption:
+          de: "Nützliche Sätze für den Unterricht"
+          en: "Useful classroom phrases"
+        languages: { source: en, target: de }
+        entries:
+          - target: "der Stift"
+            source: "the pen / pencil"
+          - target: "das Heft"
+            source: "the notebook"
+          - target: "das Buch"
+            source: "the book"
+          - target: "die Tafel"
+            source: "the board"
+          - target: "der Stundenplan"
+            source: "the timetable"
+          - target: "Wie sagt man … auf Deutsch?"
+            source: "How do you say … in German?"
+          - target: "Ich verstehe das nicht."
+            source: "I don't understand that."
+  - type: section
+    id: uebung
+    title:
+      de: "Im Klassenzimmer sicher sprechen"
+      en: "Practice Classroom German"
+    blocks:
+      - type: matching
+        id: schulsachen-zuordnen
+        text:
+          de: "Ordne jedes deutsche Wort mit Artikel der englischen Bedeutung zu."
+          en: "Match each German classroom word (with its article) to its English meaning."
+        pairs:
+          - left: { de: "das Heft", en: "das Heft" }
+            right: { de: "the notebook", en: "the notebook" }
+          - left: { de: "der Stift", en: "der Stift" }
+            right: { de: "the pen", en: "the pen" }
+          - left: { de: "die Tafel", en: "die Tafel" }
+            right: { de: "the board", en: "the board" }
+          - left: { de: "der Stundenplan", en: "der Stundenplan" }
+            right: { de: "the timetable", en: "the timetable" }
+        explanation:
+          de: "Mit Artikel im Kopf kannst du die Wörter später viel leichter in Sätzen verwenden."
+          en: "Learning nouns with their articles makes building sentences much easier later."
+      - type: language-task
+        id: schule-artikel-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den richtigen Artikel für jede Schulsache."
+          en: "Choose the right article for each classroom object."
+        items:
+          - cue: "the book"
+            target: "[das] Buch"
+            distractors: [["der", "die"]]
+          - cue: "the board"
+            target: "[die] Tafel"
+            distractors: [["der", "das"]]
+          - cue: "the pen"
+            target: "[der] Stift"
+            distractors: [["die", "das"]]
+        explanation:
+          de: "das Buch (grün), die Tafel (rot), der Stift (blau)."
+          en: "das Buch (green), die Tafel (red), der Stift (blue)."
+      - type: language-task
+        id: schule-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Peters Fragen im Deutschkurs."
+          en: "Complete Peter's classroom phrases."
+        items:
+          - source: "How do you say 'book' in German?"
+            target: "Wie [sagt] man 'book' auf [Deutsch]?"
+          - source: "I don't understand that."
+            target: "Ich [verstehe] das [nicht]."
+        form:
+          case: hint
+          punctuation: ok
+        hint:
+          de: "Achte auf Großschreibung bei Deutsch und das -e bei ich verstehe."
+          en: "Capitalize Deutsch and remember the -e ending on ich verstehe."
+        explanation:
+          de: "Nach der Schule spaziert Peter in die Innenstadt und liest Schilder und Öffnungszeiten."
+          en: "After school Peter walks into town to read everyday signs and opening hours."
