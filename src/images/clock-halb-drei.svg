@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 202" role="img" aria-label="Analog clock showing 3:30 (halb vier) to explain German halb looking forward to the next hour, plus um for clock time, am for days and dates, im for months">
   <rect width="340" height="202" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Arrival Folder · Clock &amp; Calendar</text>
+  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Peter's Notebook · Clock &amp; Calendar</text>
 
   <circle cx="76" cy="100" r="46" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
   <path d="M 76 100 L 76 54 A 46 46 0 0 1 76 146 Z" fill="#dbeafe"/>

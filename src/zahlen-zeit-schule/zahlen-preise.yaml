@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du Zahlen von 0 bis 100, Preise in Euro und Cent sowie Telefonnummern auf Deutsch verstehen. Morgens kauft Peter beim Bäcker in Lindenberg zwei *Brötchen* und ein Busticket. Im Deutschen spricht man zweistellige Zahlen ab 21 **erst Einer, dann Zehner**."
-          en: "After this page you can understand German numbers 0–100, prices in euros and cents, and phone numbers. In the morning Peter buys two *Brötchen* (bread rolls) at the Lindenberg bakery and a bus ticket. From 21 upward, German speaks **ones first, then tens**."
+          de: "Nach dieser Seite kannst du Zahlen von 0 bis 100, Preise in Euro und Cent sowie Telefonnummern auf Deutsch verstehen. Morgens kauft Peter beim Bäcker zwei *Brötchen* und löst danach im Schulbus eine Fahrkarte. Im Deutschen spricht man zweistellige Zahlen ab 21 **erst Einer, dann Zehner**."
+          en: "After this page you can understand German numbers 0–100, prices in euros and cents, and phone numbers. In the morning Peter buys two *Brötchen* (bread rolls) at the bakery and then gets a ticket on the school bus. From 21 upward, German speaks **ones first, then tens**."
       - type: single-choice
         id: zahl-drehen
         text:
@@ -56,11 +56,11 @@ blocks:
       - type: figure
         image: images/number-swap-diagram.svg
         alt:
-          de: "Schema für zweistellige Zahlen: 24 wird als vier-und-zwanzig gesprochen (Einer plus und plus Zehner), und Preisschild 2,45 € mit deutschem Komma."
-          en: "Diagram of German two-digit numbers: 24 spoken as vier-und-zwanzig (ones + und + tens), plus price tag 2,45 € using a German decimal comma."
+          de: "Schema für zweistellige Zahlen: 24 wird als vier-und-zwanzig gesprochen (Einer plus und plus Zehner), und Preisschild 1,24 € mit deutschem Komma."
+          en: "Diagram of German two-digit numbers: 24 spoken as vier-und-zwanzig (ones + und + tens), plus price tag 1,24 € using a German decimal comma."
         caption:
-          de: "Peters Ankommens-Ordner: Einer vor Zehner und Komma bei Euro-Preisen."
-          en: "Peter's Arrival Folder: ones before tens and the comma in German Euro prices."
+          de: "Peters Lindenberg-Heft: Einer vor Zehner und Komma bei Euro-Preisen."
+          en: "Peter's Notebook: ones before tens and the comma in German Euro prices."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: vocabulary
@@ -122,8 +122,8 @@ blocks:
             right: { de: "31", en: "31" }
           - left: { de: "siebenundsechzig", en: "siebenundsechzig" }
             right: { de: "67", en: "67" }
-          - left: { de: "null-sechs-vier-zwei-eins", en: "null-sechs-vier-zwei-eins (area code)" }
-            right: { de: "06421", en: "06421" }
+          - left: { de: "null-eins-sieben-zwei", en: "null-eins-sieben-zwei (mobile prefix)" }
+            right: { de: "0172", en: "0172" }
         explanation:
           de: "Lies von hinten nach vorn: siebenundsechzig = 7 + 60 = 67."
           en: "Read ones first, then tens: siebenundsechzig = 7 + 60 = 67."
@@ -161,4 +161,4 @@ blocks:
           en: "For 25 use ones + und + tens, and remember the ß in 30."
         explanation:
           de: "Super! Jetzt kennst du Zahlen und Preise – auf der nächsten Seite trägt Peter Uhrzeiten und Wochentage in seinen Kalender ein."
-          en: "Great! Now that you know numbers and prices, next Peter adds times and days to his Arrival Folder calendar."
+          en: "Great! Now that you know numbers and prices, next Peter adds times and days to his Peter's Notebook calendar."

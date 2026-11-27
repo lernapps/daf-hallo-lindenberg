@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du formelle und informelle Uhrzeiten sowie Wochentage, Monate und Daten auf Deutsch verstehen. Lukas sagt zu Peter: „Wir treffen uns um **halb drei** am Bahnhof.“ Im Deutschen blickt *halb* immer auf die **nächste volle Stunde** voraus!"
-          en: "After this page you can tell formal and informal time and use days, months, and dates in German. Lukas tells Peter: 'Wir treffen uns um **halb drei** am Bahnhof.' In German, *halb* always looks forward to the **upcoming hour**!"
+          de: "Nach dieser Seite kannst du formelle und informelle Uhrzeiten sowie Wochentage, Monate und Daten auf Deutsch verstehen. Lukas sagt zu Peter: „Wir treffen uns um **halb drei** im Stadtpark.“ Im Deutschen blickt *halb* immer auf die **nächste volle Stunde** voraus!"
+          en: "After this page you can tell formal and informal time and use days, months, and dates in German. Lukas tells Peter: 'Wir treffen uns um **halb drei** im Stadtpark.' In German, *halb* always looks forward to the **upcoming hour**!"
       - type: single-choice
         id: halb-drei-test
         text:
@@ -59,8 +59,8 @@ blocks:
           de: "Analoguhr mit halbierter Stunde zur nächsten vollen Stunde und Merkkarte: um plus Uhrzeit, am plus Tag oder Datum, im plus Monat."
           en: "Analog clock showing halb looking forward to the next hour, plus memory box: um + clock time, am + day/date, im + month."
         caption:
-          de: "Peters Ankommens-Ordner: halb blickt vorwärts, und um/am/im steuern Termine."
-          en: "Peter's Arrival Folder: halb looks forward, and um/am/im structure schedules."
+          de: "Peters Lindenberg-Heft: halb blickt vorwärts, und um/am/im steuern Termine."
+          en: "Peter's Notebook: halb looks forward, and um/am/im structure schedules."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: table
@@ -121,8 +121,8 @@ blocks:
           de: "Wähle die passende Präposition (um, am, im) für Peters Kalender."
           en: "Choose the right preposition (um, am, im) for Peter's calendar."
         items:
-          - cue: "German class is on Monday."
-            target: "Der Deutschkurs ist [am] Montag."
+          - cue: "Football practice is on Monday."
+            target: "Das Fußballtraining ist [am] Montag."
             distractors: [["im", "um"]]
           - cue: "Class starts at 8:00."
             target: "Der Unterricht beginnt [um] 8:00 Uhr."

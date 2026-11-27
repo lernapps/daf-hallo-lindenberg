@@ -36,17 +36,17 @@ description: Use for any content work in this app - researching, writing, extend
 
 ## Content structure
 
-- **Story world (fixed across all pages):** **Peter** (12, English-speaking student living in **Lindenberg**, a fictional mid-sized town in central Germany), host family **Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 12, **Mina** 9), German teacher **Herr Braun**, classmate **Nadia** (12), visiting friend **Alex** (Ch 3.3). Recurring artifact: Peter's growing **Arrival Folder** (*Ankommens-Ordner*).
+- **Story world (fixed across all pages):** **Peter** (12, English-speaking student who moves with his parents for a year to **Lindenberg**, a fictional mid-sized town in central Germany, joining **Klasse 6**), family friends **Familie Weber** (**Frau Weber / Katrin**, **Herr Weber / Thomas**, **Lukas** 12, **Mina** 9), class teacher **Herr Braun**, classmate **Nadia** (12), and visiting friend **Alex** (12, Ch 3.3). Recurring artifact: **Peter's Notebook** (*Peters Lindenberg-Heft*).
 - **Page flow (1 competency per page, max 350 reading words, max 4 consecutive text blocks):**
   1. `einstieg` (Opening): 1–2 sentence Lindenberg scene + an immediate, easy opening task before the main explanation.
-  2. `wortschatz` / `regel` / `beispiel` (Introduce): Arrival Folder SVG figure and/or `vocabulary` block (every German noun with its article) + concise rule/note naming the main English-speaker trap.
+  2. `wortschatz` / `regel` / `beispiel` (Introduce): Peter's Notebook SVG figure and/or `vocabulary` block (every German noun with its article) + concise rule/note naming the main English-speaker trap.
   3. `uebung` (Practice): 3 more varied exercises (4 total per competency page), progressing from recognizing to applying, ending with what Peter can do now and what comes next.
 - **Chapter self-assessment:** Each `chapter.yaml` defines `selfAssessment` drawing 1–2 self-contained exercises per competency page (5–6 per chapter, 17 total across the app).
 
 ## Terminology
 
 - **Address to learners:** Informal *you* in English (`en`) and informal *du* in German (`de`) throughout.
-- **Standard German in Germany (*Bundesdeutsch*) used:** *Brötchen* (not *Semmel/Gipfeli*), *Fahrrad* (not *Velo*), *Januar* (not *Jänner*), *PLZ* (5-digit postal code), *Gleis*, *Verspätung*, *Einlass*, *Beginn*, *Treffpunkt*, decimal comma in Euro prices (`2,45 €`), German dot-dates (`14.05.2011`).
+- **Standard German in Germany (*Bundesdeutsch*) used:** *Brötchen* (not *Semmel/Gipfeli*), *Fahrrad* (not *Velo*), *Januar* (not *Jänner*), *PLZ* (5-digit postal code), *Gleis*, *Verspätung*, *Einlass*, *Beginn*, *Treffpunkt*, decimal comma in Euro prices (`2,45 €`), German dot-dates (`14.05.2014`).
 - **Avoided:** Austrian/Swiss everyday vocabulary in A1 scenes; grammatical jargon beyond what A1 learners need (full grammar rules live in `#874`–`#879`).
 
 ## Exercise patterns
@@ -60,7 +60,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 ## Figures
 
-- **Arrival Folder SVGs (`src/images/*.svg`):** Self-drawn inline SVGs, `viewBox="0 0 340 <h>"` (clean at 360px), `source: { de: "Eigene Zeichnung", en: "Own drawing" }`, `licence: CC0-1.0`.
+- **Peter's Notebook SVGs (`src/images/*.svg`):** Self-drawn inline SVGs, `viewBox="0 0 340 <h>"` (clean at 360px), `source: { de: "Eigene Zeichnung", en: "Own drawing" }`, `licence: CC0-1.0`.
 - **Color & contrast convention (≥ 4.5:1 in light and dark mode):** Neutral light card `#f8fafc` with `#cbd5e1` border and `#0f172a` dark slate text; semantic accents: masculine/*der*/daytime blue (`#dbeafe` / `#1e3a8a`), feminine/*die*/warning rose (`#ffe4e6` / `#9f1239`), neuter/*das*/positive green (`#dcfce7` / `#14532d`), morning/highlight amber (`#fef3c7` / `#78350f`).
 - Every figure illustrates what is given and **never reveals the answer** to a task (`explainer-figure-hides-answer`); `alt` describes what is shown, `caption` tells what to look at.
 
@@ -76,14 +76,15 @@ description: Use for any content work in this app - researching, writing, extend
 1. Check `https://lernapps.net/apps/map/daf.json` for competency ids and `requires`.
 2. Create `src/<chapter-id>/chapter.yaml` and one YAML file per competency (plus one compact `recap` page first if any external prerequisite is needed).
 3. Register `<chapter-id>` in `src/app.yaml` (`chapters`).
-4. Follow the 4-exercise pattern and Arrival Folder SVG conventions above, add `selfAssessment` to `chapter.yaml`, and update this content guide.
+4. Follow the 4-exercise pattern and Peter's Notebook SVG conventions above, add `selfAssessment` to `chapter.yaml`, and update this content guide.
 5. Run `npx vp check --fix`, `npx vp build`, `npx --no -- lernapps screenshots`, and `npx --no -- lernapps check`, then commit on a feature branch.
 
 ## Rules learned from mistakes
 
 - Protagonist name must be **Peter** (never "Sam", whose German pronunciation is unrecognizable to English beginners).
+- Target age for A1 (`5-6`) is **12 years old (Klasse 6)** — everyday scenes belong to a 12-year-old's world (family move, *Klasse 6*, football club, ice-cream shop, school concert, weekend zoo trip), never teen-exchange bureaucracy or adult work/hotel scenarios.
 - In `language-task`, `cue`, `source`, `target`, and `distractors` are plain strings (never `{ de, en }` maps), whereas `vocabulary` `note` and `number` `unit` must be `{ de, en }` maps when `languages: [de, en]`.
 - Never put Markdown emphasis (`**...**`) inside a recap page's competency title in a way that breaks `recap-names-competencies` exact matching.
 - Leave at least 24 px of empty space at the bottom-right of every `src/images/*.svg` so the runtime's `© CC0-1.0` badge never overlaps text at 360 px.
-- Explain special German characters (`ß`, umlauts), noun capitalization, and any English-speaker clue right before first use — in plain age-15 language, never linguistics jargon ("long diphthong").
+- Explain special German characters (`ß`, umlauts), noun capitalization, and any English-speaker clue right before first use — in plain age-12 language, never linguistics jargon ("long diphthong").
 - Never copy the exact same sentences across the vocabulary examples, Exercise 3, and Exercise 4 — vary names/places/ages so Exercise 4 tests real transfer, and never list verbatim answers in `hint`.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 192" role="img" aria-label="German number order: 24 is spoken ones first then tens as vier und zwanzig; German prices use a comma such as 1,24 Euro">
   <rect width="340" height="192" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Arrival Folder · German Numbers &amp; Prices</text>
+  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Peter's Notebook · German Numbers &amp; Prices</text>
 
   <rect x="16" y="40" width="90" height="58" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
   <text x="61" y="66" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">24</text>

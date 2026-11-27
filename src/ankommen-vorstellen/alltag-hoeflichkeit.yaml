@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du dich in Deutschland höflich bedanken, entschuldigen und typische Alltagsformeln nutzen. Abends sitzt Peter mit Familie Weber am Tisch. Plötzlich niest Mina – und Lukas ruft sofort ein deutsches Wort."
-          en: "After this page you can thank, apologize, and use everyday polite formulas in Germany. In the evening Peter sits at the dinner table with the Webers. Suddenly Mina sneezes — and Lukas calls out a German word right away."
+          de: "Abends isst Peter bei Familie Weber zu Abend. Plötzlich niest Mina (9) – und Lukas ruft sofort ein deutsches Wort!"
+          en: "At dinner with the Webers, Mina (9) suddenly sneezes — and Lukas calls out a German word right away!"
       - type: single-choice
         id: niesen-wort
         text:
@@ -138,5 +138,5 @@ blocks:
           de: "Denke an Großschreibung bei Nomen (Appetit) und am Satzanfang."
           en: "Remember to capitalize nouns (Appetit) and the first word of a phrase."
         explanation:
-          de: "Super! Am nächsten Morgen geht Peter in die Sprachschule und füllt sein erstes deutsches Formular aus."
-          en: "Nice work! The next morning Peter visits the language school to fill in his first German registration form."
+          de: "Super! Am nächsten Tag geht Peter mit Lukas zum Fußballverein FC Lindenberg Jugend und füllt sein erstes deutsches Formular aus."
+          en: "Nice work! The next day Peter goes with Lukas to the FC Lindenberg Jugend football club to fill in his first German registration form."

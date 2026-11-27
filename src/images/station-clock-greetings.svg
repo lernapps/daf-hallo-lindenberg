@@ -1,31 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 192" role="img" aria-label="German greetings by time of day: 06-11 morning Guten Morgen, 11-18 daytime Guten Tag, 18-22 evening Guten Abend, bedtime Gute Nacht; informal Hallo anytime; bye Tschüss informal or Auf Wiedersehen formal">
-  <rect width="340" height="192" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Arrival Folder · Greetings in Germany</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 196" role="img" aria-label="Peter's Lindenberg Notebook: German greetings by time of day with sun, moon, and star icons — 06-11 Morning Guten Morgen, 11-18 Daytime Guten Tag, 18-22 Evening Guten Abend, Bedtime Gute Nacht">
+  <rect width="340" height="196" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Peter's Notebook · Greetings in Germany</text>
 
-  <rect x="16" y="38" width="72" height="86" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
-  <text x="52" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#78350f">06–11</text>
-  <text x="52" y="70" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#78350f">Morning</text>
-  <text x="52" y="92" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350f">Guten</text>
-  <text x="52" y="108" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#78350f">Morgen</text>
+  <rect x="16" y="38" width="72" height="90" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <circle cx="52" cy="54" r="6" fill="#f59e0b"/>
+  <line x1="39" y1="60" x2="65" y2="60" stroke="#b45309" stroke-width="1.5"/>
+  <text x="52" y="74" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#78350f">06–11</text>
+  <text x="52" y="87" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#78350f">Morning</text>
+  <text x="52" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78350f">Guten</text>
+  <text x="52" y="119" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#78350f">Morgen</text>
 
-  <rect x="96" y="38" width="72" height="86" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
-  <text x="132" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">11–18</text>
-  <text x="132" y="70" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#1e3a8a">Daytime</text>
-  <text x="132" y="92" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#1e3a8a">Guten</text>
-  <text x="132" y="108" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">Tag</text>
+  <rect x="96" y="38" width="72" height="90" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <circle cx="132" cy="54" r="7" fill="#eab308" stroke="#b45309" stroke-width="1"/>
+  <text x="132" y="74" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">11–18</text>
+  <text x="132" y="87" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#1e3a8a">Daytime</text>
+  <text x="132" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#1e3a8a">Guten</text>
+  <text x="132" y="119" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">Tag</text>
 
-  <rect x="176" y="38" width="72" height="86" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
-  <text x="212" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4c1d95">18–22</text>
-  <text x="212" y="70" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#4c1d95">Evening</text>
-  <text x="212" y="92" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4c1d95">Guten</text>
-  <text x="212" y="108" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4c1d95">Abend</text>
+  <rect x="176" y="38" width="72" height="90" rx="8" fill="#ede9fe" stroke="#6d28d9" stroke-width="1.5"/>
+  <path d="M 215 47 A 7 7 0 1 0 215 61 A 5 5 0 1 1 215 47 Z" fill="#6d28d9"/>
+  <text x="212" y="74" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#4c1d95">18–22</text>
+  <text x="212" y="87" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#4c1d95">Evening</text>
+  <text x="212" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4c1d95">Guten</text>
+  <text x="212" y="119" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#4c1d95">Abend</text>
 
-  <rect x="256" y="38" width="68" height="86" rx="8" fill="#e2e8f0" stroke="#334155" stroke-width="1.5"/>
-  <text x="290" y="56" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Bedtime</text>
-  <text x="290" y="70" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#0f172a">Sleep</text>
-  <text x="290" y="92" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a">Gute</text>
-  <text x="290" y="108" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Nacht</text>
+  <rect x="256" y="38" width="68" height="90" rx="8" fill="#e2e8f0" stroke="#334155" stroke-width="1.5"/>
+  <text x="290" y="58" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#334155">z Z</text>
+  <text x="290" y="74" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">Bedtime</text>
+  <text x="290" y="87" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" fill="#0f172a">Sleep</text>
+  <text x="290" y="105" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a">Gute</text>
+  <text x="290" y="119" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Nacht</text>
 
-  <text x="16" y="146" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a"><tspan font-weight="700">Informal:</tspan> Hallo! (hi) · Tschüss! (bye)</text>
-  <text x="16" y="164" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a"><tspan font-weight="700">Formal bye:</tspan> Auf Wiedersehen!</text>
+  <text x="16" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a"><tspan font-weight="700">Informal:</tspan> Hallo! (hi) · Tschüss! (bye)</text>
+  <text x="16" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#0f172a"><tspan font-weight="700">Formal bye:</tspan> Auf Wiedersehen!</text>
 </svg>

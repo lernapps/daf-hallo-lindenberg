@@ -60,8 +60,8 @@ blocks:
           de: "Peters Schultisch nach Artikel gefärbt: blau der Stift und der Stundenplan, grün das Heft und das Buch, rot die Tafel."
           en: "Peter's school desk color-coded by article: blue der Stift and der Stundenplan, green das Heft and das Buch, red die Tafel."
         caption:
-          de: "Peters Ankommens-Ordner: Schulsachen mit der, die, das."
-          en: "Peter's Arrival Folder: classroom objects with der, die, das."
+          de: "Peters Lindenberg-Heft: Schulsachen mit der, die, das."
+          en: "Peter's Notebook: classroom objects with der, die, das."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: vocabulary

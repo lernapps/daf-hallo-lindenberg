@@ -15,16 +15,16 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du aus schnellen Bahnhofsdurchsagen die wichtigsten Zahlen herausfiltern. Achte dabei gezielt auf **vier Signalwörter**: **Gleis** (platform), **Abfahrt** (departure), **Uhrzeit** und **Verspätung** (delay)."
-          en: "After this page you can pick out key numbers from fast German station announcements. Focus on **four signal words**: **Gleis** (platform), **Abfahrt** (departure), **time**, and **Verspätung** (delay)."
+          de: "Wochenend-Ausflug mit Familie Weber zum Zoo! Am Bahnhof sprechen Lautsprecher schnell – achte gezielt auf **vier Signalwörter**: **Gleis** (platform), **Abfahrt** (departure), **Uhrzeit** und **Verspätung** (delay)."
+          en: "Weekend zoo trip with the Webers! Station loudspeakers move fast — focus on **four signal words**: **Gleis** (platform), **Abfahrt** (departure), **time**, and **Verspätung** (delay)."
       - type: figure
         image: images/platform-board.svg
         alt:
           de: "Abfahrtstafel am Bahnhof Lindenberg mit Beispielzug RE 30 nach Kassel Hbf, Abfahrt 13:15, plus 5 Minuten Verspätung, Gleis 2, und den vier Signalwörtern."
           en: "Departure board at Lindenberg station showing example train RE 30 to Kassel Hbf, departure 13:15, +5 min delay, platform 2, and the four signal words."
         caption:
-          de: "Peters Ankommens-Ordner: die vier Signalwörter auf der Abfahrtstafel."
-          en: "Peter's Arrival Folder: the four signal words on a German departure board."
+          de: "Peters Lindenberg-Heft: die vier Signalwörter auf der Abfahrtstafel."
+          en: "Peter's Notebook: the four signal words on a German departure board."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: example

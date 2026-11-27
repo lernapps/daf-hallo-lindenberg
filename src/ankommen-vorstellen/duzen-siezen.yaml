@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du sicher zwischen **du** (vertraut) und **Sie** (höflich, immer großgeschrieben) wählen. Am nächsten Morgen trifft Peter seinen Deutschlehrer **Herrn Braun** (*Mr. Braun*) vor dem Klassenzimmer."
-          en: "After this page you can choose confidently between informal **du** and formal **Sie** (always capitalized). The next morning Peter meets his German teacher **Herr Braun** (*Mr. Braun*) outside the classroom."
+          de: "Nach dieser Seite kannst du sicher zwischen **du** (vertraut) und **Sie** (höflich, immer großgeschrieben) wählen. Am nächsten Morgen trifft Peter seinen Klassenlehrer **Herrn Braun** (*Mr. Braun*) vor dem Klassenzimmer."
+          en: "After this page you can choose confidently between informal **du** and formal **Sie** (always capitalized). The next morning Peter meets his class teacher **Herr Braun** (*Mr. Braun*) outside the classroom."
       - type: single-choice
         id: du-sie-lehrer
         text:
@@ -55,16 +55,16 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Die zweite Karte in Peters **Ankommens-Ordner** teilt Menschen in zwei klare Zonen: Grün steht für den vertrauten **du**-Kreis (Jugendliche, Freunde, Familie), Blau für den höflichen **Sie**-Kreis (Lehrkräfte, fremde Erwachsene)."
-          en: "The second card in Peter's **Arrival Folder** splits people into two clear zones: green for the informal **du** circle (peers, friends, family) and blue for the formal **Sie** circle (teachers, unfamiliar adults)."
+          de: "Die zweite Karte in Peters **Lindenberg-Heft** teilt Menschen in zwei klare Zonen: Grün steht für den vertrauten **du**-Kreis (Jugendliche, Freunde, Familie), Blau für den höflichen **Sie**-Kreis (Lehrkräfte, fremde Erwachsene)."
+          en: "The second card in **Peter's Notebook** splits people into two clear zones: green for the informal **du** circle (peers, friends, family) and blue for the formal **Sie** circle (teachers, unfamiliar adults)."
       - type: figure
         image: images/du-sie-map.svg
         alt:
           de: "Zwei Zonen: links grün du (Freunde, Kinder, Jugendliche, Familie mit Vorname), rechts blau Sie (Lehrkräfte, fremde Erwachsene, Personal mit Frau oder Herr und Nachname)."
           en: "Two zones: green left box du (friends, kids, teens, family with first name) and blue right box Sie (teachers, unfamiliar adults, staff with Frau or Herr plus last name)."
         caption:
-          de: "Peters Ankommens-Ordner: Im Zweifel immer zuerst Sie sagen."
-          en: "Peter's Arrival Folder: when in doubt, start with formal Sie."
+          de: "Peters Lindenberg-Heft: Im Zweifel immer zuerst Sie sagen."
+          en: "Peter's Notebook: when in doubt, start with formal Sie."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: note
@@ -74,8 +74,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Kleines *sie* bedeutet „she“ oder „they“ – nur großes **Sie** bedeutet das höfliche „you“. Gasteltern bieten oft von sich aus das *du* an („Sag gern du zu mir“)."
-              en: "Lowercase *sie* means 'she' or 'they' — only capital **Sie** means polite 'you'. Host parents often offer *du* themselves ('Sag gern du zu mir')."
+              de: "Kleines *sie* bedeutet „she“ oder „they“ – nur großes **Sie** bedeutet das höfliche „you“. Familienfreunde bieten Kindern oft von sich aus das *du* an („Sag gern du zu mir“)."
+              en: "Lowercase *sie* means 'she' or 'they' — only capital **Sie** means polite 'you'. Family friends often offer *du* to kids themselves ('Sag gern du zu mir')."
   - type: section
     id: uebung
     title:
@@ -90,11 +90,11 @@ blocks:
         pairs:
           - left: { de: "Nadia (12, neue Mitschülerin)", en: "Nadia (12, new classmate)" }
             right: { de: "Hallo! Woher kommst du?", en: "Hallo! Woher kommst du? (Where are you from?)" }
-          - left: { de: "Herr Braun (Deutschlehrer)", en: "Herr Braun (German teacher)" }
+          - left: { de: "Herr Braun (Klassenlehrer)", en: "Herr Braun (class teacher)" }
             right: { de: "Guten Tag, Herr Braun!", en: "Guten Tag, Herr Braun!" }
-          - left: { de: "Mina (9, Gastschwester)", en: "Mina (9, host sister)" }
+          - left: { de: "Mina (9, Lukas' Schwester)", en: "Mina (9, Lukas's sister)" }
             right: { de: "Wie alt bist du?", en: "Wie alt bist du? (How old are you?)" }
-          - left: { de: "Die Frau am Fahrkartenschalter", en: "The clerk at the ticket counter" }
+          - left: { de: "Die Verkäuferin beim Bäcker", en: "The assistant at the bakery" }
             right: { de: "Können Sie mir helfen?", en: "Können Sie mir helfen? (Can you help me?)" }
         explanation:
           de: "Gleichaltrige und Kinder bekommen du, Lehrkräfte und fremde Erwachsene bekommen Sie."
@@ -122,7 +122,7 @@ blocks:
           - cue: "Asking a bus driver for help"
             target: "Guten Tag, können [Sie] mir helfen?"
             distractors: [["du", "sie"]]
-          - cue: "Talking to host sister Mina (9)"
+          - cue: "Talking to Lukas's sister Mina (9)"
             target: "Mina, wie alt bist [du]?"
             distractors: [["Sie", "sie"]]
         explanation:

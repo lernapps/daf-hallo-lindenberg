@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du Menschen in Deutschland zur passenden Tageszeit begrüßen, dich verabschieden und deinen Namen, dein Alter und deine Herkunft nennen. Peter (12) steigt um **15:00 Uhr** am Bahnhof Lindenberg aus dem Zug. Auf dem Bahnsteig warten Gastmutter **Frau Weber** (*Ms. Weber*) und ihre Kinder Lukas (12) und Mina (9)."
-          en: "After this page you can greet people in Germany for the right time of day, say goodbye, and give your name, age, and home country. Peter (12) steps off the train at Lindenberg station at **3:00 p.m. (15:00)**. Waiting on the platform are host mother **Frau Weber** (*Ms. Weber*) and her kids Lukas (12) and Mina (9)."
+          de: "Peter (12) zieht mit seinen Eltern für ein Jahr nach Lindenberg! Um **15:00 Uhr** steigen sie am Bahnhof aus dem Zug – auf dem Bahnsteig warten schon die Familienfreunde **Frau Weber** (*Ms. Weber*), Lukas (12) und Mina (9)."
+          en: "Peter (12) is moving to Lindenberg with his parents for a year! At **3:00 p.m. (15:00)** they step off the train — waiting on the platform are family friends **Frau Weber** (*Ms. Weber*), Lukas (12), and Mina (9)."
       - type: single-choice
         id: begruessung-nachmittag
         text:
@@ -55,16 +55,16 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Die erste Karte in Peters **Ankommens-Ordner** ordnet jede Begrüßung ihrer Tageszeit zu (abends nach 22 Uhr bleibt man bei *Guten Abend*, *Gute Nacht* gilt erst zum Schlafen). Unter Freunden passt jederzeit **Hallo!**."
-          en: "The first card in Peter's **Arrival Folder** matches each polite greeting to its time of day (after 10 p.m. people still say *Guten Abend*; *Gute Nacht* is only for bedtime). With peers, **Hallo!** works any time."
+          de: "Die erste Karte in Peters **Lindenberg-Heft** ordnet jede Begrüßung ihrer Tageszeit zu (abends nach 22 Uhr bleibt man bei *Guten Abend*, *Gute Nacht* gilt erst zum Schlafen). Unter Freunden passt jederzeit **Hallo!**."
+          en: "The first card in **Peter's Notebook** matches each polite greeting to its time of day (after 10 p.m. people still say *Guten Abend*; *Gute Nacht* is only for bedtime). With peers, **Hallo!** works any time."
       - type: figure
         image: images/station-clock-greetings.svg
         alt:
           de: "Vier Zeitkarten für Begrüßungen: 06–11 Morgen Guten Morgen, 11–18 Tag Guten Tag, 18–22 Abend Guten Abend, Schlafen Gute Nacht; informell Hallo und Tschüss, formell Auf Wiedersehen."
           en: "Four time cards for German greetings: 06–11 Morning Guten Morgen, 11–18 Daytime Guten Tag, 18–22 Evening Guten Abend, Bedtime Gute Nacht; informal Hallo and Tschüss; formal bye Auf Wiedersehen."
         caption:
-          de: "Peters Ankommens-Ordner: Welche Begrüßung zu welcher Uhrzeit passt."
-          en: "Peter's Arrival Folder: matching each greeting to the time of day."
+          de: "Peters Lindenberg-Heft: Welche Begrüßung zu welcher Uhrzeit passt."
+          en: "Peter's Notebook: matching each greeting to the time of day."
         source:
           de: "Eigene Zeichnung"
           en: "Own drawing"
@@ -76,8 +76,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Der Buchstabe **ß** in *heiße* klingt wie ein scharfes „ss“ – du findest ihn unter **Sonderzeichen**. Alle deutschen Nomen schreibt man groß (*Jahre* = years, *alt* = old). Und *Gute Nacht* hat kein „-n“, weil *die Nacht* weiblich ist (mehr dazu später bei den Artikeln)."
-              en: "The letter **ß** in *heiße* sounds like a sharp 'ss' — click **Special characters** below an input to type it. All German nouns are capitalized (*Jahre* = years, *alt* = old). And *Gute Nacht* has no '-n' because *Nacht* is feminine (covered in the Cases app)."
+              de: "Der Buchstabe **ß** in *heiße* klingt wie ein scharfes „ss“ – du findest ihn unter **Sonderzeichen**. Alle deutschen Nomen schreibt man groß (*Jahre* = years, *alt* = old). Und *Gute Nacht* hat kein „-n“, weil *die Nacht* weiblich ist (warum, lernst du später)."
+              en: "The letter **ß** in *heiße* sounds like a sharp 'ss' — click **Special characters** below an input to type it. All German nouns are capitalized (*Jahre* = years, *alt* = old). And *Gute Nacht* has no '-n' because *Nacht* is feminine (you will see why later)."
       - type: vocabulary
         caption:
           de: "Peters erste Wendungen am Bahnhof"
@@ -183,5 +183,5 @@ blocks:
           de: "Beginne beide Sätze mit „Ich …“ und denke an „Deutschland“ für Germany."
           en: "Start both sentences with 'Ich …' and use 'Deutschland' for Germany."
         explanation:
-          de: "Stark! Du hast die erste Karte in Peters Ankommens-Ordner abgeschlossen. Als Nächstes in diesem Kapitel folgt: Wann sagt man „du“ und wann „Sie“?"
-          en: "Great work! You completed the first card in Peter's Arrival Folder. Coming up next in this chapter: when to use informal 'du' vs. formal 'Sie'."
+          de: "Stark! Du hast die erste Karte in Peters Lindenberg-Heft abgeschlossen. Als Nächstes in diesem Kapitel folgt: Wann sagt man „du“ und wann „Sie“?"
+          en: "Great work! You completed the first card in Peter's Notebook. Coming up next in this chapter: when to use informal 'du' vs. formal 'Sie'."

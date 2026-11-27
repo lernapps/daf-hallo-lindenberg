@@ -1,50 +1,50 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title:
-  de: "Infos einfach weitergeben (Sprachmittlung)"
-  en: "Relaying Simple Information (Mediation)"
+  de: "Plakate für Freunde erklären"
+  en: "Help Alex Read a German Poster"
 description:
-  de: "Die wichtigsten Fakten (Zeit, Ort, Preis) aus einem deutschen Plakat auf Englisch weitergeben."
-  en: "Pass on key facts (time, place, price) from a German poster to an English-speaking friend."
+  de: "Die wichtigsten Fakten (Zeit, Ort, Preis) aus einem deutschen Plakat einfach auf Englisch weitergeben."
+  en: "Pass on key facts (time, place, price) from a German school-concert poster in English."
 competencies: [sprachmittlung-a1]
 blocks:
   - type: section
     id: einstieg
     title:
-      de: "Sprachmittlung ist kein Wort-für-Wort-Übersetzen"
-      en: "Mediation Is Not Word-for-Word Translation"
+      de: "Nur die wichtigen Fakten weitergeben"
+      en: "Pass On Only the Key Facts"
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du die wichtigsten Fakten (Datum, Uhrzeit, Ort, Preis) von einem deutschen Plakat klar auf Englisch weitergeben. Peters Freund **Alex** aus England ist zu Besuch. Am Schwarzen Brett hängt dieses Konzertplakat – gib nur die Infos weiter, die Alex wirklich braucht."
-          en: "After this page you can pass on key facts (date, time, place, price) from a German poster clearly in English. Peter's friend **Alex** is visiting from England. On the notice board hangs this school-concert poster — relay only the facts Alex actually needs."
+          de: "Peters Cousin **Alex** (12) aus England ist mit seinen Eltern übers Wochenende zu Besuch! Am Schwarzen Brett der Schule hängt dieses Plakat. Du musst nicht jedes Wort übersetzen – gib einfach die **wichtigen Fakten** weiter, die Alex wissen will."
+          en: "Peter's cousin **Alex** (12) from England is visiting with his parents for the weekend! On the school notice board hangs this poster. You do not need to translate every word — just pass on the **key facts** Alex wants to know."
       - type: figure
         image: images/concert-poster.svg
         alt:
-          de: "Konzertplakat: Schulkonzert Kulturhaus Lindenberg Marktplatz 4, Samstag 18. Oktober, Einlass 16:30 Uhr, Beginn 17:00 Uhr, Eintritt 5,00 €, mit Schülerausweis 3,00 €."
-          en: "Concert poster: Schulkonzert Kulturhaus Lindenberg Marktplatz 4, Saturday 18 October, Einlass (doors open) 16:30, Beginn (start) 17:00, Eintritt (admission) 5,00 €, with student ID 3,00 €."
+          de: "Konzertplakat: Schulkonzert in der Aula der Schule Marktplatz 4, Samstag 18. Oktober, Einlass 16:30 Uhr, Beginn 17:00 Uhr, Eintritt Erwachsene 5,00 €, Kinder bis 14 Jahre 3,00 €."
+          en: "School concert poster: Schulkonzert at Aula der Schule Marktplatz 4, Saturday 18 October, Einlass (doors open) 16:30, Beginn (start) 17:00, Erwachsene (adults) 5,00 €, Kinder (kids up to 14) 3,00 €."
         caption:
-          de: "Plakat am Schwarzen Brett in Lindenberg."
-          en: "Poster on the Lindenberg notice board."
+          de: "Plakat am Schwarzen Brett in Peters Schule."
+          en: "Poster on Peter's school notice board."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: single-choice
         id: mittlung-preis
         text:
-          de: "Alex fragt: „How much is it if I bring my student ID?“ Was antwortet Peter?"
-          en: "Alex asks: 'How much is it if I bring my student ID?' What should Peter tell him?"
+          de: "Alex (12) fragt: „How much is a ticket for kids our age?“ Was antwortet Peter?"
+          en: "Alex (12) asks: 'How much is a ticket for kids our age?' What should Peter tell him?"
         options:
           - text:
               {
-                de: "3 euros with a student ID (otherwise 5 euros).",
-                en: "3 euros with a student ID (otherwise 5 euros).",
+                de: "3 euros for kids up to 14 (5 euros for adults).",
+                en: "3 euros for kids up to 14 (5 euros for adults).",
               }
             correct: true
             info:
               {
-                de: "„mit Schülerausweis: 3,00 €“ heißt 3 Euro mit Schülerausweis, sonst 5 Euro.",
-                en: "'mit Schülerausweis: 3,00 €' means 3 euros with a student ID, otherwise 5 euros.",
+                de: "„Kinder (bis 14): 3,00 €“ heißt 3 Euro für Kinder bis 14 Jahre und 5 Euro für Erwachsene.",
+                en: "'Kinder (bis 14): 3,00 €' means 3 euros for kids up to 14 and 5 euros for adults.",
               }
-          - text: { de: "It is free for students.", en: "It is free for students." }
+          - text: { de: "It is free for kids.", en: "It is free for kids." }
             correct: false
             info:
               {
@@ -96,12 +96,12 @@ blocks:
       - type: true-false
         id: mittlung-ort
         text:
-          de: "Das Konzert findet im Kulturhaus Lindenberg am Marktplatz 4 statt."
-          en: "The concert takes place at Kulturhaus Lindenberg, Marktplatz 4."
+          de: "Das Schulkonzert findet in der Aula der Schule am Marktplatz 4 statt."
+          en: "The school concert takes place in the school hall (Aula) at Marktplatz 4."
         answer: true
         explanation:
-          de: "Genau: Direkt unter dem Titel nennt das Plakat den Ort „Kulturhaus Lindenberg · Marktplatz 4“."
-          en: "Exactly: right under the title, the poster lists 'Kulturhaus Lindenberg · Marktplatz 4'."
+          de: "Genau: Direkt unter dem Titel nennt das Plakat den Ort „Aula der Schule · Marktplatz 4“."
+          en: "Exactly: right under the title, the poster lists 'Aula der Schule · Marktplatz 4'."
       - type: matching
         id: mittlung-woerter
         text:
@@ -114,8 +114,8 @@ blocks:
             right: { de: "start", en: "start" }
           - left: { de: "Eintritt", en: "Eintritt" }
             right: { de: "admission / entry fee", en: "admission / entry fee" }
-          - left: { de: "Schülerausweis", en: "Schülerausweis" }
-            right: { de: "student ID", en: "student ID" }
+          - left: { de: "Erwachsene", en: "Erwachsene" }
+            right: { de: "adults", en: "adults" }
         explanation:
-          de: "Geschafft! Du hast alle drei Kapitel und Peters gesamten Ankommens-Ordner abgeschlossen. In der nächsten Lindenberg-App geht es um den Alltag bei Familie Weber!"
-          en: "You did it! You completed all three chapters and Peter's entire Arrival Folder. Next in the Lindenberg series: Everyday Life at the Webers'!"
+          de: "Geschafft! Du hast alle drei Kapitel und Peters gesamtes Lindenberg-Heft abgeschlossen. Weiter geht es mit dem Alltag bei Familie Weber!"
+          en: "You did it! You completed all three chapters and Peter's entire Lindenberg Notebook. Next up in Lindenberg: Everyday Life at the Webers'!"

@@ -1,23 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 214" role="img" aria-label="Peter's school desk color-coded by German noun gender: blue der Stift and der Stundenplan, green das Heft and das Buch, red die Tafel">
-  <rect width="340" height="214" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Arrival Folder · On Peter's School Desk</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 218" role="img" aria-label="Illustrated school desk items color-coded by German article: blue pen der Stift and timetable der Stundenplan, green notebook das Heft and book das Buch, red board die Tafel">
+  <rect width="340" height="218" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="16" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Peter's Notebook · On My School Desk</text>
 
-  <rect x="14" y="40" width="150" height="46" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
-  <text x="24" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stift</text>
-  <text x="24" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">the pen (masculine: der)</text>
+  <rect x="14" y="40" width="150" height="48" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="24" y1="74" x2="38" y2="54" stroke="#1e3a8a" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="22,77 26,75 23,71" fill="#1e3a8a"/>
+  <text x="48" y="61" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stift</text>
+  <text x="48" y="77" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">the pen (der)</text>
 
-  <rect x="176" y="40" width="150" height="46" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
-  <text x="186" y="59" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">der Stundenplan</text>
-  <text x="186" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">the timetable (der)</text>
+  <rect x="176" y="40" width="150" height="48" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <rect x="184" y="52" width="18" height="22" rx="2" fill="#ffffff" stroke="#1e3a8a" stroke-width="1.5"/>
+  <line x1="184" y1="59" x2="202" y2="59" stroke="#1e3a8a" stroke-width="1"/>
+  <line x1="193" y1="59" x2="193" y2="74" stroke="#1e3a8a" stroke-width="1"/>
+  <text x="208" y="61" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#1e3a8a">der Stundenplan</text>
+  <text x="208" y="77" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#1e3a8a">timetable (der)</text>
 
-  <rect x="14" y="94" width="150" height="46" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
-  <text x="24" y="113" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Heft</text>
-  <text x="24" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">the notebook (das)</text>
+  <rect x="14" y="96" width="150" height="48" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="24" y="108" width="16" height="22" rx="2" fill="#ffffff" stroke="#14532d" stroke-width="1.5"/>
+  <line x1="27" y1="114" x2="37" y2="114" stroke="#15803d" stroke-width="1.2"/>
+  <line x1="27" y1="120" x2="37" y2="120" stroke="#15803d" stroke-width="1.2"/>
+  <text x="48" y="117" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Heft</text>
+  <text x="48" y="133" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">notebook (das)</text>
 
-  <rect x="176" y="94" width="150" height="46" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
-  <text x="186" y="113" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Buch</text>
-  <text x="186" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">the book (das)</text>
+  <rect x="176" y="96" width="150" height="48" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M 184 110 Q 193 106 193 112 L 193 130 Q 188 127 184 129 Z" fill="#ffffff" stroke="#14532d" stroke-width="1.5"/>
+  <path d="M 202 110 Q 193 106 193 112 L 193 130 Q 198 127 202 129 Z" fill="#ffffff" stroke="#14532d" stroke-width="1.5"/>
+  <text x="210" y="117" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#14532d">das Buch</text>
+  <text x="210" y="133" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#14532d">the book (das)</text>
 
-  <rect x="14" y="148" width="218" height="36" rx="8" fill="#ffe4e6" stroke="#be123c" stroke-width="1.5"/>
-  <text x="24" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#9f1239">die Tafel · the board (feminine)</text>
+  <rect x="14" y="152" width="222" height="38" rx="8" fill="#ffe4e6" stroke="#be123c" stroke-width="1.5"/>
+  <rect x="24" y="160" width="22" height="16" rx="2" fill="#14532d" stroke="#9f1239" stroke-width="1.5"/>
+  <line x1="27" y1="168" x2="43" y2="168" stroke="#ffffff" stroke-width="1.2"/>
+  <text x="54" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#9f1239">die Tafel · the board (die)</text>
 </svg>

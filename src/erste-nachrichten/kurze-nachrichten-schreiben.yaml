@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du eine kurze Einladung oder Antwort an Freunde auf Deutsch schreiben. Jede kurze Nachricht hat **drei Teile**: **Anrede** (*Hallo Nadia,*), **Hauptteil** (Wann? Wo? Frage?) und **Gruß** (*Viele Grüße, Peter*). Beginne mit Peters Antwort an Lukas!"
-          en: "After this page you can write a short invitation or reply to friends in German. Every short message has **three parts**: **Greeting** (*Hallo Nadia,*), **Body** (when, where, question), and **Sign-off** (*Viele Grüße, Peter*). Start by ordering Peter's reply to Lukas!"
+          de: "Nach dieser Seite kannst du eine kurze Einladung oder Antwort an Freunde auf Deutsch schreiben. Jede kurze Nachricht hat **drei Teile**: **Anrede** (*Hallo Nadia,*), **Hauptteil** (Wann? Wo? Frage?) und **Gruß** (*Liebe Grüße, Peter* / *Bis Samstag, Peter*). Beginne mit Peters Antwort an Lukas!"
+          en: "After this page you can write a short invitation or reply to friends in German. Every short message has **three parts**: **Greeting** (*Hallo Nadia,*), **Body** (when, where, question), and **Sign-off** (*Liebe Grüße, Peter* / *Bis Samstag, Peter*). Start by ordering Peter's reply to Lukas!"
       - type: ordering
         id: nachricht-reihenfolge
         text:
@@ -43,8 +43,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "„Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter“"
-              en: "'Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Viele Grüße, Peter'"
+              de: "„Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Liebe Grüße, Peter“"
+              en: "'Hallo Nadia, hast du am Samstag um 15:00 Uhr Zeit? Ich möchte ins Eiscafé am Marktplatz gehen. Kommst du mit? Liebe Grüße, Peter'"
   - type: section
     id: uebung
     title:
@@ -54,8 +54,8 @@ blocks:
       - type: single-choice
         id: nachricht-verbzweit
         text:
-          de: "Welcher Satz hält die deutsche Verb-Zweitstellung richtig ein?"
-          en: "Which sentence correctly follows German verb-second word order?"
+          de: "Wo steht das Verb richtig? Wähle den natürlichen deutschen Satz!"
+          en: "Where does the verb belong? Pick the natural German sentence!"
         options:
           - text: { de: "Am Samstag gehe ich ins Kino.", en: "Am Samstag gehe ich ins Kino." }
             correct: true
@@ -93,8 +93,8 @@ blocks:
             target: "Hast du am Samstag [Zeit]?"
           - source: "At 3:00 p.m. I am going to the ice-cream parlor."
             target: "Um 15:00 Uhr [gehe] ich ins Eiscafé."
-          - source: "Best regards, Peter"
-            target: "Viele [Grüße], Peter"
+          - source: "Love / Cheers, Peter"
+            target: "Liebe [Grüße], Peter"
         form:
           case: hint
           punctuation: ok

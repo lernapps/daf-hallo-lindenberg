@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: "Anmeldung in der Sprachschule"
-      en: "Registering at the Language School"
+      de: "Anmeldung beim FC Lindenberg"
+      en: "Signing Up for FC Lindenberg"
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du ein einfaches deutsches Anmeldeformular lesen und korrekt ausfüllen. In der Sprachschule Lindenberg bekommt Peter ein Formular – aber Adressen und Daten stehen in Deutschland in einer anderen Reihenfolge als im Englischen."
-          en: "After this page you can read and complete a simple German registration form accurately. At the Lindenberg language school Peter gets a form — and German addresses and dates follow a different order from English."
+          de: "Lukas nimmt Peter mit zum Fußballtraining beim **FC Lindenberg Jugend**! Damit Peter mitspielen darf, füllt er seine Anmeldekarte aus – aber Adressen und Daten stehen in Deutschland anders als im Englischen."
+          en: "Lukas brings Peter along to football practice at **FC Lindenberg Jugend**! To join the team, Peter fills in his sign-up card — and German addresses and dates follow a different order from English."
       - type: single-choice
         id: formular-adresse
         text:
@@ -50,8 +50,8 @@ blocks:
   - type: section
     id: beispiel
     title:
-      de: "Peters Anmeldeformular"
-      en: "Peter's Registration Form"
+      de: "Peters Vereins-Anmeldung"
+      en: "Peter's Football Club Card"
     blocks:
       - type: text
         text:
@@ -63,8 +63,8 @@ blocks:
           de: "Deutsches Anmeldeformular mit den Feldern Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2014, Straße und Hausnummer Lindenstraße 12, PLZ und Wohnort 35037 Lindenberg."
           en: "German registration form with fields Vorname Peter, Nachname Taylor, Geburtsdatum 14.05.2014, Straße and Hausnummer Lindenstraße 12, PLZ and Wohnort 35037 Lindenberg."
         caption:
-          de: "Peters Ankommens-Ordner: die wichtigsten Felder eines deutschen Formulars."
-          en: "Peter's Arrival Folder: key fields on a German registration form."
+          de: "Peters Lindenberg-Heft: die wichtigsten Felder eines deutschen Formulars."
+          en: "Peter's Notebook: key fields on a German registration form."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
   - type: section
@@ -120,5 +120,5 @@ blocks:
           de: "Alle Feldnamen sind deutsche Nomen und beginnen mit einem Großbuchstaben."
           en: "All German form labels are nouns, so each one starts with a capital letter."
         explanation:
-          de: "Das Formular liegt fertig in Peters Ankommens-Ordner. Auf der letzten Seite von Kapitel 1 stellt sich Peter laut im Deutschkurs vor."
-          en: "The form is filed in Peter's Arrival Folder. On the final page of Chapter 1, Peter introduces himself aloud in German class."
+          de: "Das Formular liegt fertig in Peters Lindenberg-Heft. Auf der letzten Seite von Kapitel 1 stellt sich Peter laut in seiner neuen Klasse 6 vor."
+          en: "The form is filed in Peter's Notebook. On the final page of Chapter 1, Peter introduces himself aloud in his new Klasse 6."

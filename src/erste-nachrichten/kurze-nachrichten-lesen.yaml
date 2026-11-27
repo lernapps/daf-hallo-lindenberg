@@ -19,8 +19,8 @@ blocks:
           en: "After this page you can pull the four key facts (**Who? What? When? Where?**) out of short German text messages and invitations. After school Peter receives this message from Lukas."
       - type: example
         title:
-          de: "Chat-Verlauf in Peters Ankommens-Ordner"
-          en: "Chat thread in Peter's Arrival Folder"
+          de: "Nachricht auf Peters Handy"
+          en: "Message on Peter's phone"
         blocks:
           - type: text
             text:

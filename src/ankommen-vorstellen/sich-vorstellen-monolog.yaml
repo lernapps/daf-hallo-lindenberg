@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title:
-  de: "Sich im Kurs vorstellen"
-  en: "Introducing Yourself Aloud"
+  de: "Steckbrief: Sich in der Klasse vorstellen"
+  en: "Introducing Yourself in Class"
 description:
   de: "In fünf kurzen, zusammenhängenden Sätzen über Name, Herkunft, Alter, Wohnort und Hobbys sprechen."
   en: "Introduce yourself in five connected sentences about your name, origin, age, home, and hobbies."
@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: "Vorstellungsrunde bei Herrn Braun"
+      de: "Vorstellungsrunde in Klasse 6"
       en: "Introduction Round in Herr Braun's Class"
     blocks:
       - type: text
         text:
-          de: "Nach dieser Seite kannst du dich in kurzen, zusammenhängenden Sätzen auf Deutsch vorstellen. Im Deutschkurs bittet Herr Braun alle um eine kurze Runde – beginne damit, Nadias Sätze sinnvoll zu ordnen."
-          en: "After this page you can introduce yourself in a few connected German sentences. In German class, Herr Braun asks everyone to introduce themselves — start by putting Nadia's sentences in a natural order."
+          de: "Erster Schultag in **Klasse 6**! Klassenlehrer Herr Braun startet eine kurze Steckbrief-Runde mit Lukas, Nadia und Peter. Bringe zuerst Nadias Sätze in eine gute Reihenfolge!"
+          en: "First day in **Klasse 6**! Class teacher Herr Braun kicks off a quick profile round with Lukas, Nadia, and Peter. Start by putting Nadia's sentences in a natural order!"
       - type: ordering
         id: vorstellung-reihenfolge
         text:
@@ -42,19 +42,19 @@ blocks:
           de: "Fünf farbige Schritte für eine Vorstellung: 1 Begrüßung, 2 Name und Herkunft, 3 Alter, 4 Wohnort, 5 Hobbys."
           en: "Five color-coded steps for a spoken self-introduction: 1 Greeting, 2 Name and Origin, 3 Age, 4 Home, 5 Hobbies."
         caption:
-          de: "Peters Ankommens-Ordner: der klare Leitfaden für deine Vorstellung."
-          en: "Peter's Arrival Folder: a clear 5-step guide for introducing yourself."
+          de: "Peters Lindenberg-Heft: der klare Leitfaden für deine Vorstellung."
+          en: "Peter's Notebook: a clear 5-step guide for introducing yourself."
         source: { de: "Eigene Zeichnung", en: "Own drawing" }
         licence: CC0-1.0
       - type: example
         title:
-          de: "So stellt sich Peter im Kurs vor"
-          en: "How Peter introduces himself in class"
+          de: "So stellt sich Peter in der Klasse vor"
+          en: "How Peter introduces himself in Klasse 6"
         blocks:
           - type: text
             text:
-              de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.“"
-              en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg bei Familie Weber. Meine Hobbys sind Fußball und Musik.'"
+              de: "„Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg nahe dem Marktplatz. Meine Hobbys sind Fußball und Musik.“"
+              en: "'Hallo zusammen! Ich heiße Peter Taylor und komme aus England. Ich bin 12 Jahre alt. Jetzt wohne ich in Lindenberg nahe dem Marktplatz. Meine Hobbys sind Fußball und Musik.'"
       - type: vocabulary
         caption:
           de: "Neue Wörter für deine Vorstellung"
@@ -109,8 +109,8 @@ blocks:
         languages: { source: en, target: de }
         mode: gap
         task:
-          de: "Ergänze Lukas' Vorstellung im Kurs."
-          en: "Complete Lukas's introduction in class."
+          de: "Ergänze Lukas' Vorstellung in der Klasse."
+          en: "Complete Lukas's introduction in Klasse 6."
         items:
           - source: "I live in Lindenberg."
             target: "Ich [wohne] in Lindenberg."

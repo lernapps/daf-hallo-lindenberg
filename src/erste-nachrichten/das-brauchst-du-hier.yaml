@@ -3,14 +3,14 @@ title:
   de: "Das brauchst du hier"
   en: "What You Need Here"
 description:
-  de: "Kurze Wiederholung vor den Nachrichten: Verb-Zweitstellung im deutschen Aussagesatz."
-  en: "Quick refresher before writing messages: Verb-second word order in German statements."
+  de: "Kurze Erinnerung vor den Nachrichten: Das Verb liebt Platz 2!"
+  en: "Quick refresher before writing messages: the verb loves spot #2!"
 recap: daf/verb-zweitstellung
 blocks:
   - type: text
     text:
-      de: "Für dieses Kapitel brauchst du Verb-second word order (Verb-Zweitstellung): In deutschen Aussagesätzen steht das konjugierte Verb immer auf Position 2 – auch wenn Zeit oder Ort am Satzanfang stehen."
-      en: "For this chapter you need Verb-second word order: I can place the conjugated verb in second position in German statements, including when time or place comes first."
+      de: "Vor deinen eigenen Chatnachrichten eine Mini-Regel – Verb-second word order (Verb-Zweitstellung): Das Verb liebt Platz 2, auch wenn Zeit oder Ort am Satzanfang stehen."
+      en: "Before you write your own messages, one quick rule — Verb-second word order: the verb loves spot #2! I can place the conjugated verb in second position in German statements, including when time or place comes first."
   - type: note
     title:
       de: "Kurz-Check im Kopf"
@@ -18,5 +18,5 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Vergleiche beide Sätze: **Ich gehe** um 15 Uhr ins Café. → **Um 15 Uhr gehe ich** ins Café. Das Verb (**gehe**) bleibt immer auf Platz 2!"
-          en: "Compare both sentences: **Ich gehe** um 15 Uhr ins Café. → **Um 15 Uhr gehe ich** ins Café. The verb (**gehe**) always stays in position 2!"
+          de: "Vergleiche beide Sätze: **Ich gehe** um 15 Uhr ins Eiscafé. → **Um 15 Uhr gehe ich** ins Eiscafé. Das Verb (**gehe**) bleibt immer auf Platz 2!"
+          en: "Compare both sentences: **Ich gehe** um 15 Uhr ins Eiscafé. → **Um 15 Uhr gehe ich** ins Eiscafé. The verb (**gehe**) always stays in spot #2!"

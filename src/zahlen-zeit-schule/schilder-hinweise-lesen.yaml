@@ -78,8 +78,8 @@ blocks:
             source: "the entrance / the exit"
           - target: "Eintritt frei"
             source: "free admission"
-          - target: "Nicht rauchen"
-            source: "No smoking"
+          - target: "Kein Zutritt"
+            source: "No entry"
           - target: "der Feiertag / die Feiertage"
             source: "the public holiday / public holidays"
       - type: multiple-choice
@@ -94,12 +94,12 @@ blocks:
           - text: { de: "Ausgang", en: "Ausgang" }
             correct: true
             info: { de: "Ausgang zeigt den Weg nach draußen.", en: "Ausgang marks the exit." }
-          - text: { de: "Nicht rauchen", en: "Nicht rauchen" }
+          - text: { de: "Kein Zutritt", en: "Kein Zutritt" }
             correct: false
             info:
               {
-                de: "„Nicht …“ kennzeichnet ein Verbot (No smoking).",
-                en: "'Nicht …' marks a prohibition (No smoking).",
+                de: "„Kein Zutritt“ bedeutet: Hier darf man nicht hinein (No entry).",
+                en: "'Kein Zutritt' means No entry — you are not allowed in.",
               }
           - text: { de: "Eintritt frei", en: "Eintritt frei" }
             correct: true
