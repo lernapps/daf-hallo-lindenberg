@@ -84,3 +84,6 @@ description: Use for any content work in this app - researching, writing, extend
 - Protagonist name must be **Peter** (never "Sam", whose German pronunciation is unrecognizable to English beginners).
 - In `language-task`, `cue`, `source`, `target`, and `distractors` are plain strings (never `{ de, en }` maps), whereas `vocabulary` `note` and `number` `unit` must be `{ de, en }` maps when `languages: [de, en]`.
 - Never put Markdown emphasis (`**...**`) inside a recap page's competency title in a way that breaks `recap-names-competencies` exact matching.
+- Leave at least 24 px of empty space at the bottom-right of every `src/images/*.svg` so the runtime's `© CC0-1.0` badge never overlaps text at 360 px.
+- Explain special German characters (`ß`, umlauts), noun capitalization, and any English-speaker clue right before first use — in plain age-15 language, never linguistics jargon ("long diphthong").
+- Never copy the exact same sentences across the vocabulary examples, Exercise 3, and Exercise 4 — vary names/places/ages so Exercise 4 tests real transfer, and never list verbatim answers in `hint`.

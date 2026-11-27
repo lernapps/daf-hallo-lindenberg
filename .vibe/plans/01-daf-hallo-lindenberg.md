@@ -35,6 +35,7 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
 - **Languages: `[de, en]` (`de` first, full English tree at `/en/`).** Required by `@lernapps/app-templates 0.20.0` (which enforces `languages[0] === "de"`). English-speaking learners use `/en/` with 100% English runtime UI and explanations teaching German; `/` provides the complete German tree.
 - **Audio / speaking tasks: omitted in v1 (guess).** `@lernapps/app-templates` synthetic audio currently supports English, French, Spanish, and Italian — not German (`de`). Announcements (`durchsagen-verstehen-a1`) and spoken introductions (`sich-vorstellen-monolog`) use realistic transcripts, signal-word scanning, and structured building/open tasks instead.
 - **Chapter self-assessments (`selfAssessment`): included per chapter (guess).** Allows learners to check readiness across each chapter and hand results to the tutor.
+- **No `scope` in v1.** All exercises are auto-checked (`single-choice`, `multiple-choice`, `true-false`, `matching`, `ordering`, `number`, `language-task`) with no `open-task` and no private creator material, so `scope` is not required.
 
 ## Notes
 
@@ -215,14 +216,14 @@ English-speaking A1 beginners follow Peter's arrival in Lindenberg, Germany to l
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Build pilot page ankommen-vorstellen/begruessung-vorstellung with station-clock-greetings.svg, vocabulary block, and 4 varied exercises; verify with vp build, screenshots, and learner check before scaling.
+- [x] Build pilot page ankommen-vorstellen/begruessung-vorstellung with station-clock-greetings.svg, vocabulary block, and 4 varied exercises; verify with vp build, screenshots, and learner check before scaling.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A

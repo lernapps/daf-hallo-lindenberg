@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Ankommen, Begrüßen und Formulare"
+  en: "Arriving, Greetings and Forms"
+summary:
+  de: "Peter kommt am Bahnhof Lindenberg an, trifft die Familie Weber, lernt du und Sie, füllt ein Formular aus und stellt sich im Kurs vor."
+  en: "Peter arrives at Lindenberg station, meets the Weber family, learns du vs. Sie, fills in a form, and introduces himself in German class."
+pages:
+  - begruessung-vorstellung
