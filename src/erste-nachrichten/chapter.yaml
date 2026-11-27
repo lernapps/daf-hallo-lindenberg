@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Kurze Nachrichten und erste Sprachmittlung"
+  en: "Short Messages and First Mediation"
+summary:
+  de: "Peter liest und schreibt kurze Chatnachrichten mit Lukas und Nadia und gibt einem Freund auf Englisch die wichtigsten Infos von einem deutschen Plakat weiter."
+  en: "Peter reads and writes short messages with Lukas and Nadia and relays key facts from a German poster to an English-speaking friend."
+pages:
+  - das-brauchst-du-hier
+  - kurze-nachrichten-lesen
+  - kurze-nachrichten-schreiben
+  - sprachmittlung-a1
+selfAssessment:
+  pages:
+    - exercises:
+        - /erste-nachrichten/kurze-nachrichten-lesen/#nachricht-woerter
+        - /erste-nachrichten/kurze-nachrichten-schreiben/#nachricht-verbzweit
+        - /erste-nachrichten/kurze-nachrichten-schreiben/#nachricht-schreiben-transfer
+    - exercises:
+        - /erste-nachrichten/sprachmittlung-a1/#mittlung-woerter
+        - /erste-nachrichten/sprachmittlung-a1/#mittlung-zeiten

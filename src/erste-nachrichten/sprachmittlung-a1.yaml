@@ -1,0 +1,121 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Infos einfach weitergeben (Sprachmittlung)"
+  en: "Relaying Simple Information (Mediation)"
+description:
+  de: "Die wichtigsten Fakten (Zeit, Ort, Preis) aus einem deutschen Plakat auf Englisch weitergeben."
+  en: "Pass on key facts (time, place, price) from a German poster to an English-speaking friend."
+competencies: [sprachmittlung-a1]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Sprachmittlung ist kein Wort-für-Wort-Übersetzen"
+      en: "Mediation Is Not Word-for-Word Translation"
+    blocks:
+      - type: text
+        text:
+          de: "Nach dieser Seite kannst du die wichtigsten Fakten (Datum, Uhrzeit, Ort, Preis) von einem deutschen Plakat klar auf Englisch weitergeben. Peters Freund **Alex** aus England ist zu Besuch. Am Schwarzen Brett hängt dieses Konzertplakat – gib nur die Infos weiter, die Alex wirklich braucht."
+          en: "After this page you can pass on key facts (date, time, place, price) from a German poster clearly in English. Peter's friend **Alex** is visiting from England. On the notice board hangs this concert poster — relay only the facts Alex actually needs."
+      - type: figure
+        image: images/concert-poster.svg
+        alt:
+          de: "Konzertplakat: Jugendkonzert Kulturhaus Lindenberg Marktplatz 4, Samstag 18. Oktober, Einlass 18:30 Uhr, Beginn 19:00 Uhr, Eintritt 5,00 €, mit Schülerausweis 3,00 €."
+          en: "Concert poster: Jugendkonzert Kulturhaus Lindenberg Marktplatz 4, Saturday 18 October, Einlass (doors open) 18:30, Beginn (start) 19:00, Eintritt (admission) 5,00 €, with student ID 3,00 €."
+        caption:
+          de: "Plakat am Schwarzen Brett in Lindenberg."
+          en: "Poster on the Lindenberg notice board."
+        source: { de: "Eigene Zeichnung", en: "Own drawing" }
+        licence: CC0-1.0
+      - type: single-choice
+        id: mittlung-preis
+        text:
+          de: "Alex fragt: „How much is it if I bring my student ID?“ Was antwortet Peter?"
+          en: "Alex asks: 'How much is it if I bring my student ID?' What should Peter tell him?"
+        options:
+          - text:
+              {
+                de: "3 euros with a student ID (otherwise 5 euros).",
+                en: "3 euros with a student ID (otherwise 5 euros).",
+              }
+            correct: true
+            info:
+              {
+                de: "„mit Schülerausweis: 3,00 €“ heißt 3 Euro mit Schülerausweis, sonst 5 Euro.",
+                en: "'mit Schülerausweis: 3,00 €' means 3 euros with a student ID, otherwise 5 euros.",
+              }
+          - text: { de: "It is free for students.", en: "It is free for students." }
+            correct: false
+            info:
+              {
+                de: "Auf dem Plakat steht 3,00 €, nicht „Eintritt frei“.",
+                en: "The poster lists 3,00 €, not free admission.",
+              }
+          - text: { de: "It costs 18 euros.", en: "It costs 18 euros." }
+            correct: false
+            info:
+              {
+                de: "18 ist das Datum (18. Oktober), nicht der Eintrittspreis.",
+                en: "18 is the date (18 October), not the ticket price.",
+              }
+        explanation:
+          de: "Trenne auf deutschen Plakaten sauber Datum (18. Okt.), Uhrzeit (19:00 Uhr) und Preis (3,00 € / 5,00 €)."
+          en: "On German posters, separate the date (18. Okt.), the time (19:00 Uhr), and the price (3,00 € / 5,00 €)."
+  - type: section
+    id: uebung
+    title:
+      de: "Fakten klar weitergeben"
+      en: "Relay Every Fact Clearly"
+    blocks:
+      - type: multiple-choice
+        id: mittlung-zeiten
+        text:
+          de: "Welche beiden Infos über die Uhrzeit stimmen für Alex?"
+          en: "Which two time details are accurate to tell Alex?"
+        options:
+          - text:
+              {
+                de: "Doors open at 6:30 p.m. (Einlass: 18:30 Uhr).",
+                en: "Doors open at 6:30 p.m. (Einlass: 18:30 Uhr).",
+              }
+            correct: true
+            info: { de: "Einlass bedeutet, ab wann man hineinkann.", en: "Einlass means when the doors open." }
+          - text:
+              {
+                de: "The concert starts at 7:00 p.m. (Beginn: 19:00 Uhr).",
+                en: "The concert starts at 7:00 p.m. (Beginn: 19:00 Uhr).",
+              }
+            correct: true
+            info: { de: "Beginn nennt die Startzeit des Konzerts.", en: "Beginn gives the start time of the concert." }
+          - text: { de: "The concert ends at 7:00 p.m.", en: "The concert ends at 7:00 p.m." }
+            correct: false
+            info: { de: "19:00 Uhr ist der Beginn, nicht das Ende.", en: "19:00 is the start time, not the end." }
+        explanation:
+          de: "Einlass (doors open) und Beginn (start) stehen in Deutschland fast immer nebeneinander auf Konzertplakaten."
+          en: "German event posters almost always list Einlass (doors open) and Beginn (start) side by side."
+      - type: true-false
+        id: mittlung-ort
+        text:
+          de: "Das Konzert findet im Kulturhaus Lindenberg am Marktplatz 4 statt."
+          en: "The concert takes place at Kulturhaus Lindenberg, Marktplatz 4."
+        answer: true
+        explanation:
+          de: "Genau: Direkt unter dem Titel nennt das Plakat den Ort „Kulturhaus Lindenberg · Marktplatz 4“."
+          en: "Exactly: right under the title, the poster lists 'Kulturhaus Lindenberg · Marktplatz 4'."
+      - type: matching
+        id: mittlung-woerter
+        text:
+          de: "Ordne jedes deutsche Plakatwort seiner englischen Bedeutung zu."
+          en: "Match each German poster word to its English meaning."
+        pairs:
+          - left: { de: "Einlass", en: "Einlass" }
+            right: { de: "doors open", en: "doors open" }
+          - left: { de: "Beginn", en: "Beginn" }
+            right: { de: "start", en: "start" }
+          - left: { de: "Eintritt", en: "Eintritt" }
+            right: { de: "admission / entry fee", en: "admission / entry fee" }
+          - left: { de: "Schülerausweis", en: "Schülerausweis" }
+            right: { de: "student ID", en: "student ID" }
+        explanation:
+          de: "Geschafft! Du hast alle drei Kapitel und Peters gesamten Ankommens-Ordner abgeschlossen. In der nächsten Lindenberg-App geht es um den Alltag bei Familie Weber!"
+          en: "You did it! You completed all three chapters and Peter's entire Arrival Folder. Next in the Lindenberg series: Everyday Life at the Webers'!"

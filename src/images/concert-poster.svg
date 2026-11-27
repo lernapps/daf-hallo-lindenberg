@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 202" role="img" aria-label="German youth concert poster: Jugendkonzert Kulturhaus Lindenberg, Samstag 18. Oktober, Einlass 18:30, Beginn 19:00, Eintritt 5,00 Euro or 3,00 Euro mit Schülerausweis">
+  <rect width="340" height="202" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="14" y="14" width="312" height="40" rx="8" fill="#4c1d95"/>
+  <text x="170" y="33" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Jugendkonzert · Live in Lindenberg</text>
+  <text x="170" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#ede9fe">Kulturhaus Lindenberg · Marktplatz 4</text>
+
+  <rect x="14" y="64" width="150" height="44" rx="6" fill="#dbeafe" stroke="#1d4ed8"/>
+  <text x="24" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">Datum</text>
+  <text x="24" y="99" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">Samstag, 18. Okt.</text>
+
+  <rect x="176" y="64" width="150" height="44" rx="6" fill="#fef3c7" stroke="#b45309"/>
+  <text x="186" y="82" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#78350f">Einlass: 18:30 Uhr</text>
+  <text x="186" y="99" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#78350f">Beginn: 19:00 Uhr</text>
+
+  <rect x="14" y="118" width="214" height="50" rx="6" fill="#dcfce7" stroke="#15803d"/>
+  <text x="24" y="137" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#14532d">Eintritt: 5,00 €</text>
+  <text x="24" y="156" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#14532d">mit Schülerausweis: 3,00 €</text>
+</svg>
